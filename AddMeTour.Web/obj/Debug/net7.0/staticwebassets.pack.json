@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTour\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AddMeTour.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AddMeTour.bundle.scp.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AddMeTour.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.AddMeTour.props",
+      "PackagePath": "build\\AddMeTour.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AddMeTour.props",
+      "PackagePath": "buildMultiTargeting\\AddMeTour.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.AddMeTour.props",
+      "PackagePath": "buildTransitive\\AddMeTour.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

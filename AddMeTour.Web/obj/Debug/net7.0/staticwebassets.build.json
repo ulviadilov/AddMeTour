@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "glXEIG/O2McAKp+/N/GIPwoqaIJueF3Y5A4BdWNs2ss=",
+  "Source": "AddMeTour",
+  "BasePath": "_content/AddMeTour",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AddMeTour\\wwwroot",
+      "Source": "AddMeTour",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTour\\wwwroot\\",
+      "BasePath": "_content/AddMeTour",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTour\\obj\\Debug\\net7.0\\scopedcss\\bundle\\AddMeTour.styles.css",
+      "SourceId": "AddMeTour",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTour\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/AddMeTour",
+      "RelativePath": "AddMeTour.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTour\\obj\\Debug\\net7.0\\scopedcss\\bundle\\AddMeTour.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTour\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AddMeTour.bundle.scp.css",
+      "SourceId": "AddMeTour",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTour\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/AddMeTour",
+      "RelativePath": "AddMeTour.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTour\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AddMeTour.bundle.scp.css"
+    }
+  ]
+}

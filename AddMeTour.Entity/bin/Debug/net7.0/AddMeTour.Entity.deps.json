@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "AddMeTour.Entity/1.0.0": {
+        "dependencies": {
+          "AddMeTour.Core": "1.0.0"
+        },
+        "runtime": {
+          "AddMeTour.Entity.dll": {}
+        }
+      },
+      "AddMeTour.Core/1.0.0": {
+        "runtime": {
+          "AddMeTour.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AddMeTour.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AddMeTour.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,28 +1,28 @@
 {
   "Version": 1,
-  "Hash": "glXEIG/O2McAKp+/N/GIPwoqaIJueF3Y5A4BdWNs2ss=",
-  "Source": "AddMeTour",
-  "BasePath": "_content/AddMeTour",
+  "Hash": "WuEvd3V60wZPI9G2c275rv3OWcSyBYFS5hsBhcZhkk0=",
+  "Source": "AddMeTour.Web",
+  "BasePath": "_content/AddMeTour.Web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "AddMeTour\\wwwroot",
-      "Source": "AddMeTour",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTour\\wwwroot\\",
-      "BasePath": "_content/AddMeTour",
+      "Name": "AddMeTour.Web\\wwwroot",
+      "Source": "AddMeTour.Web",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\",
+      "BasePath": "_content/AddMeTour.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTour\\obj\\Debug\\net7.0\\scopedcss\\bundle\\AddMeTour.styles.css",
-      "SourceId": "AddMeTour",
+      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\obj\\Debug\\net7.0\\scopedcss\\bundle\\AddMeTour.Web.styles.css",
+      "SourceId": "AddMeTour.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTour\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/AddMeTour",
-      "RelativePath": "AddMeTour.styles.css",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/AddMeTour.Web",
+      "RelativePath": "AddMeTour.Web.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -31,15 +31,15 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTour\\obj\\Debug\\net7.0\\scopedcss\\bundle\\AddMeTour.styles.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\obj\\Debug\\net7.0\\scopedcss\\bundle\\AddMeTour.Web.styles.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTour\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AddMeTour.bundle.scp.css",
-      "SourceId": "AddMeTour",
+      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AddMeTour.Web.bundle.scp.css",
+      "SourceId": "AddMeTour.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTour\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/AddMeTour",
-      "RelativePath": "AddMeTour.bundle.scp.css",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/AddMeTour.Web",
+      "RelativePath": "AddMeTour.Web.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -48,7 +48,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTour\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AddMeTour.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AddMeTour.Web.bundle.scp.css"
     }
   ]
 }

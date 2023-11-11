@@ -9,8 +9,7 @@
       "AddMeTour.Web/1.0.0": {
         "dependencies": {
           "AddMeTour.Data": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Design": "7.0.13",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
+          "Microsoft.EntityFrameworkCore.Design": "7.0.13"
         },
         "runtime": {
           "AddMeTour.Web.dll": {}

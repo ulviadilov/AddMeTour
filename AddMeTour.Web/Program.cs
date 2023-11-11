@@ -1,4 +1,5 @@
 using AddMeTour.Data.Context;
+using AddMeTour.Service.Extensions;
 using AddMeTour.Data.Extensions;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,7 @@ namespace AddMeTour
             var builder = WebApplication.CreateBuilder(args);
             // Add services to the container.
             builder.Services.LoadDataLayerExtension(builder.Configuration);
+            builder.Services.LoadServiceLayerExtension();
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();

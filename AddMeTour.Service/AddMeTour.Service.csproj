@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AddMeTour.Data\AddMeTour.Data.csproj" />
+    <ProjectReference Include="..\AddMeTour.Entity\AddMeTour.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

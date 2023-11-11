@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AddMeTour.Service.Services.Abstraction;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace AddMeTour.Controllers
@@ -12,7 +13,7 @@ namespace AddMeTour.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             return View();
         }

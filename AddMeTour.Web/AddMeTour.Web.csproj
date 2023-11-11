@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AddMeTour.Data\AddMeTour.Data.csproj" />
+    <ProjectReference Include="..\AddMeTour.Service\AddMeTour.Service.csproj" />
   </ItemGroup>
 
 </Project>

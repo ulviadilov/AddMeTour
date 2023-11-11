@@ -9,6 +9,7 @@
       "AddMeTour.Web/1.0.0": {
         "dependencies": {
           "AddMeTour.Data": "1.0.0",
+          "AddMeTour.Service": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.13"
         },
         "runtime": {
@@ -569,6 +570,15 @@
         "runtime": {
           "AddMeTour.Entity.dll": {}
         }
+      },
+      "AddMeTour.Service/1.0.0": {
+        "dependencies": {
+          "AddMeTour.Data": "1.0.0",
+          "AddMeTour.Entity": "1.0.0"
+        },
+        "runtime": {
+          "AddMeTour.Service.dll": {}
+        }
       }
     }
   },
@@ -1002,6 +1012,11 @@
       "sha512": ""
     },
     "AddMeTour.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AddMeTour.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

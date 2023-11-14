@@ -17,6 +17,7 @@ namespace AddMeTour
 
             var app = builder.Build();
 
+            
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
@@ -24,7 +25,7 @@ namespace AddMeTour
             app.UseRouting();
 
             app.UseAuthorization();
-
+            
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

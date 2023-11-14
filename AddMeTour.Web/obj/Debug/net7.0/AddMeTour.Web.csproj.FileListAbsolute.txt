@@ -410,3 +410,5 @@ C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Web\bin\D
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Web\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Web\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Web\obj\Debug\net7.0\AddMeTour.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Web\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Web\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

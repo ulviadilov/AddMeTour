@@ -10,6 +10,10 @@ namespace AddMeTour.Service.Services.Abstraction
 {
     public interface IFeatureService
     {
-        Task<List<FeatureViewModel>> GetAllFeaturesAsync();
+        Task<List<FeatureViewModel>> GetAllFeaturesNonDeletedAsync();
+        Task<FeatureViewModel> GetFeatureByGuidNonDeletedAsync(Guid id);
+        Task CreateFeatureAsync(FeatureViewModel featureVM);
+        Task SafeDeleteFeatureAsync(Guid featureId);
+        Task UpdateFeatureAsync(FeatureViewModel featureVM);
     }
 }

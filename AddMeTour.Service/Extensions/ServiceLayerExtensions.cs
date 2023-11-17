@@ -3,6 +3,7 @@ using AddMeTour.Data.Repositories.Abstractions;
 using AddMeTour.Data.Repositories.Concretes;
 using AddMeTour.Data.UnitOfWorks.Abstractions;
 using AddMeTour.Data.UnitOfWorks.Concretes;
+using AddMeTour.Service.Helpers.Images;
 using AddMeTour.Service.Services.Abstraction;
 using AddMeTour.Service.Services.Concrete;
 using Microsoft.Extensions.Configuration;
@@ -22,6 +23,7 @@ namespace AddMeTour.Service.Extensions
         {
             var assembly = Assembly.GetExecutingAssembly();
             services.AddScoped<IFeatureService, FeatureService>();
+            services.AddScoped<IImageHelper, ImageHelper>();
             services.AddAutoMapper(assembly);
             return services;
         }

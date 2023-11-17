@@ -1,6 +1,8 @@
 ﻿using AddMeTour.Data.UnitOfWorks.Abstractions;
 using AddMeTour.Entity.Entities;
+using AddMeTour.Entity.Enums;
 using AddMeTour.Entity.ViewModels.Features;
+using AddMeTour.Service.Helpers.Images;
 using AddMeTour.Service.Services.Abstraction;
 using AutoMapper;
 using System;
@@ -15,11 +17,13 @@ namespace AddMeTour.Service.Services.Concrete
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
+        private readonly IImageHelper _imageHelper;
 
-        public FeatureService(IUnitOfWork unitOfWork, IMapper mapper)
+        public FeatureService(IUnitOfWork unitOfWork, IMapper mapper, IImageHelper imageHelper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
+            _imageHelper = imageHelper;
         }
         public async Task<List<FeatureViewModel>> GetAllFeaturesNonDeletedAsync()
         {
@@ -35,12 +39,15 @@ namespace AddMeTour.Service.Services.Concrete
             return map;
         }
 
-        public async Task CreateFeatureAsync(FeatureViewModel featureVM)
+        public async Task CreateFeatureAsync(FeatureAddViewModel featureAddVM)
         {
+            var imageUpload = await _imageHelper.Upload(featureAddVM.Title, featureAddVM.imageFile, ImageType.Feature);
+            Image image = new Image(imageUpload.FullName, featureAddVM.imageFile.ContentType);
+            await _unitOfWork.GetRepository<Image>().AddAsync(image);
             Feature feature = new Feature
             {
-                Title = featureVM.Title,
-                Description = featureVM.Description,
+                Title = featureAddVM.Title,
+                Description = featureAddVM.Description,
                 IsActive = true,
                 Id = Guid.NewGuid()
             };

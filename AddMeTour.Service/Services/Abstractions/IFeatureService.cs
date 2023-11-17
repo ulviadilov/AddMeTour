@@ -12,7 +12,7 @@ namespace AddMeTour.Service.Services.Abstraction
     {
         Task<List<FeatureViewModel>> GetAllFeaturesNonDeletedAsync();
         Task<FeatureViewModel> GetFeatureByGuidNonDeletedAsync(Guid id);
-        Task CreateFeatureAsync(FeatureViewModel featureVM);
+        Task CreateFeatureAsync(FeatureAddViewModel featureAddVM);
         Task SafeDeleteFeatureAsync(Guid featureId);
         Task UpdateFeatureAsync(FeatureViewModel featureVM);
     }

@@ -15,7 +15,6 @@ namespace AddMeTour.Data.Mappings
         {
             builder.Property(x => x.Title).HasMaxLength(200);
             builder.Property(x => x.Description).HasMaxLength(250);
-            builder.Property(x => x.ImageUrl).HasMaxLength(100);
         }
     }
 }

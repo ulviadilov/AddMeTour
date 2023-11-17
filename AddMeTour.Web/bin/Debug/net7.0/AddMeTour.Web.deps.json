@@ -1345,7 +1345,8 @@
       },
       "AddMeTour.Entity/1.0.0": {
         "dependencies": {
-          "AddMeTour.Core": "1.0.0"
+          "AddMeTour.Core": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
         },
         "runtime": {
           "AddMeTour.Entity.dll": {}

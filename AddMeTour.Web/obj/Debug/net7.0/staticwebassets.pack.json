@@ -845,6 +845,14 @@
       "PackagePath": "staticwebassets\\assets\\img\\general\\logo-light.svg"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\logo.svg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\map.png",
       "PackagePath": "staticwebassets\\assets\\img\\general\\map.png"
     },

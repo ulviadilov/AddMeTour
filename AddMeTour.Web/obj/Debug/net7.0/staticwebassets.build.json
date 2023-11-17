@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "47RtF8tum7G+3sj2THgD2DJ9Uda6jzPpDljsZBRFrts=",
+  "Hash": "YimpAhG+Pd6JKYkbcN2cNxtl3/5uHX0p8iDS9gtG+T8=",
   "Source": "AddMeTour.Web",
   "BasePath": "_content/AddMeTour.Web",
   "Mode": "Default",
@@ -3534,6 +3534,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\general\\line.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\logo.png",
+      "SourceId": "AddMeTour.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\",
+      "BasePath": "_content/AddMeTour.Web",
+      "RelativePath": "assets/img/general/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\general\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\logo.svg",
+      "SourceId": "AddMeTour.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\",
+      "BasePath": "_content/AddMeTour.Web",
+      "RelativePath": "assets/img/general/logo.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\general\\logo.svg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\logo-dark.svg",

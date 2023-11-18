@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YimpAhG+Pd6JKYkbcN2cNxtl3/5uHX0p8iDS9gtG+T8=",
+  "Hash": "1lCsGApUW15mEUwkDxXBRXlYWzYPaC4TX34SALfjTjc=",
   "Source": "AddMeTour.Web",
   "BasePath": "_content/AddMeTour.Web",
   "Mode": "Default",
@@ -3279,6 +3279,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\features\\3.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\edaae1d9-5775-417b-b1fd-7a8a78ecf46e27654941_129879834490354_7900417610174718973_n.jpg",
+      "SourceId": "AddMeTour.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\",
+      "BasePath": "_content/AddMeTour.Web",
+      "RelativePath": "assets/img/features/edaae1d9-5775-417b-b1fd-7a8a78ecf46e27654941_129879834490354_7900417610174718973_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\features\\edaae1d9-5775-417b-b1fd-7a8a78ecf46e27654941_129879834490354_7900417610174718973_n.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\flightIcons\\.DS_Store",

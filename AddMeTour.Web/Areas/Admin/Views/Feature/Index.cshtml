@@ -8,15 +8,12 @@
                     <h1 class="text-30 lh-14 fw-600">All Features</h1>
 
                 </div>
-
-                <div class="col-auto">
-
-
-                    <a asp-action="create" asp-controller="feature" class="button h-50 px-24 -dark-1 bg-blue-1 text-white">
-                        Add Features <div class="icon-arrow-top-right ml-15"></div>
+                        <a asp-action="create" asp-controller="feature" class="button h-50 px-24 -dark-1 bg-blue-1 text-white">
+                            Add Features <div class="icon-arrow-top-right ml-15"></div>
+                        </a>
+                        <a asp-action="deletedfeatures" asp-controller="feature" class="button -md -dark-1 bg-yellow-1 text-dark-1">
+                        Deleted Features <div class="icon-arrow-top-right ml-15"></div>
                     </a>
-
-
                 </div>
             </div>
             <table class="table">
@@ -38,8 +35,8 @@
                                 <img src="~/assets/img/features/@featureVM.ImageUrl" style="height:200px; width:auto">
                             </td>
                             <td>
-                                <a asp-action="update" asp-controller="feature" asp-route-id="@featureVM.Id" class="button -md -dark-1 bg-blue-1 text-white-1">Update</a>
-                                <a asp-action="safedelete" asp-controller="feature" asp-route-id="@featureVM.Id" class="button -md -dark-1 bg-yellow-1 text-dark-1">Delete</a>
+                                <a asp-area="admin" asp-action="update" asp-controller="feature" asp-route-featureId="@featureVM.Id" class="button -md -dark-1 bg-blue-1 text-white-1">Update</a>
+                                <a asp-area="admin" asp-action="safedelete" asp-controller="feature" asp-route-featureId="@featureVM.Id" class="button -md -dark-1 bg-yellow-1 text-dark-1">Delete</a>
                             </td>
                     </tr>
                     }

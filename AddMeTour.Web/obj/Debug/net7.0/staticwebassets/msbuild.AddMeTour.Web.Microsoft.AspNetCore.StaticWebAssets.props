@@ -3056,6 +3056,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\features\3.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\features\edaae1d9-5775-417b-b1fd-7a8a78ecf46e27654941_129879834490354_7900417610174718973_n.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AddMeTour.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AddMeTour.Web</BasePath>
+      <RelativePath>assets/img/features/edaae1d9-5775-417b-b1fd-7a8a78ecf46e27654941_129879834490354_7900417610174718973_n.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\features\edaae1d9-5775-417b-b1fd-7a8a78ecf46e27654941_129879834490354_7900417610174718973_n.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\flightIcons\.DS_Store))">
       <SourceType>Package</SourceType>
       <SourceId>AddMeTour.Web</SourceId>

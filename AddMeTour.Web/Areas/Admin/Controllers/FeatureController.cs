@@ -37,6 +37,7 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(FeatureAddViewModel featureAddVM)
         {
+            var map = _mapper.Map<Feature>(featureAddVM);
             if (featureAddVM.ImageFile != null)
             {
                 string result = featureAddVM.ImageFile.CheckValidate("image/", 3000);
@@ -52,5 +53,60 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
             await _featureService.CreateFeatureAsync(featureAddVM);
             return RedirectToAction("Index");
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Update(Guid featureId)
+        {
+            if (featureId == Guid.Empty) return NotFound();
+            var feature = await _featureService.UpdateFeatureById(featureId);
+            return View(feature);
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Update (FeatureUpdateViewModel featureUpVM)
+        {
+            if (featureUpVM.ImageFile != null)
+            {
+                string result = featureUpVM.ImageFile.CheckValidate("image/", 3000);
+                if (result.Length > 0)
+                {
+                    ModelState.AddModelError("ImageFile", result);
+                }
+            }
+            if (!ModelState.IsValid) return View(featureUpVM);
+
+            await _featureService.UpdateFeatureAsync(featureUpVM);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> SafeDelete(Guid featureId)
+        {
+            if(featureId == Guid.Empty) return NotFound(); 
+            await _featureService.SafeDeleteFeatureAsync(featureId);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> DeletedFeatures()
+        {
+            var deletedFeatures = await _featureService.GetAllPassiveFeatures();
+            return View(deletedFeatures);
+        }
+
+        public async Task<IActionResult> HardDelete(Guid featureId)
+        {
+            if (featureId == Guid.Empty) return NotFound();
+            await _featureService.HardDeleteAsync(featureId);
+            return RedirectToAction("DeletedFeatures");
+        }
+
+        public async Task<IActionResult> Recover(Guid featureId)
+        {
+            if (featureId == Guid.Empty) return NotFound();
+            await _featureService.RecoverFeatureAsync(featureId);
+            await _unitOfWork.SaveAsync();
+            return RedirectToAction("DeletedFeatures");
+        }
+
     }
 }

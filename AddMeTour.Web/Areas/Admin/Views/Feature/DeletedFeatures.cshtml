@@ -1,0 +1,47 @@
+﻿@model List<FeatureViewModel>
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <div class="row y-gap-20 justify-between items-end pb-60 lg:pb-40 md:pb-32">
+                <div class="col-auto">
+
+                    <h1 class="text-30 lh-14 fw-600">All Features</h1>
+
+                </div>
+                <div class="col-auto">
+
+                    <a asp-action="index" asp-controller="feature" class="button h-50 px-24 -dark-1 bg-blue-1 text-white">
+                        Back
+                    </a>
+
+                </div>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Title</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Image</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (FeatureViewModel featureVM in Model)
+                    {
+                        <tr>
+                            <td>@featureVM.Title</td>
+                            <td>@featureVM.Description</td>
+                            <td>
+                                <img src="~/assets/img/features/@featureVM.ImageUrl" style="height:200px; width:auto">
+                            </td>
+                            <td>
+                                <a asp-area="admin" asp-action="recover" asp-controller="feature" asp-route-featureId="@featureVM.Id" class="button -md -dark-1 bg-blue-1 text-white-1">Recover</a>
+                                <a asp-area="admin" asp-action="harddelete" asp-controller="feature" asp-route-featureId="@featureVM.Id" style="color:white; background-color:red" class="btn btn-primary">Permanently Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

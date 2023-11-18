@@ -14,6 +14,8 @@ namespace AddMeTour.Service.AutoMapper.Features
         public FeatureProfile()
         {
             CreateMap<FeatureViewModel, Feature>().ReverseMap();
+            CreateMap<FeatureAddViewModel, Feature>().ReverseMap();
+            CreateMap<FeatureUpdateViewModel, Feature>().ReverseMap();
         }
     }
 }

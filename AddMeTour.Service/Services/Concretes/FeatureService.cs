@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
 
 namespace AddMeTour.Service.Services.Concrete
 {
@@ -17,19 +18,21 @@ namespace AddMeTour.Service.Services.Concrete
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-        private readonly IImageHelper _imageHelper;
+        private readonly IHostingEnvironment _env;
 
-        public FeatureService(IUnitOfWork unitOfWork, IMapper mapper, IImageHelper imageHelper)
+        public FeatureService(IUnitOfWork unitOfWork, IMapper mapper, IHostingEnvironment env)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
-            _imageHelper = imageHelper;
+            _env = env;
         }
         public async Task<List<FeatureViewModel>> GetAllFeaturesNonDeletedAsync()
         {
             var features = await _unitOfWork.GetRepository<Feature>().GetAllAsync(x => x.IsActive == true);
             var map = _mapper.Map<List<FeatureViewModel>>(features);
+            
             return map;
+            
         }
 
         public async Task<FeatureViewModel> GetFeatureByGuidNonDeletedAsync(Guid id)
@@ -41,15 +44,13 @@ namespace AddMeTour.Service.Services.Concrete
 
         public async Task CreateFeatureAsync(FeatureAddViewModel featureAddVM)
         {
-            var imageUpload = await _imageHelper.Upload(featureAddVM.Title, featureAddVM.imageFile, ImageType.Feature);
-            Image image = new Image(imageUpload.FullName, featureAddVM.imageFile.ContentType);
-            await _unitOfWork.GetRepository<Image>().AddAsync(image);
             Feature feature = new Feature
             {
                 Title = featureAddVM.Title,
                 Description = featureAddVM.Description,
-                IsActive = true,
-                Id = Guid.NewGuid()
+                IsActive = featureAddVM.IsActive,
+                Id = Guid.NewGuid(),
+                ImageUrl = featureAddVM.ImageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "features"))
             };
             await _unitOfWork.GetRepository<Feature>().AddAsync(feature);
             await _unitOfWork.SaveAsync();

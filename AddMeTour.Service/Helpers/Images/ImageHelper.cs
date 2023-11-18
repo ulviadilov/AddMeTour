@@ -1,25 +1,43 @@
 ﻿using Microsoft.Extensions.Hosting;
-using AddMeTour.Entity.ViewModels.Images;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Hosting;
 using AddMeTour.Entity.Enums;
 
 namespace AddMeTour.Service.Helpers.Images
 {
-    public  class ImageHelper : IImageHelper
+    public static class ImageHelper 
     {
-        private readonly IHostEnvironment _env;
-        private readonly string wwwroot;
-        private const string imgFolder = "images";
-        private const string featureImageFolder = "feature-images";
 
-        public ImageHelper(IHostEnvironment env)
+        public static bool CheckFileType(this IFormFile file, string type) => file.ContentType.Contains(type);
+        public static bool CheckFileSize(this IFormFile file, int kb) => kb * 1024 > file.Length;
+
+        public static string SaveFile(this IFormFile ImageFile , string path)
         {
-            _env = env;
-            wwwroot = env.ContentRootPath;
+            string fileName = Path.GetFileName(ImageFile.FileName);
+            using (FileStream stream = new FileStream(Path.Combine(path, fileName), FileMode.Create))
+            {
+                ImageFile.CopyTo(stream);
+            }
+            return fileName;
         }
 
-        public string ReplaceInvalidChars(string fileName)
+        public static string CheckValidate(this IFormFile ImageFile ,string type, int kb)
+        {
+            int mbSize = kb / 1024;
+            string result = "";
+            if (!CheckFileType(ImageFile, type))
+            {
+                result += $"{ImageFile.FileName} file type must be {type}.";
+            }
+            if (!CheckFileSize(ImageFile, kb))
+            {
+                result += $"{ImageFile.FileName} file memory must be {mbSize} mb";
+            }
+            return result;
+        }
+
+
+        public static string ReplaceInvalidChars(string fileName)
         {
             return fileName.Replace("İ", "I")
                  .Replace("ı", "i")
@@ -71,40 +89,14 @@ namespace AddMeTour.Service.Helpers.Images
                  .Replace(" ", "");
         }
 
-        public async Task<ImageUploadViewModel> Upload(string name, IFormFile imageFile,ImageType imageType, string folderName = null)
+
+        public static void DeleteFile(this string file, string root, string folder)
         {
-            folderName ??= imageType == ImageType.Feature ? "" : featureImageFolder;
-
-            if (!Directory.Exists($"{wwwroot}/{imgFolder}/{folderName}"))
-                Directory.CreateDirectory($"{wwwroot}/{imgFolder}/{folderName}");
-
-            string oldFileName = Path.GetFileNameWithoutExtension(imageFile.FileName);
-            string fileExtension = Path.GetExtension(imageFile.FileName);
-
-            name = ReplaceInvalidChars(name);
-
-            DateTime dateTime = DateTime.Now;
-
-            string newFileName = $"{name}_{dateTime.Millisecond}{fileExtension}";
-
-            var path = Path.Combine($"{wwwroot}/{imgFolder}/{folderName}", newFileName);
-
-            await using var stream = new FileStream(path, FileMode.Create, FileAccess.Write, FileShare.None, 1024 * 1024, useAsync: false);
-            await imageFile.CopyToAsync(stream);
-            await stream.FlushAsync();
-
-            return new ImageUploadViewModel()
+            string path = Path.Combine(root, folder, file);
+            if (File.Exists(path))
             {
-                FullName = $"{folderName}/{newFileName}"
-            };
-        }
-
-        public void Delete(string name)
-        {
-
-            var fileToDelete = Path.Combine($"{wwwroot}/{imgFolder}/{name}");
-            if (File.Exists(fileToDelete))
-                File.Delete(fileToDelete);
+                File.Delete(path);
+            }
         }
     }
 }

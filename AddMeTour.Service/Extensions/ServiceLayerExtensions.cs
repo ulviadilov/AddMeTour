@@ -23,7 +23,6 @@ namespace AddMeTour.Service.Extensions
         {
             var assembly = Assembly.GetExecutingAssembly();
             services.AddScoped<IFeatureService, FeatureService>();
-            services.AddScoped<IImageHelper, ImageHelper>();
             services.AddAutoMapper(assembly);
             return services;
         }

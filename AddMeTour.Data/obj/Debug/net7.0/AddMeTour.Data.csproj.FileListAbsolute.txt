@@ -1,3 +1,8 @@
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\obj\Debug\net7.0\AddMeTour.Data.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\obj\Debug\net7.0\AddMeTour.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\obj\Debug\net7.0\AddMeTour.Data.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\obj\Debug\net7.0\AddMeTour.Data.AssemblyInfo.cs
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\obj\Debug\net7.0\AddMeTour.Data.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\bin\Debug\net7.0\AddMeTour.Data.deps.json
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\bin\Debug\net7.0\AddMeTour.Data.runtimeconfig.json
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\bin\Debug\net7.0\AddMeTour.Data.dll
@@ -6,11 +11,6 @@ C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\bin\
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\bin\Debug\net7.0\AddMeTour.Entity.dll
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\bin\Debug\net7.0\AddMeTour.Entity.pdb
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\bin\Debug\net7.0\AddMeTour.Core.pdb
-C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\obj\Debug\net7.0\AddMeTour.Data.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\obj\Debug\net7.0\AddMeTour.Data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\obj\Debug\net7.0\AddMeTour.Data.AssemblyInfoInputs.cache
-C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\obj\Debug\net7.0\AddMeTour.Data.AssemblyInfo.cs
-C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\obj\Debug\net7.0\AddMeTour.Data.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\obj\Debug\net7.0\AddMeTour.Data.csproj.CopyComplete
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\obj\Debug\net7.0\AddMeTour.Data.dll
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Data\obj\Debug\net7.0\refint\AddMeTour.Data.dll

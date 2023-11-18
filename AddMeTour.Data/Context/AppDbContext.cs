@@ -19,7 +19,6 @@ namespace AddMeTour.Data.Context
         }
 
         public DbSet<Feature> Features { get; set; }
-        public DbSet<Image> Images { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

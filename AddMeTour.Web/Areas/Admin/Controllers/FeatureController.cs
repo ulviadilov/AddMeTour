@@ -15,7 +15,7 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
         private readonly IUnitOfWork _unitOfWork;
         private readonly IFeatureService _featureService;
 
-        public FeatureController(IMapper mapper, IUnitOfWork unitOfWork,IFeatureService featureService)
+        public FeatureController(IMapper mapper, IUnitOfWork unitOfWork, IFeatureService featureService)
         {
             _mapper = mapper;
             _unitOfWork = unitOfWork;
@@ -28,26 +28,29 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
             return View(features);
         }
 
-        //[HttpGet]
-        //public async Task<IActionResult> Create()
-        //{
-        //    return View();
-        //}
+        [HttpGet]
+        public async Task<IActionResult> Create()
+        {
+            return View();
+        }
 
-        //[HttpPost]
-        //public async Task<IActionResult> Create(FeatureAddViewModel featureAddVM)
-        //{
-        //    var map = _mapper.Map<Feature>(featureAddVM);
-        //    var result = await _validator.ValidateAsync(map);
-        //    if (result.IsValid)
-        //    {
-        //        await _featureService.CreateFeatureAsync(featureAddVM);
-        //        RedirectToAction("Index","Feature");
-        //    }
-        //    else
-        //    {
-                
-        //    }
-        //}
+        [HttpPost]
+        public async Task<IActionResult> Create(FeatureAddViewModel featureAddVM)
+        {
+            if (featureAddVM.ImageFile != null)
+            {
+                string result = featureAddVM.ImageFile.CheckValidate("image/", 3000);
+                if (result.Length > 0)
+                {
+                    ModelState.AddModelError("ImageFile", result);
+                }
+            }
+            if (!ModelState.IsValid)
+            {
+                return View(featureAddVM);
+            }
+            await _featureService.CreateFeatureAsync(featureAddVM);
+            return RedirectToAction("Index");
+        }
     }
 }

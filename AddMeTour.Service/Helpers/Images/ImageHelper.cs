@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Hosting;
-using AddMeTour.Entity.Enums;
 
 namespace AddMeTour.Service.Helpers.Images
 {

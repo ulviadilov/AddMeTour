@@ -48,6 +48,44 @@ namespace AddMeTour.Data.Migrations
 
                     b.ToTable("Features");
                 });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Masthead", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("BigImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SmallImageUrl1")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SmallImageUrl2")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TitleWhite")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("TitleYellow")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Mastheads");
+                });
 #pragma warning restore 612, 618
         }
     }

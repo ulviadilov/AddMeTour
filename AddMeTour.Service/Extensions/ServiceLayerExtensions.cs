@@ -5,7 +5,9 @@ using AddMeTour.Data.UnitOfWorks.Abstractions;
 using AddMeTour.Data.UnitOfWorks.Concretes;
 using AddMeTour.Service.Helpers.Images;
 using AddMeTour.Service.Services.Abstraction;
+using AddMeTour.Service.Services.Abstractions;
 using AddMeTour.Service.Services.Concrete;
+using AddMeTour.Service.Services.Concretes;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -23,6 +25,7 @@ namespace AddMeTour.Service.Extensions
         {
             var assembly = Assembly.GetExecutingAssembly();
             services.AddScoped<IFeatureService, FeatureService>();
+            services.AddScoped<IMastheadService, MastheadService>();
             services.AddAutoMapper(assembly);
             return services;
         }

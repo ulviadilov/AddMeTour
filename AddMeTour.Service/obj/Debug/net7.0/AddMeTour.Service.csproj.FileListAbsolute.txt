@@ -1,8 +1,3 @@
-C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\obj\Debug\net7.0\AddMeTour.Service.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\obj\Debug\net7.0\AddMeTour.Service.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\obj\Debug\net7.0\AddMeTour.Service.AssemblyInfoInputs.cache
-C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\obj\Debug\net7.0\AddMeTour.Service.AssemblyInfo.cs
-C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\obj\Debug\net7.0\AddMeTour.Service.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\bin\Debug\net7.0\AddMeTour.Service.deps.json
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\bin\Debug\net7.0\AddMeTour.Service.dll
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\bin\Debug\net7.0\AddMeTour.Service.pdb
@@ -12,6 +7,11 @@ C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\b
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\bin\Debug\net7.0\AddMeTour.Data.pdb
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\bin\Debug\net7.0\AddMeTour.Entity.pdb
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\bin\Debug\net7.0\AddMeTour.Core.pdb
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\obj\Debug\net7.0\AddMeTour.Service.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\obj\Debug\net7.0\AddMeTour.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\obj\Debug\net7.0\AddMeTour.Service.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\obj\Debug\net7.0\AddMeTour.Service.AssemblyInfo.cs
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\obj\Debug\net7.0\AddMeTour.Service.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\obj\Debug\net7.0\AddMeTour.Service.csproj.CopyComplete
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\obj\Debug\net7.0\AddMeTour.Service.dll
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Service\obj\Debug\net7.0\refint\AddMeTour.Service.dll

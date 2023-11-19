@@ -24,11 +24,13 @@
                     </div>
 
                 </div>
-                    <div class="col-lg-6 mb-3">
-                        <input asp-for="IsActive" class="form-checkbox">
-                        <label class="form-check-label" asp-for="IsActive">Publish</label>
-                        <span asp-validation-for="IsActive" class="text-danger"></span>
-                    </div>
+                    <div class="form-switch d-flex items-center">
+                  <div class="text-13 lh-1 text-dark-1 ml-10">Publish</div>
+                  <div class="switch">
+                    <input type="checkbox" asp-for="IsActive">
+                    <span class="switch__slider"></span>
+                  </div>
+                </div>
             </div>
 
             <div class="col-lg-6 mb-3 ">

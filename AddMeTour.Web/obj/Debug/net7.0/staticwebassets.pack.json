@@ -765,8 +765,8 @@
       "PackagePath": "staticwebassets\\assets\\img\\features\\3.png"
     },
     {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\edaae1d9-5775-417b-b1fd-7a8a78ecf46e27654941_129879834490354_7900417610174718973_n.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\features\\edaae1d9-5775-417b-b1fd-7a8a78ecf46e27654941_129879834490354_7900417610174718973_n.jpg"
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\travel.png",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\travel.png"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\flightIcons\\.DS_Store",
@@ -1597,30 +1597,6 @@
       "PackagePath": "staticwebassets\\assets\\img\\masthead\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\10\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\10\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\10\\1.png",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\10\\1.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\10\\2.png",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\10\\2.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\1\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\1\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\1\\bg.png",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\1\\bg.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\1\\bg.webp",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\1\\bg.webp"
-    },
-    {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\2\\.DS_Store",
       "PackagePath": "staticwebassets\\assets\\img\\masthead\\2\\.DS_Store"
     },
@@ -1639,78 +1615,6 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\2\\bg.png",
       "PackagePath": "staticwebassets\\assets\\img\\masthead\\2\\bg.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\3\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\3\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\3\\bg.png",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\3\\bg.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\4\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\4\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\4\\bg.png",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\4\\bg.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\5\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\5\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\5\\1.png",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\5\\1.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\5\\bg.svg",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\5\\bg.svg"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\6\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\6\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\6\\bg.png",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\6\\bg.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\7\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\7\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\7\\bg.png",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\7\\bg.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\8\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\8\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\8\\1.png",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\8\\1.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\8\\bg ╤é╨É╨ñ ┬ª┬ª┬ª-┬ª┬¼┬ª┬¼T╨ƒ.png",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\8\\bg ╤é╨É╨ñ ┬ª┬ª┬ª-┬ª┬¼┬ª┬¼T╨ƒ.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\8\\bg.png",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\8\\bg.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\9\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\9\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\9\\bg.png",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\9\\bg.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\9\\mouse.svg",
-      "PackagePath": "staticwebassets\\assets\\img\\masthead\\9\\mouse.svg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\misc\\.DS_Store",

@@ -1,6 +1,5 @@
 ﻿using AddMeTour.Data.UnitOfWorks.Abstractions;
 using AddMeTour.Entity.Entities;
-using AddMeTour.Entity.Enums;
 using AddMeTour.Entity.ViewModels.Features;
 using AddMeTour.Service.Helpers.Images;
 using AddMeTour.Service.Services.Abstraction;
@@ -64,7 +63,6 @@ namespace AddMeTour.Service.Services.Concrete
                 Id = feature.Result.Id,
                 Title = feature.Result.Title
             };
-
             return featureUpdateVM;
         }
 

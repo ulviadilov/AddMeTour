@@ -3,45 +3,47 @@
     <div class="page-content">
         <div class="container-fluid">
             <div class="row y-gap-20 justify-between items-end pb-60 lg:pb-40 md:pb-32">
-                <div class="col-auto">
+                <div class="d-flex justify-between">
 
                     <h1 class="text-30 lh-14 fw-600">All Features</h1>
-
-                </div>
+                    <div class="d-flex flex-row">
                         <a asp-action="create" asp-controller="feature" class="button h-50 px-24 -dark-1 bg-blue-1 text-white">
                             Add Features <div class="icon-arrow-top-right ml-15"></div>
                         </a>
                         <a asp-action="deletedfeatures" asp-controller="feature" class="button -md -dark-1 bg-yellow-1 text-dark-1">
-                        Deleted Features <div class="icon-arrow-top-right ml-15"></div>
-                    </a>
+                            Deleted Features <div class="icon-arrow-top-right ml-15"></div>
+                        </a>
+                    </div>
                 </div>
+                
             </div>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Title</th>
-                        <th scope="col">Description</th>
-                        <th scope="col">Image</th>
-                        <th scope="col">Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (FeatureViewModel featureVM in Model)
-                    {
-                    <tr>
-                            <td>@featureVM.Title</td>
-                            <td>@featureVM.Description</td>
-                            <td>
-                                <img src="~/assets/img/features/@featureVM.ImageUrl" style="height:200px; width:auto">
-                            </td>
-                            <td>
-                                <a asp-area="admin" asp-action="update" asp-controller="feature" asp-route-featureId="@featureVM.Id" class="button -md -dark-1 bg-blue-1 text-white-1">Update</a>
-                                <a asp-area="admin" asp-action="safedelete" asp-controller="feature" asp-route-featureId="@featureVM.Id" class="button -md -dark-1 bg-yellow-1 text-dark-1">Delete</a>
-                            </td>
-                    </tr>
-                    }
-                </tbody>
-            </table>
         </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (FeatureViewModel featureVM in Model)
+                {
+                    <tr>
+                        <td>@featureVM.Title</td>
+                        <td>@featureVM.Description</td>
+                        <td>
+                            <img src="~/assets/img/features/@featureVM.ImageUrl" style="height:200px; width:auto">
+                        </td>
+                        <td>
+                            <a asp-area="admin" asp-action="update" asp-controller="feature" asp-route-featureId="@featureVM.Id" class="button -md -dark-1 bg-blue-1 text-white-1">Update</a>
+                            <a asp-area="admin" asp-action="safedelete" asp-controller="feature" asp-route-featureId="@featureVM.Id" class="button -md -dark-1 bg-yellow-1 text-dark-1">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
     </div>
+</div>
 </div>

@@ -59,7 +59,7 @@ namespace AddMeTour.Service.Services.Concretes
             await _unitOfWork.SaveAsync();
         }
 
-        public async Task<MastheadUpdateViewModel> UpdateMastheadById(Guid id)
+        public  MastheadUpdateViewModel UpdateMastheadById(Guid id)
         {
             var masthead = _unitOfWork.GetRepository<Masthead>().GetByGuidAsync(id);
             MastheadUpdateViewModel mastheadUpVM = new MastheadUpdateViewModel

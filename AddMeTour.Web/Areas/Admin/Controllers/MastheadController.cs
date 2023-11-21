@@ -72,10 +72,10 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
 
 
         [HttpGet]
-        public async Task<IActionResult> Update(Guid mastheadId)
+        public  IActionResult Update(Guid mastheadId)
         {
             if (mastheadId == Guid.Empty) return NotFound();
-            var masthead = await _mastheadService.UpdateMastheadById(mastheadId);
+            var masthead = _mastheadService.UpdateMastheadById(mastheadId);
             return View(masthead);
         }
 

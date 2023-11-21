@@ -1,6 +1,7 @@
 ﻿using AddMeTour.Entity.Entities;
 using AddMeTour.Entity.ViewModels.Features;
 using AddMeTour.Entity.ViewModels.Masthead;
+using AddMeTour.Entity.ViewModels.Rating;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,5 +14,6 @@ namespace AddMeTour.Entity.ViewModels.Home
     {
         public List<FeatureViewModel> Features { get; set; }
         public MastheadViewModel Masthead { get; set; }
+        public RatingViewModel Rating { get; set; }
     }
 }

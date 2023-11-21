@@ -26,6 +26,7 @@ namespace AddMeTour.Service.Extensions
             var assembly = Assembly.GetExecutingAssembly();
             services.AddScoped<IFeatureService, FeatureService>();
             services.AddScoped<IMastheadService, MastheadService>();
+            services.AddScoped<IRatingService, RatingService>();
             services.AddAutoMapper(assembly);
             return services;
         }

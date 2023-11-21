@@ -55,10 +55,10 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Update(Guid featureId)
+        public  IActionResult Update(Guid featureId)
         {
             if (featureId == Guid.Empty) return NotFound();
-            var feature = await _featureService.UpdateFeatureById(featureId);
+            var feature =  _featureService.UpdateFeatureById(featureId);
             return View(feature);
         }
 

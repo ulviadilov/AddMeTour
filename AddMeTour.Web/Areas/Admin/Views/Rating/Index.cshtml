@@ -1,0 +1,45 @@
+﻿@model List<RatingViewModel>
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <div class="row y-gap-20 justify-between items-end pb-60 lg:pb-40 md:pb-32">
+                <div class="d-flex justify-between">
+
+                    <h1 class="text-30 lh-14 fw-600">Rating</h1>
+                    @*<div class="d-flex flex-row">
+                    <a asp-action="create" asp-controller="rating" class="button h-50 px-24 -dark-1 bg-blue-1 text-white">
+                    Add Rating <div class="icon-arrow-top-right ml-15"></div>
+                    </a>
+                    </div>*@
+                </div>
+
+            </div>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Overall Rating</th>
+                    <th scope="col">Guest Count</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (RatingViewModel ratingVM in Model)
+                {
+                    <tr>
+                        <td>@(ratingVM.Title1 + " " + ratingVM.Title2)</td>
+                        <td>@ratingVM.Description</td>
+                        <td>@ratingVM.OverallRating</td>
+                        <td>@ratingVM.TotalGuestCount</td>
+                        <td>
+                            <a asp-area="admin" asp-action="update" asp-controller="rating" asp-route-ratingId="@ratingVM.Id" class="button -md -dark-1 bg-blue-1 text-white-1">Update</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>

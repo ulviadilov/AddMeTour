@@ -54,7 +54,7 @@ namespace AddMeTour.Service.Services.Concrete
             await _unitOfWork.SaveAsync();
         }
 
-        public async Task<FeatureUpdateViewModel> UpdateFeatureById(Guid id)
+        public FeatureUpdateViewModel UpdateFeatureById(Guid id)
         {
             var feature = _unitOfWork.GetRepository<Feature>().GetByGuidAsync(id);
             FeatureUpdateViewModel featureUpdateVM = new FeatureUpdateViewModel

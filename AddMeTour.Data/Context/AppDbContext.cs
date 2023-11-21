@@ -20,6 +20,7 @@ namespace AddMeTour.Data.Context
 
         public DbSet<Feature> Features { get; set; }
         public DbSet<Masthead> Mastheads { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

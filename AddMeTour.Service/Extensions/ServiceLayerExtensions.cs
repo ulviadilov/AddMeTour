@@ -27,6 +27,7 @@ namespace AddMeTour.Service.Extensions
             services.AddScoped<IFeatureService, FeatureService>();
             services.AddScoped<IMastheadService, MastheadService>();
             services.AddScoped<IRatingService, RatingService>();
+            services.AddScoped<IHomeReviewService, HomeReviewService>();
             services.AddAutoMapper(assembly);
             return services;
         }

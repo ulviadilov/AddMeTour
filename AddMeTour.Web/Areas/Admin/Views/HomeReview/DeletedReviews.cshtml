@@ -1,0 +1,49 @@
+﻿@model List<HomeReviewViewModel>
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <div class="row y-gap-20 justify-between items-end pb-60 lg:pb-40 md:pb-32">
+                <div class="d-flex justify-between">
+
+                    <h1 class="text-30 lh-14 fw-600">All Deleted Reviews</h1>
+                    <div class="d-flex flex-row">
+                        <a asp-action="index" asp-controller="homereview" class="button h-50 px-24 -dark-1 bg-blue-1 text-white">
+                             Back <div class="icon-arrow-top-right ml-15"></div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">User Country</th>
+                    <th scope="col">Avatar Image</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (HomeReviewViewModel homeReviewVM in Model)
+                {
+                    <tr>
+                        <td>@homeReviewVM.Title</td>
+                        <td>@homeReviewVM.Description</td>
+                        <td>@homeReviewVM.Username</td>
+                        <td>@homeReviewVM.UserCountry</td>
+                        <td>
+                            <img src="~/assets/img/avatars/@homeReviewVM.AvatarUrl" style="height:200px; width:auto">
+                        </td>
+                        <td>
+                            <a asp-area="admin" asp-action="recover" asp-controller="homereview" asp-route-homeReviewId="@homeReviewVM.Id" class="button -md -dark-1 bg-blue-1 text-white-1">Recover</a>
+                            <a asp-area="admin" asp-action="harddelete" asp-controller="homereview" asp-route-homeReviewId="@homeReviewVM.Id" style="color:white; background-color:red" class="btn btn-primary">Permanently Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -14,13 +14,15 @@ namespace AddMeTour.Controllers
         private readonly IFeatureService _featureService;
         private readonly IMastheadService _mastheadService;
         private readonly IRatingService _ratingService;
+        private readonly IHomeReviewService _homeReviewService;
 
-        public HomeController(ILogger<HomeController> logger, IFeatureService featureService, IMastheadService mastheadService, IRatingService ratingService )
+        public HomeController(ILogger<HomeController> logger, IFeatureService featureService, IMastheadService mastheadService, IRatingService ratingService, IHomeReviewService homeReviewService )
         {
             _logger = logger;
             _featureService = featureService;
             _mastheadService = mastheadService;
             _ratingService = ratingService;
+            _homeReviewService = homeReviewService;
         }
 
         public async Task<IActionResult> Index()
@@ -31,7 +33,8 @@ namespace AddMeTour.Controllers
             {
                 Features =  await _featureService.GetAllFeaturesNonDeletedAsync(),
                 Masthead = mastheads.FirstOrDefault(),
-                Rating = ratings.FirstOrDefault()
+                Rating = ratings.FirstOrDefault(),
+                homeReviews = await _homeReviewService.GetAllHomeReviewsNonDeletedAsync()
             };
             return View(indexVM);
         }

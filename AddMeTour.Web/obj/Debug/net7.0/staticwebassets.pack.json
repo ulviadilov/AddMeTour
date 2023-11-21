@@ -93,14 +93,6 @@
       "PackagePath": "staticwebassets\\assets\\img\\avatars\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\avatars\\1.png",
-      "PackagePath": "staticwebassets\\assets\\img\\avatars\\1.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\avatars\\2.png",
-      "PackagePath": "staticwebassets\\assets\\img\\avatars\\2.png"
-    },
-    {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\avatars\\3.png",
       "PackagePath": "staticwebassets\\assets\\img\\avatars\\3.png"
     },
@@ -755,10 +747,6 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\1.png",
       "PackagePath": "staticwebassets\\assets\\img\\features\\1.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\2.png",
-      "PackagePath": "staticwebassets\\assets\\img\\features\\2.png"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\3.png",

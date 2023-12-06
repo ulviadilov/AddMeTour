@@ -12,6 +12,6 @@ namespace AddMeTour.Entity.Entities
         public Guid TourId { get; set; }
         public string ImageUrl { get; set; }
         public bool IsPoster { get; set; }
-        public Tour Tour { get; set; }
+        public Tour? Tour { get; set; }
     }
 }

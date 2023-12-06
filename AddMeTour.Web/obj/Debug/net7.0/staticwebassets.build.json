@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wwjr0yUCPqKT4bG5OuHz73hRJQJ+RQylDjlv2a3Dvfk=",
+  "Hash": "igOEtc08IluLpuDqiADzG4MQAS1HRMqp8MP+cCtbVWE=",
   "Source": "AddMeTour.Web",
   "BasePath": "_content/AddMeTour.Web",
   "Mode": "Default",
@@ -3196,12 +3196,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\features\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\small.jpg",
+      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\1.svg",
       "SourceId": "AddMeTour.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\",
       "BasePath": "_content/AddMeTour.Web",
-      "RelativePath": "assets/img/features/small.jpg",
+      "RelativePath": "assets/img/features/1.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3210,7 +3210,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\features\\small.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\img\\features\\1.svg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\3.svg",
+      "SourceId": "AddMeTour.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\",
+      "BasePath": "_content/AddMeTour.Web",
+      "RelativePath": "assets/img/features/3.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\features\\3.svg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\travel.png",

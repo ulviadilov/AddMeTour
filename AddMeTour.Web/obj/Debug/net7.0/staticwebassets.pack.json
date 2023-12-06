@@ -745,8 +745,12 @@
       "PackagePath": "staticwebassets\\assets\\img\\features\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\small.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\features\\small.jpg"
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\3.svg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\travel.png",

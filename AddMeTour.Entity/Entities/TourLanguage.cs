@@ -8,6 +8,7 @@ namespace AddMeTour.Entity.Entities
 {
     public class TourLanguage
     {
+        public Guid Id { get; set; }
         public Guid TourId { get; set; }
         public Guid LanguageId { get; set; }
         public Tour? Tour { get; set; }

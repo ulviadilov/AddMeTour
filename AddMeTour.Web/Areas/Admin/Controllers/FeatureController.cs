@@ -1,5 +1,5 @@
 ﻿using AddMeTour.Data.UnitOfWorks.Abstractions;
-using AddMeTour.Entity.Entities;
+using AddMeTour.Entity.Entities.Home;
 using AddMeTour.Entity.ViewModels.Features;
 using AddMeTour.Service.Helpers.Images;
 using AddMeTour.Service.Services.Abstraction;
@@ -12,13 +12,11 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
     public class FeatureController : Controller
     {
         private readonly IMapper _mapper;
-        private readonly IUnitOfWork _unitOfWork;
         private readonly IFeatureService _featureService;
 
-        public FeatureController(IMapper mapper, IUnitOfWork unitOfWork, IFeatureService featureService)
+        public FeatureController(IMapper mapper,  IFeatureService featureService)
         {
             _mapper = mapper;
-            _unitOfWork = unitOfWork;
             _featureService = featureService;
         }
         [HttpGet]
@@ -104,7 +102,6 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
         {
             if (featureId == Guid.Empty) return NotFound();
             await _featureService.RecoverFeatureAsync(featureId);
-            await _unitOfWork.SaveAsync();
             return RedirectToAction("DeletedFeatures");
         }
 

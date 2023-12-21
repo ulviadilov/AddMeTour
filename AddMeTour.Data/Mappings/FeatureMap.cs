@@ -1,4 +1,4 @@
-﻿using AddMeTour.Entity.Entities;
+﻿using AddMeTour.Entity.Entities.Home;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;

@@ -1,5 +1,5 @@
 ﻿using AddMeTour.Data.UnitOfWorks.Abstractions;
-using AddMeTour.Entity.Entities;
+using AddMeTour.Entity.Entities.Home;
 using AddMeTour.Entity.ViewModels.Masthead;
 using AddMeTour.Entity.ViewModels.Rating;
 using AddMeTour.Service.Services.Abstractions;

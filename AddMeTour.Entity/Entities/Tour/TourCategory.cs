@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AddMeTour.Entity.Entities
+namespace AddMeTour.Entity.Entities.Tour
 {
-    public class TourCategory 
+    public class TourCategory
     {
         public Guid Id { get; set; }
         public Guid? TourId { get; set; }

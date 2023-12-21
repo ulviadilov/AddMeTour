@@ -1,4 +1,4 @@
-﻿using AddMeTour.Entity.Entities;
+﻿using AddMeTour.Entity.Entities.Home;
 using AddMeTour.Entity.ViewModels.Masthead;
 using AutoMapper;
 using System;

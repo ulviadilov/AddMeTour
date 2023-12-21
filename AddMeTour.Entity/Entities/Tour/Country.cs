@@ -5,8 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AddMeTour.Entity.Entities
-{
+namespace AddMeTour.Entity.Entities.Tour
+{ 
     public class Country : EntityBase
     {
         public string CountryName { get; set; }

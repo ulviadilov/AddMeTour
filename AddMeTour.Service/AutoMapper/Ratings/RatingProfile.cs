@@ -1,4 +1,4 @@
-﻿using AddMeTour.Entity.Entities;
+﻿using AddMeTour.Entity.Entities.Home;
 using AddMeTour.Entity.ViewModels.Rating;
 using AutoMapper;
 using System;

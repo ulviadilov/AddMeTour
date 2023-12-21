@@ -1,5 +1,4 @@
 ﻿using AddMeTour.Data.UnitOfWorks.Abstractions;
-using AddMeTour.Entity.Entities;
 using AddMeTour.Entity.ViewModels.Features;
 using AddMeTour.Service.Helpers.Images;
 using AddMeTour.Service.Services.Abstraction;
@@ -10,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
+using AddMeTour.Entity.Entities.Home;
 
 namespace AddMeTour.Service.Services.Concrete
 {
@@ -109,6 +109,7 @@ namespace AddMeTour.Service.Services.Concrete
         {
             Feature feature = await _unitOfWork.GetRepository<Feature>().GetByGuidAsync(id);
             feature.IsActive = true;
+            await _unitOfWork.SaveAsync();
         }
 
         public async Task<List<FeatureViewModel>> GetAllPassiveFeatures()

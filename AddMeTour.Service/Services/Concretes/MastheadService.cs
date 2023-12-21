@@ -1,5 +1,4 @@
 ﻿using AddMeTour.Data.UnitOfWorks.Abstractions;
-using AddMeTour.Entity.Entities;
 using AddMeTour.Entity.ViewModels.Masthead;
 using AddMeTour.Entity.ViewModels;
 using AddMeTour.Service.Services.Abstractions;
@@ -12,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AddMeTour.Service.Helpers.Images;
 using AddMeTour.Entity.ViewModels.Features;
+using AddMeTour.Entity.Entities.Home;
 
 namespace AddMeTour.Service.Services.Concretes
 {

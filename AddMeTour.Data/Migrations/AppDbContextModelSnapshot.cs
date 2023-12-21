@@ -22,7 +22,7 @@ namespace AddMeTour.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("AddMeTour.Entity.Entities.Feature", b =>
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Home.Feature", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -49,7 +49,7 @@ namespace AddMeTour.Data.Migrations
                     b.ToTable("Features");
                 });
 
-            modelBuilder.Entity("AddMeTour.Entity.Entities.HomeReview", b =>
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Home.HomeReview", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -87,7 +87,7 @@ namespace AddMeTour.Data.Migrations
                     b.ToTable("HomeReviews");
                 });
 
-            modelBuilder.Entity("AddMeTour.Entity.Entities.Masthead", b =>
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Home.Masthead", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -125,7 +125,7 @@ namespace AddMeTour.Data.Migrations
                     b.ToTable("Mastheads");
                 });
 
-            modelBuilder.Entity("AddMeTour.Entity.Entities.Rating", b =>
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Home.Rating", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -158,6 +158,394 @@ namespace AddMeTour.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Ratings");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Category", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("CategoryName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Country", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("CountryName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Countries");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Exclusion", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("ExclusionString")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Exclusions");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Inclusion", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("InclusionString")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Inclusions");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Language", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LanguageName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Languages");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Tour", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DepartureDetails")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<byte>("Duration")
+                        .HasColumnType("tinyint");
+
+                    b.Property<byte>("GroupSize")
+                        .HasColumnType("tinyint");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Overview")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("TourName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tours");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourCategory", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("CategoryId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("TourId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.HasIndex("TourId");
+
+                    b.ToTable("TourCategories");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourCountry", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("CountryId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("TourId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CountryId");
+
+                    b.HasIndex("TourId");
+
+                    b.ToTable("TourCountries");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourExclusion", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("ExclusionId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("TourId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ExclusionId");
+
+                    b.HasIndex("TourId");
+
+                    b.ToTable("TourExclusions");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourImage", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsPoster")
+                        .HasColumnType("bit");
+
+                    b.Property<Guid>("TourId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TourId");
+
+                    b.ToTable("TourImages");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourInclusion", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("InclusionId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("TourId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("InclusionId");
+
+                    b.HasIndex("TourId");
+
+                    b.ToTable("TourInclusions");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourLanguage", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("LanguageId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("TourId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("LanguageId");
+
+                    b.HasIndex("TourId");
+
+                    b.ToTable("TourLanguages");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourCategory", b =>
+                {
+                    b.HasOne("AddMeTour.Entity.Entities.Tour.Category", "Category")
+                        .WithMany("TourCategories")
+                        .HasForeignKey("CategoryId");
+
+                    b.HasOne("AddMeTour.Entity.Entities.Tour.Tour", "Tour")
+                        .WithMany("TourCategories")
+                        .HasForeignKey("TourId");
+
+                    b.Navigation("Category");
+
+                    b.Navigation("Tour");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourCountry", b =>
+                {
+                    b.HasOne("AddMeTour.Entity.Entities.Tour.Country", "Country")
+                        .WithMany("TourCountries")
+                        .HasForeignKey("CountryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("AddMeTour.Entity.Entities.Tour.Tour", "Tour")
+                        .WithMany("TourCountries")
+                        .HasForeignKey("TourId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Country");
+
+                    b.Navigation("Tour");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourExclusion", b =>
+                {
+                    b.HasOne("AddMeTour.Entity.Entities.Tour.Exclusion", "Exclusion")
+                        .WithMany()
+                        .HasForeignKey("ExclusionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("AddMeTour.Entity.Entities.Tour.Tour", "Tour")
+                        .WithMany()
+                        .HasForeignKey("TourId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Exclusion");
+
+                    b.Navigation("Tour");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourImage", b =>
+                {
+                    b.HasOne("AddMeTour.Entity.Entities.Tour.Tour", "Tour")
+                        .WithMany("TourImages")
+                        .HasForeignKey("TourId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Tour");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourInclusion", b =>
+                {
+                    b.HasOne("AddMeTour.Entity.Entities.Tour.Inclusion", "Inclusion")
+                        .WithMany("TourInclusions")
+                        .HasForeignKey("InclusionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("AddMeTour.Entity.Entities.Tour.Tour", "Tour")
+                        .WithMany()
+                        .HasForeignKey("TourId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Inclusion");
+
+                    b.Navigation("Tour");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourLanguage", b =>
+                {
+                    b.HasOne("AddMeTour.Entity.Entities.Tour.Language", "Language")
+                        .WithMany("TourLanguages")
+                        .HasForeignKey("LanguageId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("AddMeTour.Entity.Entities.Tour.Tour", "Tour")
+                        .WithMany()
+                        .HasForeignKey("TourId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Language");
+
+                    b.Navigation("Tour");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Category", b =>
+                {
+                    b.Navigation("TourCategories");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Country", b =>
+                {
+                    b.Navigation("TourCountries");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Inclusion", b =>
+                {
+                    b.Navigation("TourInclusions");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Language", b =>
+                {
+                    b.Navigation("TourLanguages");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Tour", b =>
+                {
+                    b.Navigation("TourCategories");
+
+                    b.Navigation("TourCountries");
+
+                    b.Navigation("TourImages");
                 });
 #pragma warning restore 612, 618
         }

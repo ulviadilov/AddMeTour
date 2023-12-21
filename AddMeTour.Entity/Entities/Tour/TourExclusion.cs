@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AddMeTour.Entity.Entities
+namespace AddMeTour.Entity.Entities.Tour
 {
-    public class TourCountry
+    public class TourExclusion
     {
         public Guid Id { get; set; }
         public Guid TourId { get; set; }
-        public Guid CountryId { get; set; }
+        public Guid ExclusionId { get; set; }
         public Tour? Tour { get; set; }
-        public Country? Country { get; set; }
+        public Exclusion? Exclusion { get; set; }
     }
 }

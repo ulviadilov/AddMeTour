@@ -28,6 +28,11 @@ namespace AddMeTour.Service.Extensions
             services.AddScoped<IMastheadService, MastheadService>();
             services.AddScoped<IRatingService, RatingService>();
             services.AddScoped<IHomeReviewService, HomeReviewService>();
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<ICountryService, CountryService>();
+            services.AddScoped<IInclusionService, InclusionService>();
+            services.AddScoped<IExclusionService, ExclusionService>();
+            services.AddScoped<ILanguageService, LanguageService>();
             services.AddAutoMapper(assembly);
             return services;
         }

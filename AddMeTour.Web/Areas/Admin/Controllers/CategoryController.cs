@@ -50,7 +50,32 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
 
-        //[HttpGet]
-        //public async Task<IActionResult> 
+        public async Task<IActionResult> SoftDelete(Guid categoryId)
+        {
+            if (categoryId == Guid.Empty) return NotFound();
+            await _categoryService.SoftDeleteCategoryAsync(categoryId);
+            return RedirectToAction("Index");
+        }
+
+
+        public async Task<IActionResult> HardDelete(Guid categoryId)
+        {
+            if (categoryId == Guid.Empty) return NotFound();
+            await _categoryService.HardDeleteCategoryAsync(categoryId);
+            return RedirectToAction("DeletedCategory");
+        }
+
+        public async Task<IActionResult> DeletedCategories()
+        {
+            return View(await _categoryService.GetAllPassiveCategories());
+        }
+
+        public async Task<IActionResult> RecoverCategory(Guid categoryId)
+        {
+            if (categoryId == Guid.Empty) return NotFound();
+            await _categoryService.RecoverCategoryAsync(categoryId);
+            return RedirectToAction("Index");
+        }
+        
     }
 }

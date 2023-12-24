@@ -32,7 +32,7 @@
                         <td>@categoryVM.CategoryName</td>
                         <td>
                             <a asp-area="admin" asp-action="update" asp-controller="category" asp-route-categoryId="@categoryVM.Id" class="button -md -dark-1 bg-blue-1 text-white-1">Update</a>
-                            <a asp-area="admin" asp-action="safedelete" asp-controller="category" asp-route-categoryId="@categoryVM.Id" class="button -md -dark-1 bg-yellow-1 text-dark-1">Delete</a>
+                            <a asp-area="admin" asp-action="softdelete" asp-controller="category" asp-route-categoryId="@categoryVM.Id" class="button -md -dark-1 bg-yellow-1 text-dark-1">Delete</a>
                         </td>
                     </tr>
                 }

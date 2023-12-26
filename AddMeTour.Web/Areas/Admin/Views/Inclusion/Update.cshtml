@@ -1,0 +1,41 @@
+﻿@model InclusionAddViewModel
+
+<div class="tabs__content pt-30 js-tabs-content">
+    <div class="tabs__pane -tab-item-1 is-tab-el-active">
+        <form method="post" enctype="multipart/form-data" asp-action="update" asp-controller="inclusion">
+            <div class="col-xl-10">
+                <div class="text-18 fw-500 mb-10">Update Inclusion</div>
+                <div class="row x-gap-20 y-gap-20">
+                    <div class="col-12">
+
+                        <div class="form-input ">
+                            <input asp-for="InclusionString" type="text" required>
+                            <label asp-for="InclusionString" class="lh-1 text-16 text-light-1">Inclusion</label>
+                            <span asp-validation-for="InclusionString" class="text-danger"></span>
+                        </div>
+
+                    </div>
+                    <div class="form-switch d-flex items-center">
+                        <div class="text-13 lh-1 text-dark-1 ml-10">Publish</div>
+                        <div class="switch">
+                            <input type="checkbox" asp-for="IsActive">
+                            <span class="switch__slider"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-top-light mt-30 mb-30"></div>
+
+            </div>
+
+
+            <div class="d-inline-block pt-30">
+
+                <div class="text-center">
+                    <button type="submit" class="button h-50 px-24 -dark-1 bg-blue-1 text-white"> Add Inclusion</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>

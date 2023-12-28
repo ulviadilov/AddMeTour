@@ -19,5 +19,8 @@ namespace AddMeTour.Entity.Entities.Tour
         public ICollection<TourImage>? TourImages { get; set; }
         public ICollection<TourCountry>? TourCountries { get; set; }
         public ICollection<TourCategory>? TourCategories { get; set; }
+        public ICollection<TourLanguage>? TourLanguages { get; set; }
+        public ICollection<TourInclusion>? TourInclusions { get; set; }
+        public ICollection<TourExclusion>? TourExclusions { get; set; }
     }
 }

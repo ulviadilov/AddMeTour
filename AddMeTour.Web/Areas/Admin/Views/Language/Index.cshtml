@@ -1,0 +1,42 @@
+﻿@model List<LanguageViewModel>
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <div class="row y-gap-20 justify-between items-end pb-60 lg:pb-40 md:pb-32">
+                <div class="d-flex justify-between">
+
+                    <h1 class="text-30 lh-14 fw-600">All Languages</h1>
+                    <div class="d-flex flex-row">
+                        <a asp-action="create" asp-controller="language" class="button h-50 px-24 -dark-1 bg-blue-1 text-white">
+                            Add Tour Language <div class="icon-arrow-top-right ml-15"></div>
+                        </a>
+                        <a asp-action="deletedlanguages" asp-controller="language" class="button -md -dark-1 bg-yellow-1 text-dark-1">
+                            Deleted Languages <div class="icon-arrow-top-right ml-15"></div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Language Name</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (LanguageViewModel languageVM in Model)
+                {
+                    <tr>
+                        <td>@languageVM.LanguageName</td>
+                        <td>
+                            <a asp-area="admin" asp-action="update" asp-controller="inclusion" asp-route-Id="@languageVM.Id" class="button -md -dark-1 bg-blue-1 text-white-1">Update</a>
+                            <a asp-area="admin" asp-action="softdelete" asp-controller="inclusion" asp-route-Id="@languageVM.Id" class="button -md -dark-1 bg-yellow-1 text-dark-1">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

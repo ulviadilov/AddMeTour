@@ -10,17 +10,15 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
     public class InclusionController : Controller
     {
         private readonly IInclusionService _inclusionService;
-        private readonly IUnitOfWork _unitOfWork;
 
-        public InclusionController(IInclusionService inclusionService, IUnitOfWork unitOfWork)
+        public InclusionController(IInclusionService inclusionService)
         {
             _inclusionService = inclusionService;
-            _unitOfWork = unitOfWork;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return View(await _inclusionService.GetAllInclusionsNonDeletedAsync());
         }
 
         [HttpGet]

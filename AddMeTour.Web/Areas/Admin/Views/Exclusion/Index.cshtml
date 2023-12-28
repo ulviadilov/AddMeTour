@@ -1,0 +1,43 @@
+﻿@model List<ExclusionViewModel>
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <div class="row y-gap-20 justify-between items-end pb-60 lg:pb-40 md:pb-32">
+                <div class="d-flex justify-between">
+
+                    <h1 class="text-30 lh-14 fw-600">All Exclusions</h1>
+                    <div class="d-flex flex-row">
+                        <a asp-action="create" asp-controller="exclusion" class="button h-50 px-24 -dark-1 bg-blue-1 text-white">
+                            Add Tour Exclusion <div class="icon-arrow-top-right ml-15"></div>
+                        </a>
+                        <a asp-action="deletedexclusions" asp-controller="exclusion" class="button -md -dark-1 bg-yellow-1 text-dark-1">
+                            Deleted Exclusions <div class="icon-arrow-top-right ml-15"></div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Exclusion</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (ExclusionViewModel exclusionVM in Model)
+                {
+                    <tr>
+                        <td>@exclusionVM.ExclusionString</td>
+                        <td>
+                            <a asp-area="admin" asp-action="update" asp-controller="exclusion" asp-route-Id="@exclusionVM.Id" class="button -md -dark-1 bg-blue-1 text-white-1">Update</a>
+                            <a asp-area="admin" asp-action="softdelete" asp-controller="exclusion" asp-route-Id="@exclusionVM.Id" class="button -md -dark-1 bg-yellow-1 text-dark-1">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>

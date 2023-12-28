@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace AddMeTour.Entity.Entities.Tour
 {
-    public class TourCategory
+    public class TourCategory : EntityBase
     {
-        public Guid Id { get; set; }
         public Guid? TourId { get; set; }
         public Guid? CategoryId { get; set; }
         public Tour? Tour { get; set; }

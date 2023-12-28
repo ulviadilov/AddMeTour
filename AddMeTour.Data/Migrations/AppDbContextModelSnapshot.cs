@@ -46,7 +46,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Features");
+                    b.ToTable("Features", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Home.HomeReview", b =>
@@ -84,7 +84,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("HomeReviews");
+                    b.ToTable("HomeReviews", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Home.Masthead", b =>
@@ -122,7 +122,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Mastheads");
+                    b.ToTable("Mastheads", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Home.Rating", b =>
@@ -157,7 +157,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Ratings");
+                    b.ToTable("Ratings", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Category", b =>
@@ -175,7 +175,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Country", b =>
@@ -193,7 +193,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Countries");
+                    b.ToTable("Countries", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Exclusion", b =>
@@ -211,7 +211,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Exclusions");
+                    b.ToTable("Exclusions", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Inclusion", b =>
@@ -228,7 +228,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Inclusions");
+                    b.ToTable("Inclusions", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Language", b =>
@@ -246,7 +246,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Languages");
+                    b.ToTable("Languages", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Tour", b =>
@@ -284,7 +284,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tours");
+                    b.ToTable("Tours", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourCategory", b =>
@@ -305,7 +305,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasIndex("TourId");
 
-                    b.ToTable("TourCategories");
+                    b.ToTable("TourCategories", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourCountry", b =>
@@ -326,7 +326,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasIndex("TourId");
 
-                    b.ToTable("TourCountries");
+                    b.ToTable("TourCountries", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourExclusion", b =>
@@ -347,7 +347,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasIndex("TourId");
 
-                    b.ToTable("TourExclusions");
+                    b.ToTable("TourExclusions", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourImage", b =>
@@ -372,7 +372,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasIndex("TourId");
 
-                    b.ToTable("TourImages");
+                    b.ToTable("TourImages", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourInclusion", b =>
@@ -393,7 +393,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasIndex("TourId");
 
-                    b.ToTable("TourInclusions");
+                    b.ToTable("TourInclusions", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourLanguage", b =>
@@ -414,7 +414,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasIndex("TourId");
 
-                    b.ToTable("TourLanguages");
+                    b.ToTable("TourLanguages", (string)null);
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourCategory", b =>

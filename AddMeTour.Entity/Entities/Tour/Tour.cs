@@ -15,6 +15,7 @@ namespace AddMeTour.Entity.Entities.Tour
         public byte GroupSize { get; set; }
         public byte Duration { get; set; }
         public string DepartureDetails { get; set; }
+        public string? PosterImageUrl { get; set; }
         public DateTime CreateTime { get; set; }
         public ICollection<TourImage>? TourImages { get; set; }
         public ICollection<TourCountry>? TourCountries { get; set; }

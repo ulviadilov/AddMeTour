@@ -46,7 +46,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Features", (string)null);
+                    b.ToTable("Features");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Home.HomeReview", b =>
@@ -84,7 +84,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("HomeReviews", (string)null);
+                    b.ToTable("HomeReviews");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Home.Masthead", b =>
@@ -122,7 +122,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Mastheads", (string)null);
+                    b.ToTable("Mastheads");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Home.Rating", b =>
@@ -157,7 +157,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Ratings", (string)null);
+                    b.ToTable("Ratings");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Category", b =>
@@ -175,7 +175,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Country", b =>
@@ -193,7 +193,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Countries", (string)null);
+                    b.ToTable("Countries");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Exclusion", b =>
@@ -211,7 +211,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Exclusions", (string)null);
+                    b.ToTable("Exclusions");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Inclusion", b =>
@@ -228,7 +228,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Inclusions", (string)null);
+                    b.ToTable("Inclusions");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Language", b =>
@@ -246,7 +246,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Languages", (string)null);
+                    b.ToTable("Languages");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Tour", b =>
@@ -275,6 +275,9 @@ namespace AddMeTour.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("PosterImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
@@ -284,7 +287,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tours", (string)null);
+                    b.ToTable("Tours");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourCategory", b =>
@@ -293,8 +296,11 @@ namespace AddMeTour.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("CategoryId")
+                    b.Property<Guid>("CategoryId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
 
                     b.Property<Guid?>("TourId")
                         .HasColumnType("uniqueidentifier");
@@ -305,7 +311,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasIndex("TourId");
 
-                    b.ToTable("TourCategories", (string)null);
+                    b.ToTable("TourCategories");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourCountry", b =>
@@ -317,6 +323,9 @@ namespace AddMeTour.Data.Migrations
                     b.Property<Guid>("CountryId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
                     b.Property<Guid>("TourId")
                         .HasColumnType("uniqueidentifier");
 
@@ -326,7 +335,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasIndex("TourId");
 
-                    b.ToTable("TourCountries", (string)null);
+                    b.ToTable("TourCountries");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourExclusion", b =>
@@ -338,6 +347,9 @@ namespace AddMeTour.Data.Migrations
                     b.Property<Guid>("ExclusionId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
                     b.Property<Guid>("TourId")
                         .HasColumnType("uniqueidentifier");
 
@@ -347,7 +359,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasIndex("TourId");
 
-                    b.ToTable("TourExclusions", (string)null);
+                    b.ToTable("TourExclusions");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourImage", b =>
@@ -355,6 +367,10 @@ namespace AddMeTour.Data.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("DepartureDetails")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
@@ -372,7 +388,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasIndex("TourId");
 
-                    b.ToTable("TourImages", (string)null);
+                    b.ToTable("TourImages");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourInclusion", b =>
@@ -384,6 +400,9 @@ namespace AddMeTour.Data.Migrations
                     b.Property<Guid>("InclusionId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
                     b.Property<Guid>("TourId")
                         .HasColumnType("uniqueidentifier");
 
@@ -393,7 +412,7 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasIndex("TourId");
 
-                    b.ToTable("TourInclusions", (string)null);
+                    b.ToTable("TourInclusions");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourLanguage", b =>
@@ -401,6 +420,9 @@ namespace AddMeTour.Data.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
 
                     b.Property<Guid>("LanguageId")
                         .HasColumnType("uniqueidentifier");
@@ -414,14 +436,16 @@ namespace AddMeTour.Data.Migrations
 
                     b.HasIndex("TourId");
 
-                    b.ToTable("TourLanguages", (string)null);
+                    b.ToTable("TourLanguages");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourCategory", b =>
                 {
                     b.HasOne("AddMeTour.Entity.Entities.Tour.Category", "Category")
                         .WithMany("TourCategories")
-                        .HasForeignKey("CategoryId");
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("AddMeTour.Entity.Entities.Tour.Tour", "Tour")
                         .WithMany("TourCategories")
@@ -460,7 +484,7 @@ namespace AddMeTour.Data.Migrations
                         .IsRequired();
 
                     b.HasOne("AddMeTour.Entity.Entities.Tour.Tour", "Tour")
-                        .WithMany()
+                        .WithMany("TourExclusions")
                         .HasForeignKey("TourId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -490,7 +514,7 @@ namespace AddMeTour.Data.Migrations
                         .IsRequired();
 
                     b.HasOne("AddMeTour.Entity.Entities.Tour.Tour", "Tour")
-                        .WithMany()
+                        .WithMany("TourInclusions")
                         .HasForeignKey("TourId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -509,7 +533,7 @@ namespace AddMeTour.Data.Migrations
                         .IsRequired();
 
                     b.HasOne("AddMeTour.Entity.Entities.Tour.Tour", "Tour")
-                        .WithMany()
+                        .WithMany("TourLanguages")
                         .HasForeignKey("TourId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -545,7 +569,13 @@ namespace AddMeTour.Data.Migrations
 
                     b.Navigation("TourCountries");
 
+                    b.Navigation("TourExclusions");
+
                     b.Navigation("TourImages");
+
+                    b.Navigation("TourInclusions");
+
+                    b.Navigation("TourLanguages");
                 });
 #pragma warning restore 612, 618
         }

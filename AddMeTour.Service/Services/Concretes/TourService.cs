@@ -3,7 +3,10 @@ using AddMeTour.Data.UnitOfWorks.Concretes;
 using AddMeTour.Entity.Entities.Tour;
 using AddMeTour.Entity.ViewModels.Tour;
 using AddMeTour.Entity.ViewModels.Tour.Category;
+using AddMeTour.Service.Helpers.Images;
 using AutoMapper;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,11 +19,13 @@ namespace AddMeTour.Service.Services.Concretes
     {
         private readonly IMapper _mapper;
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IHostingEnvironment _env;
 
-        public TourService(IMapper mapper, IUnitOfWork unitOfWork)
+        public TourService(IMapper mapper, IUnitOfWork unitOfWork, IHostingEnvironment env)
         {
             _mapper = mapper;
             _unitOfWork = unitOfWork;
+            _env = env;
         }
         
         public async Task<List<TourViewModel>> GetAllToursNonDeletedAsync()
@@ -46,11 +51,11 @@ namespace AddMeTour.Service.Services.Concretes
                 DepartureDetails = tourAddVM.DepartureDetails,
                 Duration = tourAddVM.Duration,
                 GroupSize = tourAddVM.GroupSize,
-                Id = tourAddVM.Id,
                 Overview = tourAddVM.Overview,
                 Price = tourAddVM.Price,
                 TourName = tourAddVM.TourName
             };
+
             await _unitOfWork.GetRepository<Tour>().AddAsync(tour);
 
             var categories = await _unitOfWork.GetRepository<Category>().GetAllAsync(x => x.IsActive == true && tourAddVM.CategoryIds.Contains(x.Id));
@@ -105,6 +110,69 @@ namespace AddMeTour.Service.Services.Concretes
                 await _unitOfWork.GetRepository<TourLanguage>().AddAsync(tourLanguage);
             }
 
+            TourImage posterImage = new TourImage
+            {
+                IsActive = true,
+                ImageUrl = tourAddVM.PosterImageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours")),
+                IsPoster = true,
+                TourId = tourAddVM.Id
+            };
+            await _unitOfWork.GetRepository<TourImage>().AddAsync(posterImage);
+
+            foreach (IFormFile imageFile in tourAddVM.ImageFiles)
+            {
+                TourImage image = new TourImage
+                {
+                    IsActive = true,
+                    ImageUrl = imageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours")),
+                    IsPoster = false,
+                    TourId = tourAddVM.Id
+                };
+                await _unitOfWork.GetRepository<TourImage>().AddAsync(image);
+            }
+
+            await _unitOfWork.SaveAsync();
+        }
+
+        public async Task<TourUpdateViewModel> UpdateTourByGuidAsync(Guid id)
+        {
+            var tour = await _unitOfWork.GetRepository<Tour>().GetByGuidAsync(id);
+            TourUpdateViewModel tourUpdateVM = new TourUpdateViewModel
+            {
+                GroupSize = tour.GroupSize,
+                Duration = tour.Duration,
+                IsActive = tour.IsActive,
+                Overview = tour.Overview,
+                Price = tour.Price,
+                TourName = tour.TourName,
+                TourId = tour.Id
+            };
+            foreach (TourInclusion inclusion in tour.TourInclusions)
+            {
+                tourUpdateVM.InclusionIds.Add(inclusion.InclusionId);
+            }
+
+            foreach (TourCategory tourCategory in tour.TourCategories)
+            {
+                tourUpdateVM.CategoryIds.Add(tourCategory.CategoryId);
+            }
+
+            foreach (TourCountry country in tour.TourCountries)
+            {
+                tourUpdateVM.CountryIds.Add(country.CountryId);
+            }
+            foreach (TourExclusion exclusion in tour.TourExclusions)
+            {
+                tourUpdateVM.ExclusionIds.Add(exclusion.ExclusionId);
+            }
+            foreach (TourLanguage language in tour.TourLanguages)
+            {
+                tourUpdateVM.LanguageIds.Add(language.LanguageId);
+            }
+            foreach(TourImage image in tour.TourImages)
+            {
+                tourUpdateVM.ImageIds.Add(image.Id);
+            }
         }
 
     }

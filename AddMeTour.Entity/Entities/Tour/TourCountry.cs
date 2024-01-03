@@ -9,8 +9,8 @@ namespace AddMeTour.Entity.Entities.Tour
 {
     public class TourCountry : EntityBase
     {
-        public Guid? TourId { get; set; }
-        public Guid? CountryId { get; set; }
+        public Guid TourId { get; set; }
+        public Guid CountryId { get; set; }
         public Tour? Tour { get; set; }
         public Country? Country { get; set; }
     }

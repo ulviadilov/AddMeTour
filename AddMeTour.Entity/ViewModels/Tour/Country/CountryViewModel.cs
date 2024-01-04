@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace AddMeTour.Entity.ViewModels.Tour.Country
 {
-    public record CountryViewModel(
-        string CountryName,
-        bool IsActice,
-        Guid Id 
-        );
+    public class CountryViewModel
+    {
+        public Guid Id { get; set; }
+        public string CountryName { get; set; }
+        public bool IsActive { get; set; }
+    }
 }

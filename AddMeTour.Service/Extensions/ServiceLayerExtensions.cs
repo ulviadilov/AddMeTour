@@ -33,6 +33,7 @@ namespace AddMeTour.Service.Extensions
             services.AddScoped<IInclusionService, InclusionService>();
             services.AddScoped<IExclusionService, ExclusionService>();
             services.AddScoped<ILanguageService, LanguageService>();
+            services.AddScoped<ITourService, TourService>();
             services.AddAutoMapper(assembly);
             return services;
         }

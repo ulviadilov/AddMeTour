@@ -36,6 +36,10 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
         public async Task<IActionResult> Create(FeatureAddViewModel featureAddVM)
         {
             var map = _mapper.Map<Feature>(featureAddVM);
+            if (!ModelState.IsValid)
+            {
+                return View(featureAddVM);
+            }
             if (featureAddVM.ImageFile != null)
             {
                 string result = featureAddVM.ImageFile.CheckValidate("image/", 3000);
@@ -43,10 +47,6 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
                 {
                     ModelState.AddModelError("ImageFile", result);
                 }
-            }
-            if (!ModelState.IsValid)
-            {
-                return View(featureAddVM);
             }
             await _featureService.CreateFeatureAsync(featureAddVM);
             return RedirectToAction("Index");

@@ -64,7 +64,7 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
         {
             if (countryId == Guid.Empty) return NotFound();
             await _countryService.HardDeleteCountryAsync(countryId);
-            return RedirectToAction("DeletedCountry");
+            return RedirectToAction("DeletedCountries");
         }
 
         public async Task<IActionResult> DeletedCountries()

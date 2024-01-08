@@ -44,7 +44,7 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Update(LanguageViewModel languageVM)
         {
-            if (languageVM is null && !ModelState.IsValid) return NotFound();
+            if (languageVM is null || !ModelState.IsValid) return NotFound();
             await _languageService.UpdateLanguageAsync(languageVM);
             return RedirectToAction("Index");
         }

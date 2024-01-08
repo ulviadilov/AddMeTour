@@ -32,6 +32,13 @@
                     </div>
                     <div class="col-12">
                         <div class="form-input ">
+                            <input asp-for="GroupSize" type="text" required>
+                            <label asp-for="GroupSize" class="lh-1 text-16 text-light-1">Group Size</label>
+                            <span asp-validation-for="GroupSize" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-input ">
                             <textarea asp-for="DepartureDetails" type="text" required></textarea>
                             <label asp-for="DepartureDetails" class="lh-1 text-16 text-light-1">Departure Details</label>
                             <span asp-validation-for="DepartureDetails" class="text-danger"></span>
@@ -58,7 +65,64 @@
                             <span asp-validation-for="ImageFiles" class="text-danger"></span>
                         </div>
                     </div>
+                    <div class="mb-3">
+                        <label class="form-label ">Country</label>
+                        <select class=" form-control" aria-label="Default select example" asp-for="CountryIds">
+                            @foreach (CountryViewModel country in ViewBag.Countries)
+                            {
+                                <option value="@country.Id">@country.CountryName</option>
+                            }
+                        </select>
+                        <span asp-validation-for="CountryIds" style="color: red"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label ">Category</label>
+                        <select class=" form-control" aria-label="Default select example" asp-for="CategoryIds">
+                            @foreach (CategoryViewModel category in ViewBag.Categories)
+                            {
+                                <option value="@category.Id">@category.CategoryName</option>
+                            }
+                        </select>
+                        <span asp-validation-for="CategoryIds" style="color: red"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label ">Languages</label>
+                        <select class=" form-control" aria-label="Default select example" asp-for="LanguageIds">
+                            @foreach (LanguageViewModel language in ViewBag.Languages)
+                            {
+                                <option value="@language.Id">@language.LanguageName</option>
+                            }
+                        </select>
+                        <span asp-validation-for="LanguageIds" style="color: red"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label ">Inclusions</label>
+                        <select class=" form-control" aria-label="Default select example" asp-for="InclusionIds">
+                            @foreach (InclusionViewModel inclusion in ViewBag.Inclusions)
+                            {
+                                <option value="@inclusion.Id">@inclusion.InclusionString</option>
+                            }
+                        </select>
+                        <span asp-validation-for="InclusionIds" style="color: red"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label ">Exclusions</label>
+                        <select class=" form-control" aria-label="Default select example" asp-for="ExclusionIds">
+                            @foreach (ExclusionViewModel exlusion in ViewBag.Exclusions)
+                            {
+                                <option value="@exlusion.Id">@exlusion.ExclusionString</option>
+                            }
+                        </select>
+                        <span asp-validation-for="ExclusionIds" style="color: red"></span>
+                    </div>
 
+                    <div class="form-switch d-flex items-center">
+                        <div class="text-13 lh-1 text-dark-1 ml-10">Best or not</div>
+                        <div class="switch">
+                            <input type="checkbox" asp-for="IsBest">
+                            <span class="switch__slider"></span>
+                        </div>
+                    </div>
                     
                     <div class="form-switch d-flex items-center">
                         <div class="text-13 lh-1 text-dark-1 ml-10">Publish</div>

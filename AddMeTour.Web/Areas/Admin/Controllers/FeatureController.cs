@@ -60,7 +60,6 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
             return View(feature);
         }
 
-
         [HttpPost]
         public async Task<IActionResult> Update (FeatureUpdateViewModel featureUpVM)
         {

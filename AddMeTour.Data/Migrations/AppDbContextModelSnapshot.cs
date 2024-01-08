@@ -271,6 +271,9 @@ namespace AddMeTour.Data.Migrations
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("IsBest")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Overview")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -367,10 +370,6 @@ namespace AddMeTour.Data.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("DepartureDetails")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");

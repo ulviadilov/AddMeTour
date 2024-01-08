@@ -1,0 +1,74 @@
+﻿@{
+    Layout = "_Layout2";
+    int featureDelayCounter = 1;
+}
+@model AboutViewModel
+<section class="section-bg layout-pt-lg layout-pb-lg">
+    <div class="section-bg__item col-12">
+        <img src="~/assets/img/general/baku.jpeg" alt="image">
+    </div>
+
+    <div class="container">
+        <div class="row justify-center text-center">
+            <div class="col-xl-6 col-lg-8 col-md-10">
+                <h1 class="text-40 md:text-25 fw-600 text-white">Looking for joy?</h1>
+                <div class="text-white mt-15">Your trusted trip companion</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="layout-pt-md">
+    <div class="container">
+        <div class="row y-gap-30 justify-between items-center">
+            <div class="col-lg-5">
+                <h2 class="text-30 fw-600">About GoTrip.com</h2>
+                <p class="mt-5">These popular destinations have a lot to offer</p>
+
+                <p class="text-dark-1 mt-60 lg:mt-40 md:mt-20">
+                    London is a shining example of a metropolis at the highest peak of modernity and boasts an economy and cultural diversity that’s the envy of other global superpowers.
+                    <br><br>
+                    Take the opportunity to acquaint yourself with its fascinating history chronicled by institutions like the British Museum as well as see how far it has come by simply riding the Tube and passing by celebrated landmarks like Buckingham Palace, Westminster Abbey, and marvels like Big Ben, the London Eye, and the Tower Bridge.
+                </p>
+            </div>
+
+            <div class="col-lg-6">
+                <img src="~/assets/img/pages/about/2.png" alt="image" class="rounded-4">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="layout-pt-lg layout-pb-md">
+    <div data-anim-wrap class="container">
+        <div data-anim-child="slide-up delay-1" class="row justify-center text-center">
+            <div class="col-auto">
+                <div class="sectionTitle -md">
+                    <h2 class="sectionTitle__title">Why Choose Us</h2>
+                    <p class=" sectionTitle__text mt-5 sm:mt-0">These popular destinations have a lot to offer</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row y-gap-40 justify-between pt-50">
+
+            @foreach (var item in Model.Features)
+            {
+                <div data-anim-child="slide-up delay-2" class="col-lg-3 col-sm-6">
+
+                    <div class="featureIcon -type-1 ">
+                        <div class="d-flex justify-center">
+                            <img src="~/assets/img/features/@item.ImageUrl" alt="image" class="js-lazy">
+                        </div>
+
+                        <div class="text-center mt-30">
+                            <h4 class="text-18 fw-500">@item.Title</h4>
+                            <p class="text-15 mt-10">@item.Description</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            }
+        </div>
+    </div>
+</section>

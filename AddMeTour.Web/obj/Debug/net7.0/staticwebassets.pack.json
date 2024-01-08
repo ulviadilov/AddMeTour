@@ -809,6 +809,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\general\\404.svg"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\baku.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\baku.jpeg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\lang.png",
       "PackagePath": "staticwebassets\\assets\\img\\general\\lang.png"
     },
@@ -1821,6 +1825,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\team\\7.png"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\team\\cavidbey.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\cavidbey.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\.DS_Store",
       "PackagePath": "staticwebassets\\assets\\img\\testimonials\\.DS_Store"
     },
@@ -1891,6 +1899,30 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\4.png",
       "PackagePath": "staticwebassets\\assets\\img\\tours\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\Screenshot 2023-11-18 220445.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\Screenshot 2023-11-18 220445.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\Screenshot 2023-11-18 221115.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\Screenshot 2023-11-18 221115.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\Screenshot 2023-11-18 221706.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\Screenshot 2023-11-18 221706.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\Screenshot 2023-11-19 194948.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\Screenshot 2023-11-19 194948.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\Screenshot 2024-01-05 144152.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\Screenshot 2024-01-05 144152.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\image.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\image.jpg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\video\\.DS_Store",

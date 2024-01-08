@@ -13,7 +13,5 @@ namespace AddMeTour.Entity.Entities.Tour
         public string? ImageUrl { get; set; }
         public bool IsPoster { get; set; }
         public Tour? Tour { get; set; }
-        public string DepartureDetails { get; set; }
-
     }
 }

@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -30,10 +31,10 @@ namespace AddMeTour.Service.Services.Concretes
             _unitOfWork = unitOfWork;
             _env = env;
         }
-        
+
         public async Task<List<TourViewModel>> GetAllToursNonDeletedAsync()
         {
-            var tours = await _unitOfWork.GetRepository<Tour>().GetAllAsync(x => x.IsActive == true);
+            var tours = await _unitOfWork.GetRepository<Tour>().GetAllAsync(x => x.IsActive == true, x => x.TourImages, x => x.TourLanguages, x => x.TourCategories, x => x.TourCountries);
             var map = _mapper.Map<List<TourViewModel>>(tours);
             return map;
         }
@@ -45,17 +46,29 @@ namespace AddMeTour.Service.Services.Concretes
             return map;
         }
 
+        public async Task<List<TourViewModel>> GetAllBestToursNonDeletedAsync()
+        {
+            TourCountry tourCountry = new TourCountry();
+            var tours = await _unitOfWork.GetRepository<Tour>().GetAllAsync(x => x.IsActive == true && x.IsBest == true, x => x.TourCountries , x => x.TourImages);
+            var map = _mapper.Map<List<TourViewModel>>(tours);
+            return map;
+        }
+
+        public async Task<List<Country>> GetAllCountriesAsync()
+        {
+            var countries = await _unitOfWork.GetRepository<Country>().GetAllAsync(x => x.IsActive == true);
+            var map = _mapper.Map<List<Country>>(countries);
+            return map;
+        }
+
+        public async Task<List<TourImage>> GetAllTourImagesAsync()
+        {
+            var images = await _unitOfWork.GetRepository<TourImage>().GetAllAsync(x => x.IsActive == true);
+            return images;
+        }
+
         public async Task CreateTourAsync(TourAddViewModel tourAddVM)
         {
-            TourImage posterImage = new TourImage
-            {
-                IsActive = true,
-                ImageUrl = tourAddVM.PosterImageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours")),
-                IsPoster = true,
-                TourId = tourAddVM.Id
-            };
-            await _unitOfWork.GetRepository<TourImage>().AddAsync(posterImage);
-
             Tour tour = new Tour
             {
                 CreateTime = DateTime.Now,
@@ -66,10 +79,9 @@ namespace AddMeTour.Service.Services.Concretes
                 Overview = tourAddVM.Overview,
                 Price = tourAddVM.Price,
                 TourName = tourAddVM.TourName,
-                PosterImageUrl = posterImage.ImageUrl
+                IsBest = tourAddVM.IsBest
             };
 
-            await _unitOfWork.GetRepository<Tour>().AddAsync(tour);
 
             var categories = await _unitOfWork.GetRepository<Category>().GetAllAsync(x => x.IsActive == true && tourAddVM.CategoryIds.Contains(x.Id));
             foreach (var item in categories)
@@ -77,7 +89,9 @@ namespace AddMeTour.Service.Services.Concretes
                 TourCategory tourCategory = new TourCategory
                 {
                     CategoryId = item.Id,
-                    TourId = tour.Id
+                    Tour = tour,
+                    IsActive = true
+
                 };
                 await _unitOfWork.GetRepository<TourCategory>().AddAsync(tourCategory);
             }
@@ -87,7 +101,9 @@ namespace AddMeTour.Service.Services.Concretes
                 TourCountry tourCountry = new TourCountry
                 {
                     CountryId = country.Id,
-                    TourId = tour.Id
+                    Tour = tour,
+                    IsActive = true
+
                 };
                 await _unitOfWork.GetRepository<TourCountry>().AddAsync(tourCountry);
             }
@@ -97,7 +113,9 @@ namespace AddMeTour.Service.Services.Concretes
                 TourInclusion tourInclusion = new TourInclusion
                 {
                     InclusionId = inclusion.Id,
-                    TourId= tour.Id
+                    Tour = tour,
+                    IsActive = true
+
                 };
                 await _unitOfWork.GetRepository<TourInclusion>().AddAsync(tourInclusion);
             }
@@ -107,7 +125,8 @@ namespace AddMeTour.Service.Services.Concretes
                 TourExclusion tourExclusion = new TourExclusion
                 {
                     ExclusionId = exclusion.Id,
-                    TourId = tour.Id
+                    Tour = tour,
+                    IsActive = true
                 };
                 await _unitOfWork.GetRepository<TourExclusion>().AddAsync(tourExclusion);
             }
@@ -118,12 +137,20 @@ namespace AddMeTour.Service.Services.Concretes
                 TourLanguage tourLanguage = new TourLanguage
                 {
                     LanguageId = language.Id,
-                    TourId = tour.Id
+                    IsActive = true,
+                    Tour = tour,
                 };
                 await _unitOfWork.GetRepository<TourLanguage>().AddAsync(tourLanguage);
             }
 
-           
+            TourImage posterImage = new TourImage
+            {
+                IsActive = true,
+                ImageUrl = tourAddVM.PosterImageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours")),
+                IsPoster = true,
+                Tour = tour
+            };
+            await _unitOfWork.GetRepository<TourImage>().AddAsync(posterImage);
 
             foreach (IFormFile imageFile in tourAddVM.ImageFiles)
             {
@@ -132,11 +159,12 @@ namespace AddMeTour.Service.Services.Concretes
                     IsActive = true,
                     ImageUrl = imageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours")),
                     IsPoster = false,
-                    TourId = tourAddVM.Id
+                    Tour = tour
                 };
                 await _unitOfWork.GetRepository<TourImage>().AddAsync(image);
             }
-
+            tour.PosterImageUrl = posterImage.ImageUrl;
+            await _unitOfWork.GetRepository<Tour>().AddAsync(tour);
             await _unitOfWork.SaveAsync();
         }
 
@@ -150,34 +178,41 @@ namespace AddMeTour.Service.Services.Concretes
                 IsActive = tour.IsActive,
                 Overview = tour.Overview,
                 Price = tour.Price,
+                DepartureDetails = tour.DepartureDetails,
                 TourName = tour.TourName,
-                TourId = tour.Id
+                TourId = tour.Id,
+                InclusionIds = new List<Guid>(),
+                ExclusionIds = new List<Guid>(),
+                CategoryIds = new List<Guid>(),
+                CountryIds = new List<Guid>(),
+                LanguageIds = new List<Guid>(),
+                IsBest = tour.IsBest
             };
-            foreach (TourInclusion inclusion in tour.TourInclusions)
+            foreach (TourInclusion inclusion in await _unitOfWork.GetRepository<TourInclusion>().GetAllAsync(x => x.TourId == tour.Id))
             {
-                tourUpdateVM.InclusionIds.Add(inclusion.InclusionId);
+                tourUpdateVM.InclusionIds?.Add(inclusion.InclusionId);
             }
 
-            foreach (TourCategory tourCategory in tour.TourCategories)
+            foreach (TourCategory tourCategory in await _unitOfWork.GetRepository<TourCategory>().GetAllAsync(x => x.TourId == tour.Id))
             {
-                tourUpdateVM.CategoryIds.Add(tourCategory.CategoryId);
+                tourUpdateVM.CategoryIds?.Add(tourCategory.CategoryId);
             }
 
-            foreach (TourCountry country in tour.TourCountries)
+            foreach (TourCountry country in await _unitOfWork.GetRepository<TourCountry>().GetAllAsync(x => x.TourId == tour.Id))
             {
-                tourUpdateVM.CountryIds.Add(country.CountryId);
+                tourUpdateVM.CountryIds?.Add(country.CountryId);
             }
-            foreach (TourExclusion exclusion in tour.TourExclusions)
+            foreach (TourExclusion exclusion in await _unitOfWork.GetRepository<TourExclusion>().GetAllAsync(x => x.TourId == tour.Id))
             {
-                tourUpdateVM.ExclusionIds.Add(exclusion.ExclusionId);
+                tourUpdateVM.ExclusionIds?.Add(exclusion.ExclusionId);
             }
-            foreach (TourLanguage language in tour.TourLanguages)
+            foreach (TourLanguage language in await _unitOfWork.GetRepository<TourLanguage>().GetAllAsync(x => x.TourId == tour.Id))
             {
-                tourUpdateVM.LanguageIds.Add(language.LanguageId);
+                tourUpdateVM.LanguageIds?.Add(language.LanguageId);
             }
-            foreach(TourImage image in tour.TourImages)
+            foreach (TourImage image in await _unitOfWork.GetRepository<TourImage>().GetAllAsync(x => x.TourId == tour.Id))
             {
-                tourUpdateVM.ImageIds.Add(image.Id);
+                tourUpdateVM.ImageIds?.Add(image.Id);
             }
 
             return tourUpdateVM;
@@ -185,26 +220,31 @@ namespace AddMeTour.Service.Services.Concretes
 
         public async Task UpdateTourAsync(TourUpdateViewModel tourUpdateVM)
         {
-            Tour existTour = await _unitOfWork.GetRepository<Tour>().GetAsync(x => x.IsActive == true && x.Id == tourUpdateVM.TourId);
+            Tour existTour = await _unitOfWork.GetRepository<Tour>().GetByGuidAsync(tourUpdateVM.TourId);
+
             if (tourUpdateVM.PosterImageFile != null)
             {
-                string deletePath = Path.Combine(_env.WebRootPath, "assets", "img", "tours", existTour.TourImages.FirstOrDefault(x => x.IsPoster == true).ImageUrl);
+                TourImage existImage = await _unitOfWork.GetRepository<TourImage>().GetAsync(x => x.IsPoster == true && x.TourId == existTour.Id);
+                string deletePath = Path.Combine(_env.WebRootPath, "assets", "img", "tours",existImage?.ImageUrl);
                 if (System.IO.File.Exists(deletePath))
                 {
                     System.IO.File.Delete(deletePath);
                 }
+                existImage.ImageUrl = tourUpdateVM.PosterImageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours"));
                 existTour.PosterImageUrl = tourUpdateVM.PosterImageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours"));
             }
 
             if (tourUpdateVM.ImageFiles is not null)
             {
-                foreach (TourImage image in existTour.TourImages.Where(x => x.IsActive == true && x.IsPoster == false))
+                List<TourImage> tourImages = await _unitOfWork.GetRepository<TourImage>().GetAllAsync(x => x.IsPoster == false && x.TourId == existTour.Id);
+                foreach (TourImage image in tourImages)
                 {
                     string deletePath = Path.Combine(_env.WebRootPath, "assets", "img", "tours", image.ImageUrl);
                     if (System.IO.File.Exists(deletePath))
                     {
                         System.IO.File.Delete(deletePath);
                     }
+
                 }
 
                 foreach (IFormFile imageFile in tourUpdateVM.ImageFiles)
@@ -220,64 +260,117 @@ namespace AddMeTour.Service.Services.Concretes
                 }
             }
 
-            foreach(var item in existTour.TourInclusions)
+            if (tourUpdateVM.InclusionIds is not null)
             {
-                await _unitOfWork.GetRepository<TourInclusion>().DeleteAsync(item);
+                var inclusions = await _unitOfWork.GetRepository<Inclusion>().GetAllAsync(x => tourUpdateVM.InclusionIds.Contains(x.Id));
+                var existInclusions = await _unitOfWork.GetRepository<TourInclusion>().GetAllAsync(x => x.TourId == tourUpdateVM.TourId);
+                foreach (TourInclusion item in existInclusions)
+                {
+                    await _unitOfWork.GetRepository<TourInclusion>().DeleteAsync(item);
+                }
+                foreach (var item in inclusions)
+                {
+                    await _unitOfWork.GetRepository<TourInclusion>().AddAsync(new TourInclusion { Tour = existTour, InclusionId = item.Id });
+                }
+            }
+            else
+            {
+                var existInclusions = await _unitOfWork.GetRepository<TourInclusion>().GetAllAsync(x => x.TourId == tourUpdateVM.TourId);
+                foreach (var item in existInclusions)
+                {
+                    await _unitOfWork.GetRepository<TourInclusion>().DeleteAsync(item);
+                }
             }
 
-            var inclusions = await _unitOfWork.GetRepository<Inclusion>().GetAllAsync(x => tourUpdateVM.InclusionIds.Contains(x.Id));
-
-            foreach (var item in inclusions)
+            if (tourUpdateVM.ExclusionIds is not null)
             {
-                await _unitOfWork.GetRepository<TourInclusion>().AddAsync(new TourInclusion { Tour = existTour, InclusionId = item.Id});
+                var exclusions = await _unitOfWork.GetRepository<Exclusion>().GetAllAsync(x => tourUpdateVM.ExclusionIds.Contains(x.Id));
+                var existExclusions = await _unitOfWork.GetRepository<TourExclusion>().GetAllAsync(x => x.TourId == tourUpdateVM.TourId);
+                foreach (TourExclusion item in existExclusions)
+                {
+                    await _unitOfWork.GetRepository<TourExclusion>().DeleteAsync(item);
+                }
+
+                foreach (var item in exclusions)
+                {
+                    await _unitOfWork.GetRepository<TourExclusion>().AddAsync(new TourExclusion { Tour = existTour, ExclusionId = item.Id });
+                }
+            }
+            else
+            {
+                var existExclusions = await _unitOfWork.GetRepository<TourExclusion>().GetAllAsync(x => x.TourId == tourUpdateVM.TourId);
+                foreach (var item in existExclusions)
+                {
+                    await _unitOfWork.GetRepository<TourExclusion>().DeleteAsync(item);
+                }
             }
 
-            foreach (var item in existTour.TourExclusions)
+            if (tourUpdateVM.LanguageIds is not null)
             {
-                await _unitOfWork.GetRepository<TourExclusion>().DeleteAsync(item);
+                var languages = await _unitOfWork.GetRepository<Language>().GetAllAsync(x => tourUpdateVM.LanguageIds.Contains(x.Id));
+                var existLanguages = await _unitOfWork.GetRepository<TourLanguage>().GetAllAsync(x => x.TourId == tourUpdateVM.TourId);
+
+                foreach (var item in existLanguages)
+                {
+                    await _unitOfWork.GetRepository<TourLanguage>().DeleteAsync(item);
+                }
+                foreach (var item in languages)
+                {
+                    await _unitOfWork.GetRepository<TourLanguage>().AddAsync(new TourLanguage { Tour = existTour, LanguageId = item.Id });
+                }
+            }
+            else
+            {
+                var existLanguages = await _unitOfWork.GetRepository<TourLanguage>().GetAllAsync(x => x.TourId == tourUpdateVM.TourId);
+                foreach (var item in existLanguages)
+                {
+                    await _unitOfWork.GetRepository<TourLanguage>().DeleteAsync(item);
+                }
             }
 
-            var exclusions = await _unitOfWork.GetRepository<Exclusion>().GetAllAsync(x => tourUpdateVM.ExclusionIds.Contains(x.Id));
-
-            foreach (var item in exclusions)
+            if (tourUpdateVM.CategoryIds is not null)
             {
-                await _unitOfWork.GetRepository<TourExclusion>().AddAsync(new TourExclusion { Tour = existTour, ExclusionId = item.Id });
+                var categories = await _unitOfWork.GetRepository<Category>().GetAllAsync(x => tourUpdateVM.CategoryIds.Contains(x.Id));
+                var existCategories = await _unitOfWork.GetRepository<TourCategory>().GetAllAsync(x => x.TourId == tourUpdateVM.TourId);
+
+                foreach (var item in existCategories)
+                {
+                    await _unitOfWork.GetRepository<TourCategory>().DeleteAsync(item);
+                }
+                foreach (var item in categories)
+                {
+                    await _unitOfWork.GetRepository<TourCategory>().AddAsync(new TourCategory { Tour = existTour, CategoryId = item.Id });
+                }
+            }
+            else
+            {
+                var existCategories = await _unitOfWork.GetRepository<TourCategory>().GetAllAsync(x => x.TourId == tourUpdateVM.TourId);
+                foreach (var item in existCategories)
+                {
+                    await _unitOfWork.GetRepository<TourCategory>().DeleteAsync(item);
+                }
             }
 
-            foreach (var item in existTour.TourLanguages)
+            if (tourUpdateVM.CountryIds is not null)
             {
-                await _unitOfWork.GetRepository<TourLanguage>().DeleteAsync(item);
+                var countries = await _unitOfWork.GetRepository<Country>().GetAllAsync(x => tourUpdateVM.CountryIds.Contains(x.Id));
+                var existCountries = await _unitOfWork.GetRepository<TourCountry>().GetAllAsync(x => x.TourId == tourUpdateVM.TourId);
+                foreach (var item in existCountries)
+                {
+                    await _unitOfWork.GetRepository<TourCountry>().DeleteAsync(item);
+                }
+                foreach (var item in countries)
+                {
+                    await _unitOfWork.GetRepository<TourCountry>().AddAsync(new TourCountry { Tour = existTour, CountryId = item.Id });
+                }
             }
-
-            var languages = await _unitOfWork.GetRepository<Language>().GetAllAsync(x => tourUpdateVM.LanguageIds.Contains(x.Id));
-
-            foreach (var item in languages)
+            else
             {
-                await _unitOfWork.GetRepository<TourLanguage>().AddAsync(new TourLanguage { Tour = existTour, LanguageId = item.Id });
-            }
-
-            foreach (var item in existTour.TourCategories)
-            {
-                await _unitOfWork.GetRepository<TourCategory>().DeleteAsync(item);
-            }
-
-            var categories = await _unitOfWork.GetRepository<Category>().GetAllAsync(x => tourUpdateVM.CategoryIds.Contains(x.Id));
-
-            foreach (var item in categories)
-            {
-                await _unitOfWork.GetRepository<TourCategory>().AddAsync(new TourCategory { Tour = existTour, CategoryId = item.Id });
-            }
-
-            foreach (var item in existTour.TourCountries)
-            {
-                await _unitOfWork.GetRepository<TourCountry>().DeleteAsync(item);
-            }
-
-            var countries = await _unitOfWork.GetRepository<Country>().GetAllAsync(x => tourUpdateVM.CountryIds.Contains(x.Id));
-
-            foreach (var item in countries)
-            {
-                await _unitOfWork.GetRepository<TourCountry>().AddAsync(new TourCountry { Tour = existTour, CountryId = item.Id });
+                var existCountries = await _unitOfWork.GetRepository<TourCountry>().GetAllAsync(x => x.TourId == tourUpdateVM.TourId);
+                foreach (var item in existCountries)
+                {
+                    await _unitOfWork.GetRepository<TourCountry>().DeleteAsync(item);
+                }
             }
 
             existTour.DepartureDetails = tourUpdateVM.DepartureDetails;
@@ -287,6 +380,8 @@ namespace AddMeTour.Service.Services.Concretes
             existTour.Overview = tourUpdateVM.Overview;
             existTour.IsActive = tourUpdateVM.IsActive;
             existTour.TourName = tourUpdateVM.TourName;
+            existTour.IsBest = tourUpdateVM.IsBest;
+            await _unitOfWork.SaveAsync();
         }
 
         public async Task SafeDeleteTourAsync(Guid id)
@@ -301,10 +396,10 @@ namespace AddMeTour.Service.Services.Concretes
         public async Task HardDeleteAsync(Guid id)
         {
             Tour tour = await _unitOfWork.GetRepository<Tour>().GetByGuidAsync(id);
-            
+
             foreach (var item in tour.TourImages)
             {
-                string deletePath = Path.Combine(_env.WebRootPath,"assets", "img","tours", item.ImageUrl);
+                string deletePath = Path.Combine(_env.WebRootPath, "assets", "img", "tours", item.ImageUrl);
                 if (System.IO.File.Exists(deletePath))
                 {
                     System.IO.File.Delete(deletePath);

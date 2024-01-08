@@ -1,0 +1,147 @@
+﻿@model TourUpdateViewModel
+
+<div class="tabs__content pt-30 js-tabs-content">
+    <div class="tabs__pane -tab-item-1 is-tab-el-active">
+        <form method="post" enctype="multipart/form-data" asp-action="update" asp-controller="tour">
+            <div class="col-xl-10">
+                <div class="text-18 fw-500 mb-10">Update Tour</div>
+                <div class="row x-gap-20 y-gap-20">
+                    <div class="col-12">
+
+                        <div class="form-input ">
+                            <input asp-for="TourName" type="text" required>
+                            <label asp-for="TourName" class="lh-1 text-16 text-light-1">Tour Name</label>
+                            <span asp-validation-for="TourName" class="text-danger"></span>
+                        </div>
+
+                    </div>
+                    <div class="col-12">
+
+                        <div class="form-input ">
+                            <textarea asp-for="Overview" required rows="5"></textarea>
+                            <label asp-for="Overview" class="lh-1 text-16 text-light-1">Overview</label>
+                            <span asp-validation-for="Overview" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-input ">
+                            <input asp-for="Price" type="text" required>
+                            <label asp-for="Price" class="lh-1 text-16 text-light-1">Price</label>
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-input ">
+                            <input asp-for="GroupSize" type="text" required>
+                            <label asp-for="GroupSize" class="lh-1 text-16 text-light-1">Group Size</label>
+                            <span asp-validation-for="GroupSize" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-input ">
+                            <textarea asp-for="DepartureDetails" type="text" required></textarea>
+                            <label asp-for="DepartureDetails" class="lh-1 text-16 text-light-1">Departure Details</label>
+                            <span asp-validation-for="DepartureDetails" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-input ">
+                            <input asp-for="Duration" type="text" required>
+                            <label asp-for="Duration" class="lh-1 text-16 text-light-1">Duration</label>
+                            <span asp-validation-for="Duration" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="col-lg-6 mb-3 ">
+                            <label asp-for="PosterImageFile" class="form-label">Poster Image</label>
+                            <input asp-for="PosterImageFile" class="form-control ">
+                            <span asp-validation-for="PosterImageFile" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="col-lg-6 mb-3 ">
+                            <label asp-for="ImageFiles" class="form-label">Images</label>
+                            <input asp-for="ImageFiles" class="form-control ">
+                            <span asp-validation-for="ImageFiles" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label ">Country</label>
+                        <select class=" form-control" aria-label="Default select example" asp-for="CountryIds">
+                            @foreach (CountryViewModel country in ViewBag.Countries)
+                            {
+                                <option value="@country.Id">@country.CountryName</option>
+                            }
+                        </select>
+                        <span asp-validation-for="CountryIds" style="color: red"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label ">Category</label>
+                        <select class=" form-control" aria-label="Default select example" asp-for="CategoryIds">
+                            @foreach (CategoryViewModel category in ViewBag.Categories)
+                            {
+                                <option value="@category.Id">@category.CategoryName</option>
+                            }
+                        </select>
+                        <span asp-validation-for="CategoryIds" style="color: red"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label ">Languages</label>
+                        <select class=" form-control" aria-label="Default select example" asp-for="LanguageIds">
+                            @foreach (LanguageViewModel language in ViewBag.Languages)
+                            {
+                                <option value="@language.Id">@language.LanguageName</option>
+                            }
+                        </select>
+                        <span asp-validation-for="LanguageIds" style="color: red"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label ">Inclusions</label>
+                        <select class=" form-control" aria-label="Default select example" asp-for="InclusionIds">
+                            @foreach (InclusionViewModel inclusion in ViewBag.Inclusions)
+                            {
+                                <option value="@inclusion.Id">@inclusion.InclusionString</option>
+                            }
+                        </select>
+                        <span asp-validation-for="InclusionIds" style="color: red"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label ">Exclusions</label>
+                        <select class=" form-control" aria-label="Default select example" asp-for="ExclusionIds">
+                            @foreach (ExclusionViewModel exlusion in ViewBag.Exclusions)
+                            {
+                                <option value="@exlusion.Id">@exlusion.ExclusionString</option>
+                            }
+                        </select>
+                        <span asp-validation-for="ExclusionIds" style="color: red"></span>
+                    </div>
+                    <input type="hidden" asp-for="TourId"/>
+
+                    <div class="form-switch d-flex items-center">
+                        <div class="text-13 lh-1 text-dark-1 ml-10">Is Best tour</div>
+                        <div class="switch">
+                            <input type="checkbox" asp-for="IsBest">
+                            <span class="switch__slider"></span>
+                        </div>
+                    </div>
+                    <div class="form-switch d-flex items-center">
+                        <div class="text-13 lh-1 text-dark-1 ml-10">Publish</div>
+                        <div class="switch">
+                            <input type="checkbox" asp-for="IsActive">
+                            <span class="switch__slider"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-top-light mt-30 mb-30"></div>
+            </div>
+
+            <div class="d-inline-block pt-30">
+
+                <div class="text-center">
+                    <button type="submit" class="button h-50 px-24 -dark-1 bg-blue-1 text-white"> Update Feature</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>

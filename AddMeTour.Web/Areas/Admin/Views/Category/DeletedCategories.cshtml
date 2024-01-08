@@ -1,26 +1,23 @@
 ﻿@model List<CategoryViewModel>
+
 <div class="main-content">
     <div class="page-content">
         <div class="container-fluid">
             <div class="row y-gap-20 justify-between items-end pb-60 lg:pb-40 md:pb-32">
                 <div class="col-auto">
-
                     <h1 class="text-30 lh-14 fw-600">All Deleted Categories</h1>
-
                 </div>
-                <div class="col-auto">
-
+                <div class="col-auto text-right">
                     <a asp-action="index" asp-controller="category" class="button h-50 px-24 -dark-1 bg-blue-1 text-white">
                         Back
                     </a>
-
                 </div>
             </div>
             <table class="table">
                 <thead>
                     <tr>
                         <th scope="col">Category name</th>
-                        <th scope="col">Actions</th>
+                        <th scope="col" class="text-right">Actions</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -28,9 +25,13 @@
                     {
                         <tr>
                             <td>@categoryVM.CategoryName</td>
-                            <td>
-                                <a asp-area="admin" asp-action="recover" asp-controller="category" asp-route-categoryId="@categoryVM.Id" class="button -md -dark-1 bg-blue-1 text-white-1">Recover</a>
-                                <a asp-area="admin" asp-action="harddelete" asp-controller="category" asp-route-categoryId="@categoryVM.Id" style="color:white; background-color:red" class="btn btn-primary">Permanently Delete</a>
+                            <td class="text-right">
+                                <div style="display: inline-block;">
+                                    <a asp-area="admin" asp-action="recovercategory" asp-controller="category" asp-route-categoryId="@categoryVM.Id" class="button -md -dark-1 bg-blue-1 text-white-1">Recover</a>
+                                </div>
+                                <div style="display: inline-block; margin-left: 10px;">
+                                    <a asp-area="admin" asp-action="harddelete" asp-controller="category" asp-route-categoryId="@categoryVM.Id" style="color:white; background-color:red;" class="btn btn-primary">Permanently Delete</a>
+                                </div>
                             </td>
                         </tr>
                     }

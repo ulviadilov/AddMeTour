@@ -34,7 +34,7 @@ namespace AddMeTour.Service.Services.Concretes
 
         public async Task<List<TourViewModel>> GetAllToursNonDeletedAsync()
         {
-            var tours = await _unitOfWork.GetRepository<Tour>().GetAllAsync(x => x.IsActive == true, x => x.TourImages, x => x.TourLanguages, x => x.TourCategories, x => x.TourCountries);
+            var tours = await _unitOfWork.GetRepository<Tour>().GetAllAsync(x => x.IsActive == true, x => x.TourImages, x => x.TourLanguages, x => x.TourCategories, x => x.TourCountries, x => x.TourInclusions, x => x.TourExclusions);
             var map = _mapper.Map<List<TourViewModel>>(tours);
             return map;
         }
@@ -49,7 +49,7 @@ namespace AddMeTour.Service.Services.Concretes
         public async Task<List<TourViewModel>> GetAllBestToursNonDeletedAsync()
         {
             TourCountry tourCountry = new TourCountry();
-            var tours = await _unitOfWork.GetRepository<Tour>().GetAllAsync(x => x.IsActive == true && x.IsBest == true, x => x.TourCountries , x => x.TourImages);
+            var tours = await _unitOfWork.GetRepository<Tour>().GetAllAsync(x => x.IsActive == true && x.IsBest == true, x => x.TourCountries , x => x.TourImages, x => x.TourCategories);
             var map = _mapper.Map<List<TourViewModel>>(tours);
             return map;
         }

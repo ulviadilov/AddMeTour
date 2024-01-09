@@ -2,6 +2,7 @@
 using AddMeTour.Entity.ViewModels.Home;
 using AddMeTour.Entity.ViewModels.Masthead;
 using AddMeTour.Entity.ViewModels.Rating;
+using AddMeTour.Entity.ViewModels.Tour.Category;
 using AddMeTour.Service.Services.Abstraction;
 using AddMeTour.Service.Services.Abstractions;
 using Microsoft.AspNetCore.Mvc;
@@ -17,8 +18,9 @@ namespace AddMeTour.Controllers
         private readonly IRatingService _ratingService;
         private readonly IHomeReviewService _homeReviewService;
         private readonly ITourService _tourService;
+        private readonly ICategoryService _categoryService;
 
-        public HomeController(ILogger<HomeController> logger, IFeatureService featureService, IMastheadService mastheadService, IRatingService ratingService, IHomeReviewService homeReviewService, ITourService tourService )
+        public HomeController(ILogger<HomeController> logger, IFeatureService featureService, IMastheadService mastheadService, IRatingService ratingService, IHomeReviewService homeReviewService, ITourService tourService, ICategoryService categoryService)
         {
             _logger = logger;
             _featureService = featureService;
@@ -26,6 +28,7 @@ namespace AddMeTour.Controllers
             _ratingService = ratingService;
             _homeReviewService = homeReviewService;
             _tourService = tourService;
+            _categoryService = categoryService;
         }
 
         public async Task<IActionResult> Index()
@@ -33,6 +36,7 @@ namespace AddMeTour.Controllers
             List<MastheadViewModel> mastheads = await _mastheadService.GetAllMastheadsNonDeletedAsync();
             List<RatingViewModel> ratings = await _ratingService.GetAllRatingsNonDeletedAsync();
             List<Country> countries = await _tourService.GetAllCountriesAsync();
+            List<CategoryViewModel> categories = await _categoryService.GetAllCategoriesNonDeletedAsync();
             IndexVM indexVM = new IndexVM
             {
                 Features =  await _featureService.GetAllFeaturesNonDeletedAsync(),
@@ -40,7 +44,8 @@ namespace AddMeTour.Controllers
                 Rating = ratings.FirstOrDefault(),
                 homeReviews = await _homeReviewService.GetAllHomeReviewsNonDeletedAsync(),
                 Tours = await _tourService.GetAllBestToursNonDeletedAsync(),
-                Countries = countries
+                Countries = countries,
+                Categories = categories
             };
             return View(indexVM);
         }
@@ -54,7 +59,8 @@ namespace AddMeTour.Controllers
 
             return View(aboutVM);
         }
-        public IActionResult Privacy()
+        
+        public async Task<IActionResult> Contact()
         {
             return View();
         }

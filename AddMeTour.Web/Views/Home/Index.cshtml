@@ -1,8 +1,10 @@
 ﻿@model IndexVM
 @{
+    ViewBag.Categories = Model.Categories;
+    ViewBag.Countries = Model.Countries;
     ViewData["Title"] = "Home Page";
     int featureDelayCounter = 1;
-    int tourDelatCounter = 4;
+    int tourDelatCounter = 1;
 }
 
 <section data-anim-wrap class="masthead -type-2 js-mouse-move-container">
@@ -10,118 +12,120 @@
         <img src="~/assets/img/masthead/2/bg.png" alt="image">
     </div>
 
-        <div class="container">
-            
-            <div class="masthead__content">
-            <div data-anim-child="fade delay-1" class="masthead__tabs">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="tabs -bookmark-2 js-tabs">
-                            <div class="tabs__controls d-flex items-center js-tabs-controls">
+    <div class="container">
 
-                                <div class="">
-                                    <button class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button is-tab-el-active" data-tab-target=".-tab-item-1">
-                                        <i class="icon-bed text-20 mr-10 sm:mr-5"></i>
-                                        Hotel
-                                    </button>
-                                </div>
+        <div class="masthead__content">
+            <div class="row">
+                <div class="col-12">
+                    <div class="tabs -bookmark-2 js-tabs">
+                        <div class="tabs__controls d-flex items-center js-tabs-controls">
 
-                                <div class="">
-                                    <button class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-2">
-                                        <i class="icon-destination text-20 mr-10 sm:mr-5"></i>
-                                        Tour
-                                    </button>
-                                </div>
-
-                                <div class="">
-                                    <button class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-3">
-                                        <i class="icon-ski text-20 mr-10 sm:mr-5"></i>
-                                        Activity
-                                    </button>
-                                </div>
-
-                                <div class="">
-                                    <button class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-4">
-                                        <i class="icon-home text-20 mr-10 sm:mr-5"></i>
-                                        Holiday Rentals
-                                    </button>
-                                </div>
-
-                                <div class="">
-                                    <button class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-5">
-                                        <i class="icon-car text-20 mr-10 sm:mr-5"></i>
-                                        Car
-                                    </button>
-                                </div>
-
-                                <div class="">
-                                    <button class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-6">
-                                        <i class="icon-yatch text-20 mr-10 sm:mr-5"></i>
-                                        Cruise
-                                    </button>
-                                </div>
-
-                                <div class="">
-                                    <button class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-7">
-                                        <i class="icon-tickets text-20 mr-10 sm:mr-5"></i>
-                                        Flights
-                                    </button>
-                                </div>
-
+                            <div class="">
+                                <a asp-action="index" asp-controller="home" class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button is-tab-el-active" data-tab-target=".-tab-item-1">
+                                    <i class="icon-home text-20 mr-10 sm:mr-5"></i>
+                                    Home
+                                </a>
                             </div>
 
-                            <div class="tabs__content js-tabs-content">
+                            <div class="">
+                                <a asp-action="index" asp-controller="tour" class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-2">
+                                    <i class="icon-location text-20 mr-10 sm:mr-5"></i>
+                                    Caucasus Tours
+                                </a>
+                            </div>
 
-                                <div class="tabs__pane -tab-item-1 is-tab-el-active">
-                                </div>
+                            <div class="">
+                                <a asp-action="about" asp-controller="home" class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-3">
+                                    <i class="icon-info text-20 mr-10 sm:mr-5"></i>
+                                    About
+                                </a>
+                            </div>
 
-                                <div class="tabs__pane -tab-item-2 ">
-                                </div>
-
-                                <div class="tabs__pane -tab-item-3 ">
-                                </div>
-
-                                <div class="tabs__pane -tab-item-4 ">
-                                </div>
-
-                                <div class="tabs__pane -tab-item-5 ">
-                                </div>
-
-                                <div class="tabs__pane -tab-item-6 ">
-                                </div>
-
-                                <div class="tabs__pane -tab-item-7 ">
-                                </div>
-
+                            <div class="">
+                                <a asp-action="contact" asp-controller="home"  class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-4">
+                                    <i class="icon-phone text-20 mr-10 sm:mr-5"></i>
+                                    Contact
+                                </a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-                <div class="row y-gap-40">
-                    <div class="col-xl-5">
-                        <h1 data-anim-child="slide-up delay-2" class="z-2 text-60 lg:text-40 md:text-30 text-white pt-80 xl:pt-0">
-                            <span class="text-yellow-1">@Model.Masthead.TitleYellow</span><br>
-                            @Model.Masthead.TitleWhite
-                        </h1>
 
-                        <p data-anim-child="slide-up delay-3" class="z-2 text-white mt-20">@Model.Masthead.Description</p>
+                        <div class="tabs__content js-tabs-content">
 
-                    </div>
+                            <div class="tabs__pane -tab-item-1 is-tab-el-active">
+                            </div>
 
-                    <div class="col-xl-7">
-                        <div class="masthead__images">
-                            <div data-anim-child="slide-up delay-6"><img src="~/assets/img/masthead/2/@Model.Masthead.BigImageUrl" alt="image" class="js-mouse-move" data-move="30"></div>
-                            <div data-anim-child="slide-up delay-7"><img src="~/assets/img/masthead/2/@Model.Masthead.SmallImageUrl1" alt="image" class="js-mouse-move" data-move="40"></div>
-                            <div data-anim-child="slide-up delay-8"><img src="~/assets/img/masthead/2/@Model.Masthead.SmallImageUrl2" alt="image" class="js-mouse-move" data-move="50"></div>
+                            <div class="tabs__pane -tab-item-2 ">
+                            </div>
+
+                            <div class="tabs__pane -tab-item-3 ">
+                            </div>
+
+                            <div class="tabs__pane -tab-item-4 ">
+                            </div>
+
+                            <div class="tabs__pane -tab-item-5 ">
+                            </div>
+
+                            <div class="tabs__pane -tab-item-6 ">
+                            </div>
+
+                            <div class="tabs__pane -tab-item-7 ">
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row y-gap-40">
+            <div class="col-xl-5">
+                <h1 data-anim-child="slide-up delay-2" class="z-2 text-60 lg:text-40 md:text-30 text-white pt-80 xl:pt-0">
+                    <span class="text-yellow-1">@Model.Masthead.TitleYellow</span><br>
+                    @Model.Masthead.TitleWhite
+                </h1>
+
+                <p data-anim-child="slide-up delay-3" class="z-2 text-white mt-20">@Model.Masthead.Description</p>
+
+            </div>
+
+            <div class="col-xl-7">
+                <div class="masthead__images">
+                    <div data-anim-child="slide-up delay-6"><img src="~/assets/img/masthead/2/@Model.Masthead.BigImageUrl" alt="image" class="js-mouse-move" data-move="30"></div>
+                    <div data-anim-child="slide-up delay-7"><img src="~/assets/img/masthead/2/@Model.Masthead.SmallImageUrl1" alt="image" class="js-mouse-move" data-move="40"></div>
+                    <div data-anim-child="slide-up delay-8"><img src="~/assets/img/masthead/2/@Model.Masthead.SmallImageUrl2" alt="image" class="js-mouse-move" data-move="50"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </section>
 
+<section class="layout-pt-xl layout-pb-md">
+    <div data-anim-wrap class="container">
+        <div class="row y-gap-40 sm:y-gap-10 justify-between">
+
+            @foreach (FeatureViewModel feature in Model.Features)
+            {
+                featureDelayCounter += 1;
+
+                <div data-anim-child="slide-up delay-@featureDelayCounter" class="col-lg-4 col-sm-6">
+
+                    <div class="featureIcon -type-1 -hover-shadow px-50 py-50 lg:px-24 lg:py-15">
+                        <div class="d-flex justify-center">
+                            <img src="~/assets/img/features/@feature.ImageUrl" alt="image" class="js-lazy">
+                        </div>
+
+                        <div class="text-center mt-30">
+                            <h4 class="text-18 fw-500">@feature.Title</h4>
+                            <p class="text-15 mt-10">@feature.Description</p>
+                        </div>
+                    </div>
+
+                </div>
+            }
+        </div>
+    </div>
+</section>
 <section class="layout-pt-md layout-pb-lg">
     <div data-anim-wrap class="container">
         <div class="tabs -pills-2 js-tabs">
@@ -141,9 +145,10 @@
 
                         @foreach (var bestTour in Model.Tours)
                         {
-                            <div data-anim-child="slide-left delay-4" class="col-xl-3 col-lg-3 col-sm-6">
-
-                                <a asp-action="tourdetails" asp-controller="tour" asp-route-id="@bestTour.Id" class="hotelsCard -type-1 ">
+                            tourDelatCounter += 1;
+                            <div data-anim-child="slide-left delay-@tourDelatCounter" class="col-xl-3 col-lg-3 col-sm-6">
+                                
+                                <a asp-action="detail" asp-controller="tour" asp-route-id="@bestTour.Id" class="hotelsCard -type-1 ">
                                     <div class="hotelsCard__image">
 
                                         <div class="cardImage ratio ratio-1:1">
@@ -171,7 +176,7 @@
                                         <p class="text-light-1 lh-14 text-14 mt-5">
                                             @foreach (var item in bestTour.TourCountries)
                                             {
-                                                @Model.Countries.FirstOrDefault(x => x.Id == item.CountryId).CountryName
+                                                @(Model.Countries.FirstOrDefault(x => x.Id == item.CountryId).CountryName + " ")
                                             }
                                         </p>
 
@@ -195,32 +200,6 @@
                 </div>
 
             </div>
-        </div>
-    </div>
-</section>
-<section class="layout-pt-xl layout-pb-md">
-    <div data-anim-wrap class="container">
-        <div class="row y-gap-40 sm:y-gap-10 justify-between">
-
-            @foreach (FeatureViewModel feature in Model.Features)
-            {
-                    featureDelayCounter += 1;
-                
-                <div data-anim-child="slide-up delay-@featureDelayCounter" class="col-lg-4 col-sm-6">
-
-            <div class="featureIcon -type-1 -hover-shadow px-50 py-50 lg:px-24 lg:py-15">
-              <div class="d-flex justify-center">
-                <img src="~/assets/img/features/@feature.ImageUrl"  alt="image" class="js-lazy">
-              </div>
-
-              <div class="text-center mt-30">
-                <h4 class="text-18 fw-500">@feature.Title</h4>
-                <p class="text-15 mt-10">@feature.Description</p>
-              </div>
-            </div>
-
-          </div>
-            }
         </div>
     </div>
 </section>
@@ -270,26 +249,26 @@
                         @foreach (HomeReviewViewModel item in Model.homeReviews)
                         {
                             <div class="swiper-slide">
-                            <div class="testimonials -type-1 bg-white rounded-4 pt-40 pb-30 px-40 shadow-2">
-                                <div class="">
-                                    <h4 class="text-16 fw-500 text-blue-1 mb-20">@item.Title</h4>
-                                    <p class="testimonials__text lh-18 fw-500 text-dark-1">&quot;@item.Description &quot;</p>
+                                <div class="testimonials -type-1 bg-white rounded-4 pt-40 pb-30 px-40 shadow-2">
+                                    <div class="">
+                                        <h4 class="text-16 fw-500 text-blue-1 mb-20">@item.Title</h4>
+                                        <p class="testimonials__text lh-18 fw-500 text-dark-1">&quot;@item.Description &quot;</p>
 
-                                    <div class="pt-20 mt-28 border-top-light">
-                                        <div class="row x-gap-20 y-gap-20 items-center">
-                                            <div class="col-auto">
-                                                <img src="~/assets/img/avatars/@item.AvatarUrl" alt="image">
-                                            </div>
+                                        <div class="pt-20 mt-28 border-top-light">
+                                            <div class="row x-gap-20 y-gap-20 items-center">
+                                                <div class="col-auto">
+                                                    <img src="~/assets/img/avatars/@item.AvatarUrl" alt="image">
+                                                </div>
 
-                                            <div class="col-auto">
-                                                <div class="text-15 fw-500 lh-14">@item.Username</div>
-                                                <div class="text-14 lh-14 text-light-1 mt-5">@item.UserCountry</div>
+                                                <div class="col-auto">
+                                                    <div class="text-15 fw-500 lh-14">@item.Username</div>
+                                                    <div class="text-14 lh-14 text-light-1 mt-5">@item.UserCountry</div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         }
 
                     </div>

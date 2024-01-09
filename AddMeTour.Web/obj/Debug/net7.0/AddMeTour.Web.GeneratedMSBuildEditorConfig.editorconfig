@@ -188,6 +188,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -216,12 +220,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xMYXlvdXRQYXJ0aWFsXF9TZWFyY2hQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Shared/PartialViews/LayoutPartial/_SidebarPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xMYXlvdXRQYXJ0aWFsXF9TaWRlYmFyUGFydGlhbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Shared/_Layout2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Tour/Category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Tour/Country.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxDb3VudHJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Tour/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Tour/Index.cshtml]

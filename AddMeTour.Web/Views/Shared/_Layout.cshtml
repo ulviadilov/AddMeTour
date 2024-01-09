@@ -40,7 +40,81 @@
 
               @*@await Html.PartialAsync("PartialViews/LayoutPartial/_SearchPartial")*@
 
-              @await Html.PartialAsync("PartialViews/LayoutPartial/_SidebarPartial")
+                            <div class="desktopMenu js-desktopMenu" data-x="desktopMenu" data-x-toggle="is-menu-active">
+                                <div class="desktopMenu-overlay"></div>
+
+                                <div class="desktopMenu__content">
+                                    <div class="mobile-bg js-mobile-bg"></div>
+
+                                    <div class="px-30 py-20 sm:px-20 sm:py-10 border-bottom-light">
+                                        <div class="row justify-between items-center">
+                                            <div class="col-auto">
+                                                <div class="text-20 fw-500">Main Menu</div>
+                                            </div>
+
+                                            <div class="col-auto">
+                                                <button class="icon-close text-15" data-x-click="desktopMenu"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="h-full px-30 py-30 sm:px-0 sm:py-10">
+                                        <div class="menu js-navList">
+                                            <ul class="menu__nav  -is-active">
+
+                                                <li>
+                                                    <a asp-action="index" asp-controller="home">Home</a>
+                                                </li>
+                                                <li><a asp-action="index" asp-controller="tour">All Tours</a></li>
+                                                <li class="menu-item-has-children -has-mega-menu">
+                                                    <a data-barba href="#">
+                                                        <span class="mr-10">Categories</span>
+                                                        <i class="icon icon-chevron-sm-down"></i>
+                                                    </a>
+
+                                                    <ul class="subnav mega-mobile">
+                                                        <li class="subnav__backBtn js-nav-list-back">
+                                                            <a href="#"><i class="icon icon-chevron-sm-down"></i> Category</a>
+                                                        </li>
+
+                                                        @foreach (var item in ViewBag.Categories)
+                                                        {
+                                                            <li >
+                                                                <a data-barba asp-action="category" asp-controller="tour" asp-route-id="@item.Id">
+                                                                    <span class="mr-10">@item.CategoryName</span>
+                                                                </a>
+                                                            </li>
+                                                        }
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item-has-children -has-mega-menu">
+                                                    <a data-barba href="#">
+                                                        <span class="mr-10">Countries</span>
+                                                        <i class="icon icon-chevron-sm-down"></i>
+                                                    </a>
+
+                                                    <ul class="subnav mega-mobile">
+                                                        <li class="subnav__backBtn js-nav-list-back">
+                                                            <a href="#"><i class="icon icon-chevron-sm-down"></i> Country</a>
+                                                        </li>
+                                                        @foreach (var item in Model.Countries)
+                                                        {
+
+                                                            <li >
+                                                                <a data-barba asp-action="country" asp-controller="tour" asp-route-id="@item.Id">
+                                                                    <span class="mr-10">@item.CountryName</span>
+                                                                </a>
+                                                            </li>
+                                                        }
+                                                    </ul>
+                                                </li>
+                                                <li><a asp-action="about" asp-controller="Home">About Us</a></li>
+                                                <li><a asp-action="contact" asp-controller="Home">Contact</a> </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
               
               </div>
 

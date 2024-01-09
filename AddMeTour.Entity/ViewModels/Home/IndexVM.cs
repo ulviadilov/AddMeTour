@@ -22,5 +22,6 @@ namespace AddMeTour.Entity.ViewModels.Home
         public List<HomeReviewViewModel> homeReviews { get; set; }
         public List<TourViewModel> Tours { get; set; }
         public List<Country> Countries { get; set; }
+        public List<CategoryViewModel> Categories { get; set; }
     }
 }

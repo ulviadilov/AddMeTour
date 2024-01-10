@@ -13,8 +13,7 @@
     </div>
 
     <div class="container">
-
-        <div class="masthead__content">
+        <div data-anim-child="fade delay-1" class="masthead__tabs">
             <div class="row">
                 <div class="col-12">
                     <div class="tabs -bookmark-2 js-tabs">
@@ -29,24 +28,24 @@
 
                             <div class="">
                                 <a asp-action="index" asp-controller="tour" class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-2">
-                                    <i class="icon-location text-20 mr-10 sm:mr-5"></i>
-                                    Caucasus Tours
+                                    <i class="icon-destination text-20 mr-10 sm:mr-5"></i>
+                                    All Tours
                                 </a>
                             </div>
-
                             <div class="">
-                                <a asp-action="about" asp-controller="home" class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-3">
-                                    <i class="icon-info text-20 mr-10 sm:mr-5"></i>
-                                    About
+                                <a asp-action="about" asp-controller="home" class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-2">
+                                    <i class="icon-destination text-20 mr-10 sm:mr-5"></i>
+                                    About Us
                                 </a>
                             </div>
-
                             <div class="">
-                                <a asp-action="contact" asp-controller="home"  class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-4">
-                                    <i class="icon-phone text-20 mr-10 sm:mr-5"></i>
+                                <a asp-action="contact" asp-controller="home" class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-2">
+                                    <i class="icon-destination text-20 mr-10 sm:mr-5"></i>
                                     Contact
                                 </a>
                             </div>
+
+
                         </div>
 
                         <div class="tabs__content js-tabs-content">
@@ -77,27 +76,29 @@
                 </div>
             </div>
         </div>
-        <div class="row y-gap-40">
-            <div class="col-xl-5">
-                <h1 data-anim-child="slide-up delay-2" class="z-2 text-60 lg:text-40 md:text-30 text-white pt-80 xl:pt-0">
-                    <span class="text-yellow-1">@Model.Masthead.TitleYellow</span><br>
-                    @Model.Masthead.TitleWhite
-                </h1>
 
-                <p data-anim-child="slide-up delay-3" class="z-2 text-white mt-20">@Model.Masthead.Description</p>
+        <div class="masthead__content">
+            <div class="row y-gap-40">
+                <div class="col-xl-5">
+                    <h1 data-anim-child="slide-up delay-2" class="z-2 text-60 lg:text-40 md:text-30 text-white pt-80 xl:pt-0">
+                        <span class="text-yellow-1">@Model.Masthead.TitleYellow</span><br>
+                        @Model.Masthead.TitleWhite
+                    </h1>
 
-            </div>
+                    <p data-anim-child="slide-up delay-3" class="z-2 text-white mt-20">@Model.Masthead.Description</p>
 
-            <div class="col-xl-7">
-                <div class="masthead__images">
-                    <div data-anim-child="slide-up delay-6"><img src="~/assets/img/masthead/2/@Model.Masthead.BigImageUrl" alt="image" class="js-mouse-move" data-move="30"></div>
-                    <div data-anim-child="slide-up delay-7"><img src="~/assets/img/masthead/2/@Model.Masthead.SmallImageUrl1" alt="image" class="js-mouse-move" data-move="40"></div>
-                    <div data-anim-child="slide-up delay-8"><img src="~/assets/img/masthead/2/@Model.Masthead.SmallImageUrl2" alt="image" class="js-mouse-move" data-move="50"></div>
+                </div>
+
+                <div class="col-xl-7">
+                    <div class="masthead__images">
+                        <div data-anim-child="slide-up delay-6"><img src="~/assets/img/masthead/2/@Model.Masthead.BigImageUrl" alt="image" class="js-mouse-move" data-move="30"></div>
+                        <div data-anim-child="slide-up delay-7"><img src="~/assets/img/masthead/2/@Model.Masthead.SmallImageUrl1" alt="image" class="js-mouse-move" data-move="40"></div>
+                        <div data-anim-child="slide-up delay-8"><img src="~/assets/img/masthead/2/@Model.Masthead.SmallImageUrl2" alt="image" class="js-mouse-move" data-move="50"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
 </section>
 
 <section class="layout-pt-xl layout-pb-md">
@@ -147,7 +148,7 @@
                         {
                             tourDelatCounter += 1;
                             <div data-anim-child="slide-left delay-@tourDelatCounter" class="col-xl-3 col-lg-3 col-sm-6">
-                                
+
                                 <a asp-action="detail" asp-controller="tour" asp-route-id="@bestTour.Id" class="hotelsCard -type-1 ">
                                     <div class="hotelsCard__image">
 
@@ -170,19 +171,41 @@
 
                                     <div class="hotelsCard__content mt-10">
                                         <h4 class="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
-                                            <span>@bestTour.TourName</span>
+                                            <span>
+                                                @foreach (var item in bestTour.TourCountries)
+                                                {
+                                                    @(Model.Countries.FirstOrDefault(x => x.Id == item.CountryId)?.CountryName + ",")
+                                                } @bestTour.TourName,
+                                                @foreach (var item in bestTour.TourCategories)
+                                                {
+                                                    @(Model.Categories.FirstOrDefault(x => x.Id == item.CategoryId)?.CategoryName + " ")
+                                                } Tour
+                                            </span>
                                         </h4>
 
                                         <p class="text-light-1 lh-14 text-14 mt-5">
                                             @foreach (var item in bestTour.TourCountries)
                                             {
-                                                @(Model.Countries.FirstOrDefault(x => x.Id == item.CountryId).CountryName + " ")
+                                                @(Model.Countries.FirstOrDefault(x => x.Id == item.CountryId)?.CountryName + " ")
                                             }
                                         </p>
 
                                         <div class="d-flex items-center mt-20">
-                                            <div class="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">4.8</div>
-                                            <div class="text-14 text-dark-1 fw-500 ml-10">Exceptional</div>
+                                            <div class="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">@bestTour.Rating</div>
+                                            <div class="text-14 text-dark-1 fw-500 ml-10">
+                                                @if (bestTour.Rating >= 4)
+                                                {
+                                                    @("Exceptional")
+                                                }
+                                                else if (3 <= bestTour.Rating && bestTour.Rating < 4)
+                                                {
+                                                    @("Very Good")
+                                                }
+                                                else
+                                                {
+                                                    @("Good")
+                                                }
+                                            </div>
                                         </div>
 
                                         <div class="mt-5">

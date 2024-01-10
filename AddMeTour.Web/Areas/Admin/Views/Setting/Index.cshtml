@@ -1,0 +1,68 @@
+﻿@using AddMeTour.Entity.ViewModels.Setting;
+@model PaginatedList<SettingViewModel>
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <div class="row y-gap-20 justify-between items-end pb-60 lg:pb-40 md:pb-32">
+                <div class="d-flex justify-between">
+
+                    <h1 class="text-30 lh-14 fw-600">All Settings</h1>
+                </div>
+
+            </div>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Key</th>
+                    <th scope="col">Value</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (SettingViewModel settingView in Model)
+                {
+                    <tr>
+                        <td>@settingView.Key</td>
+                        <td>@settingView.Value</td>
+                        <td>
+                            <a asp-area="admin" asp-action="update" asp-controller="setting" asp-route-id="@settingView.Id" class="button -md -dark-1 bg-blue-1 text-white-1">Update</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <nav style="display:flex;justify-content:center" aria-label="...">
+            <ul class="pagination">
+                @if (Model.HasPrevious)
+                {
+                    <li class="page-item ">
+                        <a class="page-link" asp-action="index" asp-route-page="@(Model.ActivePage-1)" tabindex="-1">Previous</a>
+                    </li>
+                    @if (Model.ActivePage != 2)
+                    {
+                        <li class="page-item "><a asp-action="index" asp-route-page="1" class="page-link">1</a></li>
+
+                    }
+                    <li class="page-item "><a asp-action="index" asp-route-page="@(Model.ActivePage-1)" class="page-link">@(Model.ActivePage - 1)</a></li>
+                }
+                @if (Model.TotalPageCount > 1)
+                {
+                    <li class="page-item active"><a asp-action="index" asp-route-page="@Model.ActivePage" class="page-link">@Model.ActivePage</a></li>
+                }
+                @if (Model.HasNext)
+                {
+                    <li class="page-item "><a asp-action="index" asp-route-page="@(Model.ActivePage+1)" class="page-link">@(Model.ActivePage + 1)</a></li>
+                    @if (Model.ActivePage != Model.TotalPageCount - 1)
+                    {
+                        <li class="page-item "><a asp-action="index" asp-route-page="@Model.TotalPageCount" class="page-link">@Model.TotalPageCount</a></li>
+
+                    }
+                    <li class="page-item">
+                        <a class="page-link" asp-action="index" asp-route-page="@(Model.ActivePage+1)">Next</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    </div>
+</div>

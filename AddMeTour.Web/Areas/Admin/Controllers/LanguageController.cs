@@ -1,12 +1,16 @@
 ﻿using AddMeTour.Entity.ViewModels.Tour.Inclusion;
 using AddMeTour.Service.AutoMapper.Tour.Languages;
+using AddMeTour.Service.Helpers.Pagination;
 using AddMeTour.Service.Services.Abstractions;
 using AddMeTour.Service.Services.Concretes;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace AddMeTour.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin,Developer")]
     public class LanguageController : Controller
     {
         private readonly ILanguageService _languageService;
@@ -15,9 +19,12 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
         {
             _languageService = languageService;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
-            return View(await _languageService.GetAllLanguagesNonDeletedAsync());
+            var lang = await _languageService.GetAllLanguagesNonDeletedAsync();
+            var query = lang.AsQueryable();
+            var paginated = PaginatedList<LanguageViewModel>.Create(query, 6, page);
+            return View(paginated);
         }
 
         [HttpGet]
@@ -51,7 +58,7 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
 
         public async Task<IActionResult> SoftDelete(Guid Id)
         {
-            if (Id == Guid.Empty) return NotFound();
+            if (await _languageService.GetLanguageByGuidAsync(Id) is null) return NotFound();
             await _languageService.SoftDeleteLanguageAsync(Id);
             return RedirectToAction("Index");
         }
@@ -64,9 +71,12 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
             return RedirectToAction("DeletedLanguages");
         }
 
-        public async Task<IActionResult> DeletedLanguages()
+        public async Task<IActionResult> DeletedLanguages(int page = 1)
         {
-            return View(await _languageService.GetAllPassiveLanguages());
+            var lang = await _languageService.GetAllPassiveLanguages();
+            var query = lang.AsQueryable();
+            var paginated = PaginatedList<LanguageViewModel>.Create(query, 6, page);
+            return View(paginated);
         }
 
         public async Task<IActionResult> RecoverLanguage(Guid Id)

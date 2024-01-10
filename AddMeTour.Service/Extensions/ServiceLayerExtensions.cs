@@ -3,11 +3,13 @@ using AddMeTour.Data.Repositories.Abstractions;
 using AddMeTour.Data.Repositories.Concretes;
 using AddMeTour.Data.UnitOfWorks.Abstractions;
 using AddMeTour.Data.UnitOfWorks.Concretes;
+using AddMeTour.Entity.Entities.User;
 using AddMeTour.Service.Helpers.Images;
 using AddMeTour.Service.Services.Abstraction;
 using AddMeTour.Service.Services.Abstractions;
 using AddMeTour.Service.Services.Concrete;
 using AddMeTour.Service.Services.Concretes;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -34,6 +36,8 @@ namespace AddMeTour.Service.Extensions
             services.AddScoped<IExclusionService, ExclusionService>();
             services.AddScoped<ILanguageService, LanguageService>();
             services.AddScoped<ITourService, TourService>();
+            services.AddScoped<ISettingService, SettingService>();
+            services.AddScoped<ILayoutService, LayoutService>();
             services.AddAutoMapper(assembly);
             return services;
         }

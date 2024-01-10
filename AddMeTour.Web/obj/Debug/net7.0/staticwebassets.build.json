@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W1lm+8IKMMWTjk0mQFkezNQwE06TXrBNDwhhCJKjlf0=",
+  "Hash": "paNrwXYpGpCixTtf3T86Vc7eSRct8V+3+fQzJP8PQec=",
   "Source": "AddMeTour.Web",
   "BasePath": "_content/AddMeTour.Web",
   "Mode": "Default",
@@ -3483,6 +3483,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\general\\baku.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\headerimage.jpg",
+      "SourceId": "AddMeTour.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\",
+      "BasePath": "_content/AddMeTour.Web",
+      "RelativePath": "assets/img/general/headerimage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\general\\headerimage.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\lang.png",
@@ -7803,6 +7820,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\team\\cavidbey.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\team\\ulvi.jpg",
+      "SourceId": "AddMeTour.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\",
+      "BasePath": "_content/AddMeTour.Web",
+      "RelativePath": "assets/img/team/ulvi.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\team\\ulvi.jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\.DS_Store",
       "SourceId": "AddMeTour.Web",
       "SourceType": "Discovered",
@@ -8124,6 +8158,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\tours\\image.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\Screenshot 2023-11-18 201651.png",
+      "SourceId": "AddMeTour.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\",
+      "BasePath": "_content/AddMeTour.Web",
+      "RelativePath": "assets/img/tours/Screenshot 2023-11-18 201651.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\tours\\Screenshot 2023-11-18 201651.png"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\Screenshot 2023-11-18 220445.png",

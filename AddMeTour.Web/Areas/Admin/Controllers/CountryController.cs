@@ -2,12 +2,16 @@
 using AddMeTour.Entity.Entities.Tour;
 using AddMeTour.Entity.ViewModels.Tour.Category;
 using AddMeTour.Entity.ViewModels.Tour.Country;
+using AddMeTour.Service.Helpers.Pagination;
 using AddMeTour.Service.Services.Abstractions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace AddMeTour.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin,Developer")]
     public class CountryController : Controller
     {
         private readonly ICountryService _countryService;
@@ -18,9 +22,13 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
             _countryService = countryService;
             _unitOfWork = unitOfWork;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
-            return View(await _countryService.GetAllCountriesNonDeletedAsync());
+            var countries = await _countryService.GetAllCountriesNonDeletedAsync();
+            var query = countries.AsQueryable();
+            var paginatedCountries = PaginatedList<CountryViewModel>.Create(query, 6, page);
+
+            return View(paginatedCountries);
         }
 
         [HttpGet]
@@ -67,15 +75,18 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
             return RedirectToAction("DeletedCountries");
         }
 
-        public async Task<IActionResult> DeletedCountries()
+        public async Task<IActionResult> DeletedCountries(int page = 1)
         {
-            return View(await _countryService.GetAllPassiveCountries());
+            var countries = await _countryService.GetAllPassiveCountries();
+            var query = countries.AsQueryable();
+            var paginatedCountries = PaginatedList<CountryViewModel>.Create(query,6,page);
+            return View(paginatedCountries);
         }
 
-        public async Task<IActionResult> RecoverCountry(Guid countryId)
+        public async Task<IActionResult> RecoverCountry(Guid id)
         {
-            if (countryId == Guid.Empty) return NotFound();
-            await _countryService.RecoverCountryAsync(countryId);
+            if (id == Guid.Empty) return NotFound();
+            await _countryService.RecoverCountryAsync(id);
             return RedirectToAction("Index");
         }
     }

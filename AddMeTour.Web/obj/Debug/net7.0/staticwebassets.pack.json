@@ -813,6 +813,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\general\\baku.jpeg"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\headerimage.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\headerimage.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\lang.png",
       "PackagePath": "staticwebassets\\assets\\img\\general\\lang.png"
     },
@@ -1829,6 +1833,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\team\\cavidbey.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\team\\ulvi.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\ulvi.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\.DS_Store",
       "PackagePath": "staticwebassets\\assets\\img\\testimonials\\.DS_Store"
     },
@@ -1899,6 +1907,10 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\4.png",
       "PackagePath": "staticwebassets\\assets\\img\\tours\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\Screenshot 2023-11-18 201651.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\Screenshot 2023-11-18 201651.png"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\Screenshot 2023-11-18 220445.png",

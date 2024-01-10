@@ -1,7 +1,8 @@
 ﻿using AddMeTour.Entity.ViewModels.Home;
-using AddMeTour.Entity.ViewModels.MainTour;
 using AddMeTour.Entity.ViewModels.Tour;
+using AddMeTour.Service.Helpers.Pagination;
 using AddMeTour.Service.Services.Abstractions;
+using AddMeTour.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AddMeTour.Web.Controllers
@@ -24,15 +25,17 @@ namespace AddMeTour.Web.Controllers
             _inclusionService = inclusionService;
             _exclusionService = exclusionService;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
             var categories = await _categoryService.GetAllCategoriesNonDeletedAsync();
             var countries = await _countryService.GetAllCountriesNonDeletedAsync();
             var languages = await _languageService.GetAllLanguagesNonDeletedAsync();
             List<TourViewModel> tours = await _tourService.GetAllToursNonDeletedAsync();
+            var paginated = PaginatedList<TourViewModel>.Create(tours.AsQueryable(), 6, page);
+
             MainTourViewModel tourVM = new MainTourViewModel
             {
-                Tours = tours,
+                Tours = paginated,
                 Categories = categories,
                 Countries = countries,
                 Languages = languages
@@ -40,33 +43,37 @@ namespace AddMeTour.Web.Controllers
             return View(tourVM);
         }
 
-        public async Task<IActionResult> Category(Guid id)
+        public async Task<IActionResult> Category(Guid id, int page = 1)
         {
             var category = await _categoryService.GetCategoryByGuidAsync(id);
             if (category == null) return NotFound();
             var tours = await _tourService.GetAllToursNonDeletedAsync();
             var countries = await _countryService.GetAllCountriesNonDeletedAsync();
+            var query = tours.AsQueryable();
+            var paginated = PaginatedList<TourViewModel>.Create(query, 6, page);
             SearchByCategoryViewModel tourVM = new SearchByCategoryViewModel
             {
                 Category = category,
-                Tours = tours,
+                Tours = paginated,
                 Countries = countries
             };
             return View(tourVM);
         }
 
 
-        public async Task<IActionResult> Country(Guid id)
+        public async Task<IActionResult> Country(Guid id, int page = 1)
         {
             var country = await _countryService.GetCountryByGuidAsync(id);
             if (country == null) return NotFound();
             var tours = await _tourService.GetAllToursNonDeletedAsync();
             var categories = await _categoryService.GetAllCategoriesNonDeletedAsync();
             var countries = await _countryService.GetAllCountriesNonDeletedAsync();
+            var query = tours.AsQueryable();
+            var paginated = PaginatedList<TourViewModel>.Create(query, 6, page);
             SearchByCountryViewModel tourVM = new SearchByCountryViewModel
             {
                 Country = country,
-                Tours = tours,
+                Tours = paginated,
                 Categories = categories,
                 Countries = countries
             };

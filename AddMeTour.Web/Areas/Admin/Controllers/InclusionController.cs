@@ -1,12 +1,16 @@
 ﻿using AddMeTour.Data.UnitOfWorks.Abstractions;
 using AddMeTour.Entity.ViewModels.Tour.Inclusion;
+using AddMeTour.Service.Helpers.Pagination;
 using AddMeTour.Service.Services.Abstractions;
 using AddMeTour.Service.Services.Concretes;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace AddMeTour.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin,Developer")]
     public class InclusionController : Controller
     {
         private readonly IInclusionService _inclusionService;
@@ -16,9 +20,12 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
             _inclusionService = inclusionService;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page =1 )
         {
-            return View(await _inclusionService.GetAllInclusionsNonDeletedAsync());
+            var inclusions = await _inclusionService.GetAllInclusionsNonDeletedAsync();
+            var query = inclusions.AsQueryable();
+            var paginated = PaginatedList<InclusionViewModel>.Create(query,6,page);
+            return View(paginated);
         }
 
         [HttpGet]
@@ -65,9 +72,12 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
             return RedirectToAction("DeletedInclusions");
         }
 
-        public async Task<IActionResult> DeletedInclusions()
+        public async Task<IActionResult> DeletedInclusions(int page = 1)
         {
-            return View(await _inclusionService.GetAllPassiveInclusions());
+            var inc = await _inclusionService.GetAllPassiveInclusions();
+            var query = inc.AsQueryable();
+            var paginated = PaginatedList<InclusionViewModel>.Create(query,6,page);
+            return View(paginated);
         }
 
         public async Task<IActionResult> RecoverInclusion(Guid Id)

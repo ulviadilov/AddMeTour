@@ -2,13 +2,17 @@
 using AddMeTour.Entity.Entities.Home;
 using AddMeTour.Entity.ViewModels.Features;
 using AddMeTour.Service.Helpers.Images;
+using AddMeTour.Service.Helpers.Pagination;
 using AddMeTour.Service.Services.Abstraction;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace AddMeTour.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin,Developer")]
     public class FeatureController : Controller
     {
         private readonly IMapper _mapper;
@@ -20,10 +24,12 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
             _featureService = featureService;
         }
         [HttpGet]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1 )
         {
             var features = await _featureService.GetAllFeaturesNonDeletedAsync();
-            return View(features);
+            var query = features.AsQueryable();
+            var paginated = PaginatedList<FeatureViewModel>.Create(query, 6, page);
+            return View(paginated);
         }
 
         [HttpGet]
@@ -84,10 +90,12 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
 
-        public async Task<IActionResult> DeletedFeatures()
+        public async Task<IActionResult> DeletedFeatures(int page = 1)
         {
             var deletedFeatures = await _featureService.GetAllPassiveFeatures();
-            return View(deletedFeatures);
+            var query = deletedFeatures.AsQueryable();
+            var paginated = PaginatedList<FeatureViewModel>.Create(query,6,page);
+            return View(paginated);
         }
 
         public async Task<IActionResult> HardDelete(Guid featureId)

@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@inject AddMeTour.Service.Services.Abstractions.ILayoutService layoutservice
+@{
+    var user = await layoutservice.GetUser();
+}
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="~/assets/css/vendors.css">
@@ -58,20 +63,14 @@
                             <i class="icon-menu-2 text-20"></i>
                         </button>
 
-                        <div class="single-field relative d-flex items-center md:d-none ml-30">
-                            <input class="pl-50 border-light text-dark-1 h-50 rounded-8" type="email" placeholder="Search">
-                            <button class="absolute d-flex items-center h-full">
-                                <i class="icon-search text-20 px-15 text-dark-1"></i>
-                            </button>
-                        </div>
                     </div>
                 </div>
 
                 <div class="col-auto">
                     <div class="d-flex items-center">
-
+                        <p><b>@user.Fullname</b></p>
                         <div class="pl-15">
-                            <img src="~/assets/img/team/cavidbey.jpg" alt="image" class="size-50 rounded-22 object-cover">
+                            <img src="~/assets/img/team/@user.ProfileImageUrl" alt="image" class="size-50 rounded-22 object-cover">
                         </div>
 
                         <div class="d-none xl:d-flex x-gap-20 items-center pl-20" data-x="header-mobile-icons" data-x-toggle="text-white">
@@ -182,7 +181,7 @@
                 </div>
                 <div class="sidebar__item">
                     <div class="sidebar__button ">
-                        <a href="db-settings.html" class="d-flex items-center text-15 lh-1 fw-500">
+                        <a asp-action="index" asp-controller="setting" class="d-flex items-center text-15 lh-1 fw-500">
                             <img src="~/assets/img/dashboard/sidebar/gear.svg" alt="image" class="mr-15">
                             Settings
                         </a>
@@ -191,7 +190,7 @@
 
                 <div class="sidebar__item">
                     <div class="sidebar__button ">
-                        <a href="#" class="d-flex items-center text-15 lh-1 fw-500">
+                        <a asp-action="logout" asp-controller="account" class="d-flex items-center text-15 lh-1 fw-500">
                             <img src="~/assets/img/dashboard/sidebar/log-out.svg" alt="image" class="mr-15">
                             Logout
                         </a>
@@ -215,6 +214,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAz77U5XQuEME6TpftaMdX0bBelQxXRlM"></script>
     <script src="https://unpkg.com/@@googlemaps/markerclusterer/dist/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     <script src="~/assets/js/vendors.js"></script>
     <script src="~/assets/js/main.js"></script>

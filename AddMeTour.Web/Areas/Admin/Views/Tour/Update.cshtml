@@ -46,9 +46,16 @@
                     </div>
                     <div class="col-12">
                         <div class="form-input ">
-                            <input asp-for="Duration" type="text" required>
+                            <input asp-for="Duration" type="number" required>
                             <label asp-for="Duration" class="lh-1 text-16 text-light-1">Duration</label>
                             <span asp-validation-for="Duration" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-input ">
+                            <input asp-for="Rating" type="text" required>
+                            <label asp-for="Rating" class="lh-1 text-16 text-light-1">Rating</label>
+                            <span asp-validation-for="Rating" class="text-danger"></span>
                         </div>
                     </div>
                     <div class="col-12">

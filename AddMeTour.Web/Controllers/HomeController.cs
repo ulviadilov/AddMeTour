@@ -2,7 +2,9 @@
 using AddMeTour.Entity.ViewModels.Home;
 using AddMeTour.Entity.ViewModels.Masthead;
 using AddMeTour.Entity.ViewModels.Rating;
+using AddMeTour.Entity.ViewModels.Tour;
 using AddMeTour.Entity.ViewModels.Tour.Category;
+using AddMeTour.Service.Helpers.Pagination;
 using AddMeTour.Service.Services.Abstraction;
 using AddMeTour.Service.Services.Abstractions;
 using Microsoft.AspNetCore.Mvc;
@@ -31,22 +33,27 @@ namespace AddMeTour.Controllers
             _categoryService = categoryService;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
             List<MastheadViewModel> mastheads = await _mastheadService.GetAllMastheadsNonDeletedAsync();
             List<RatingViewModel> ratings = await _ratingService.GetAllRatingsNonDeletedAsync();
             List<Country> countries = await _tourService.GetAllCountriesAsync();
             List<CategoryViewModel> categories = await _categoryService.GetAllCategoriesNonDeletedAsync();
+            var tours = await _tourService.GetAllBestToursNonDeletedAsync();
+            var query = tours.AsQueryable();
+            var paginated = PaginatedList<TourViewModel>.Create(query,6,page);
             IndexVM indexVM = new IndexVM
             {
                 Features =  await _featureService.GetAllFeaturesNonDeletedAsync(),
                 Masthead = mastheads.FirstOrDefault(),
                 Rating = ratings.FirstOrDefault(),
                 homeReviews = await _homeReviewService.GetAllHomeReviewsNonDeletedAsync(),
-                Tours = await _tourService.GetAllBestToursNonDeletedAsync(),
+                Tours = paginated,
                 Countries = countries,
                 Categories = categories
             };
+
+            
             return View(indexVM);
         }
 

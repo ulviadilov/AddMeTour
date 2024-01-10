@@ -1,4 +1,7 @@
-﻿
+﻿@inject AddMeTour.Service.Services.Abstractions.ISettingService settingService
+@{
+    var settings = await settingService.GetAllSettingsAsync();
+}
 <footer class="footer -type-1 text-white bg-dark-2">
     <div class="container">
         <div class="pt-60 pb-60">
@@ -8,12 +11,12 @@
 
                     <div class="mt-30">
                         <div class="text-14 mt-30">Toll Free Customer Care</div>
-                        <a href="#" class="text-18 fw-500 mt-5">+(1) 123 456 7890</a>
+                        <a href="#" class="text-18 fw-500 mt-5">@(settings.FirstOrDefault(x => x.Key == "Phone")?.Value)</a>
                     </div>
 
                     <div class="mt-35">
                         <div class="text-14 mt-30">Need live support?</div>
-                        <a href="#" class="text-18 fw-500 mt-5">hi@gotrip.com</a>
+                        <a href="#" class="text-18 fw-500 mt-5">@(settings.FirstOrDefault(x => x.Key == "Email")?.Value)</a>
                     </div>
                 </div>
 
@@ -29,9 +32,9 @@
                 <div class="col-xl-2 col-lg-4 col-sm-6">
                     <h5 class="text-16 fw-500 mb-30">Social Medias</h5>
                     <div class="d-flex y-gap-10 flex-column">
-                        <a href="#">Instagram</a>
-                        <a href="#">Linkedin</a>
-                        <a href="#">Facebook</a>
+                        <a href="@(settings.FirstOrDefault(x => x.Key == "Instagram")?.Value)">Instagram</a>
+                        <a href="@(settings.FirstOrDefault(x => x.Key == "Linkedin")?.Value)">Linkedin</a>
+                        <a href="@(settings.FirstOrDefault(x => x.Key == "Facebook")?.Value)">Facebook</a>
                     </div>
                 </div>
 
@@ -55,9 +58,9 @@
                     <div class="row y-gap-10 items-center">
                         <div class="col-auto">
                             <div class="d-flex x-gap-20 items-center">
-                                <a href="#"><i class="icon-facebook text-14"></i></a>
-                                <a href="#"><i class="icon-instagram text-14"></i></a>
-                                <a href="#"><i class="icon-linkedin text-14"></i></a>
+                                <a href="@(settings.FirstOrDefault(x => x.Key == "Instagram")?.Value)"><i class="icon-facebook text-14"></i></a>
+                                <a href="@(settings.FirstOrDefault(x => x.Key == "Linkedin")?.Value)"><i class="icon-instagram text-14"></i></a>
+                                <a href="@(settings.FirstOrDefault(x => x.Key == "Facebook")?.Value)"><i class="icon-linkedin text-14"></i></a>
                             </div>
                         </div>
                     </div>

@@ -2,13 +2,16 @@
     Layout = "_Layout2";
 }
 @model SearchByCategoryViewModel
-<section class="pt-40 pb-40 bg-light-2">
+<section class="section-bg layout-pt-lg layout-pb-lg">
+    <div class="section-bg__item col-12">
+        <img src="~/assets/img/general/headerimage.jpg" alt="image">
+    </div>
+
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="text-center">
-                    <h1 class="text-30 fw-600">@Model.Category.CategoryName Tours in Caucasus</h1>
-                </div>
+        <div class="row justify-center text-center">
+            <div class="col-xl-6 col-lg-8 col-md-10">
+                <h1 class="text-40 md:text-25 fw-600 text-white">ALL @Model.Category.CategoryName.ToUpper() TOURS</h1>
+                <div class="text-white mt-15">Explore Caucasus with Us</div>
             </div>
         </div>
     </div>
@@ -452,96 +455,36 @@
                     }
 
                 </div>
-
-                <div class="border-top-light mt-30 pt-30">
-                    <div class="row x-gap-10 y-gap-20 justify-between md:justify-center">
-                        <div class="col-auto md:order-1">
-                            <button class="button -blue-1 size-40 rounded-full border-light">
-                                <i class="icon-chevron-left text-12"></i>
-                            </button>
-                        </div>
-
-                        <div class="col-md-auto md:order-3">
-                            <div class="row x-gap-20 y-gap-20 items-center md:d-none">
-
-                                <div class="col-auto">
-
-                                    <div class="size-40 flex-center rounded-full">1</div>
-
-                                </div>
-
-                                <div class="col-auto">
-
-                                    <div class="size-40 flex-center rounded-full bg-dark-1 text-white">2</div>
-
-                                </div>
-
-                                <div class="col-auto">
-
-                                    <div class="size-40 flex-center rounded-full">3</div>
-
-                                </div>
-
-                                <div class="col-auto">
-
-                                    <div class="size-40 flex-center rounded-full bg-light-2">4</div>
-
-                                </div>
-
-                                <div class="col-auto">
-
-                                    <div class="size-40 flex-center rounded-full">5</div>
-
-                                </div>
-
-                                <div class="col-auto">
-
-                                    <div class="size-40 flex-center rounded-full">...</div>
-
-                                </div>
-
-                                <div class="col-auto">
-
-                                    <div class="size-40 flex-center rounded-full">20</div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="row x-gap-10 y-gap-20 justify-center items-center d-none md:d-flex">
-
-                                <div class="col-auto">
-
-                                    <div class="size-40 flex-center rounded-full">1</div>
-
-                                </div>
-
-                                <div class="col-auto">
-
-                                    <div class="size-40 flex-center rounded-full bg-dark-1 text-white">2</div>
-
-                                </div>
-
-                                <div class="col-auto">
-
-                                    <div class="size-40 flex-center rounded-full">3</div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="text-center mt-30 md:mt-10">
-                                <div class="text-14 text-light-1">1 – 20 of 300+ properties found</div>
-                            </div>
-                        </div>
-
-                        <div class="col-auto md:order-2">
-                            <button class="button -blue-1 size-40 rounded-full border-light">
-                                <i class="icon-chevron-right text-12"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+                <nav style="display:flex;justify-content:center" aria-label="...">
+                    <ul class="pagination">
+                        @if (Model.Tours.HasPrevious)
+                        {
+                            <li class="page-item">
+                                <a class="page-link" asp-action="index" asp-route-page="@(Model.Tours.ActivePage-1)" tabindex="-1">Previous</a>
+                            </li>
+                            @if (Model.Tours.ActivePage > 2)
+                            {
+                                <li class="page-item"><a asp-action="index" asp-route-page="1" class="page-link">1</a></li>
+                            }
+                            <li class="page-item"><a asp-action="index" asp-route-page="@(Model.Tours.ActivePage-1)" class="page-link">@(Model.Tours.ActivePage - 1)</a></li>
+                        }
+                        @if (Model.Tours.TotalPageCount != 1)
+                        {
+                            <li class="page-item active"><a asp-action="index" asp-route-page="@Model.Tours.ActivePage" class="page-link">@Model.Tours.ActivePage</a></li>
+                        }
+                        @if (Model.Tours.HasNext)
+                        {
+                            <li class="page-item"><a asp-action="index" asp-route-page="@(Model.Tours.ActivePage+1)" class="page-link">@(Model.Tours.ActivePage + 1)</a></li>
+                            @if (Model.Tours.ActivePage != Model.Tours.TotalPageCount - 1)
+                            {
+                                <li class="page-item"><a asp-action="index" asp-route-page="@Model.Tours.TotalPageCount" class="page-link">@Model.Tours.TotalPageCount</a></li>
+                            }
+                            <li class="page-item">
+                                <a class="page-link" asp-action="index" asp-route-page="@(Model.Tours.ActivePage+1)">Next</a>
+                            </li>
+                        }
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>

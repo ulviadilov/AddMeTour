@@ -1,4 +1,4 @@
-﻿@model List<CountryViewModel>
+﻿@model PaginatedList<CountryViewModel>
 <div class="main-content">
     <div class="page-content">
         <div class="container-fluid">
@@ -38,6 +38,37 @@
                 }
             </tbody>
         </table>
+        <nav style="display:flex;justify-content:center" aria-label="...">
+            <ul class="pagination">
+                @if (Model.HasPrevious)
+                {
+                    <li class="page-item ">
+                        <a class="page-link" asp-action="index" asp-route-page="@(Model.ActivePage-1)" tabindex="-1">Previous</a>
+                    </li>
+                    @if (Model.ActivePage != 2)
+                    {
+                        <li class="page-item "><a asp-action="index" asp-route-page="1" class="page-link">1</a></li>
+
+                    }
+                    <li class="page-item "><a asp-action="index" asp-route-page="@(Model.ActivePage-1)" class="page-link">@(Model.ActivePage - 1)</a></li>
+                }
+                @if (Model.TotalPageCount > 1)
+                {
+                    <li class="page-item active"><a asp-action="index" asp-route-page="@Model.ActivePage" class="page-link">@Model.ActivePage</a></li>
+                }
+                @if (Model.HasNext)
+                {
+                    <li class="page-item "><a asp-action="index" asp-route-page="@(Model.ActivePage+1)" class="page-link">@(Model.ActivePage + 1)</a></li>
+                    @if (Model.ActivePage != Model.TotalPageCount - 1)
+                    {
+                        <li class="page-item "><a asp-action="index" asp-route-page="@Model.TotalPageCount" class="page-link">@Model.TotalPageCount</a></li>
+
+                    }
+                    <li class="page-item">
+                        <a class="page-link" asp-action="index" asp-route-page="@(Model.ActivePage+1)">Next</a>
+                    </li>
+                }
+            </ul>
+        </nav>
     </div>
-</div>
 </div>

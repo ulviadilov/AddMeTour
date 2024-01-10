@@ -18,6 +18,7 @@ namespace AddMeTour.Entity.ViewModels.Tour
         public decimal Price { get; set; }
         public byte GroupSize { get; set; }
         public byte Duration { get; set; }
+        public double Rating { get; set; }
         public bool IsBest { get; set; }
         public string DepartureDetails { get; set; }
         public List<Guid>? ImageIds { get; set; }

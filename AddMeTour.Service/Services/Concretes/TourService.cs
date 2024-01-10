@@ -79,7 +79,8 @@ namespace AddMeTour.Service.Services.Concretes
                 Overview = tourAddVM.Overview,
                 Price = tourAddVM.Price,
                 TourName = tourAddVM.TourName,
-                IsBest = tourAddVM.IsBest
+                IsBest = tourAddVM.IsBest,
+                Rating = tourAddVM.Rating
             };
 
 
@@ -181,6 +182,7 @@ namespace AddMeTour.Service.Services.Concretes
                 DepartureDetails = tour.DepartureDetails,
                 TourName = tour.TourName,
                 TourId = tour.Id,
+                Rating= tour.Rating,
                 InclusionIds = new List<Guid>(),
                 ExclusionIds = new List<Guid>(),
                 CategoryIds = new List<Guid>(),
@@ -379,6 +381,7 @@ namespace AddMeTour.Service.Services.Concretes
             existTour.GroupSize = tourUpdateVM.GroupSize;
             existTour.Overview = tourUpdateVM.Overview;
             existTour.IsActive = tourUpdateVM.IsActive;
+            existTour.Rating = tourUpdateVM.Rating; 
             existTour.TourName = tourUpdateVM.TourName;
             existTour.IsBest = tourUpdateVM.IsBest;
             await _unitOfWork.SaveAsync();

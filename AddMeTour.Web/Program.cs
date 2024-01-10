@@ -2,6 +2,8 @@ using AddMeTour.Data.Context;
 using AddMeTour.Service.Extensions;
 using AddMeTour.Data.Extensions;
 using Microsoft.EntityFrameworkCore;
+using AddMeTour.Entity.Entities.User;
+using Microsoft.AspNetCore.Identity;
 
 namespace AddMeTour
 {
@@ -14,6 +16,17 @@ namespace AddMeTour
             builder.Services.LoadDataLayerExtension(builder.Configuration);
             builder.Services.LoadServiceLayerExtension();
             builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+            {
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequireLowercase = true;
+                opt.Password.RequireUppercase = true;
+                opt.Password.RequireDigit = true;
+                opt.Password.RequiredUniqueChars = 0;
+                opt.Password.RequiredLength = 8;
+
+                opt.User.RequireUniqueEmail = false;
+            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
             var app = builder.Build();
 
@@ -23,8 +36,10 @@ namespace AddMeTour
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseStatusCodePagesWithReExecute("/Error/NotFound", "?code={0}");
+            app.UseAuthentication();
             app.UseAuthorization();
+
             
             app.MapControllerRoute(
             name: "areas",

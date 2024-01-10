@@ -4,11 +4,14 @@ using AddMeTour.Entity.ViewModels.HomeReviews;
 using AddMeTour.Service.Helpers.Images;
 using AddMeTour.Service.Services.Abstractions;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace AddMeTour.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin,Developer")]
     public class HomeReviewController : Controller
     {
         private readonly IMapper _mapper;

@@ -1,16 +1,20 @@
 ﻿using AddMeTour.Entity.Entities.Tour;
 using AddMeTour.Entity.ViewModels.Tour;
 using AddMeTour.Service.Helpers.Images;
+using AddMeTour.Service.Helpers.Pagination;
 using AddMeTour.Service.Services.Abstractions;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Data;
 using System.Threading.Tasks;
 
 namespace AddMeTour.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin,Developer")]
     public class TourController : Controller
     {
         private readonly IMapper _mapper;
@@ -33,10 +37,12 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
             _languageService = languageService ?? throw new ArgumentNullException(nameof(languageService));
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
             var tours = await _tourService.GetAllToursNonDeletedAsync();
-            return View(tours);
+            var query = tours.AsQueryable();
+            var paginated = PaginatedList<TourViewModel>.Create(query,6,page);
+            return View(paginated);
         }
 
         [HttpGet]
@@ -184,10 +190,12 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
             return RedirectToAction("DeletedTours");
         }
 
-        public async Task<IActionResult> DeletedTours()
+        public async Task<IActionResult> DeletedTours(int page = 1)
         {
             var tours = await _tourService.GetAllPassiveTours();
-            return View(tours);
+            var query = tours.AsQueryable();
+            var paginated = PaginatedList<TourViewModel>.Create(query,6,page);
+            return View(paginated);
         }
     }
 }

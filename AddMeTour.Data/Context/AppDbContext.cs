@@ -1,5 +1,7 @@
 ﻿using AddMeTour.Entity.Entities.Home;
 using AddMeTour.Entity.Entities.Tour;
+using AddMeTour.Entity.Entities.User;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace AddMeTour.Data.Context
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext
     {
         public AppDbContext()
         {
@@ -35,6 +37,8 @@ namespace AddMeTour.Data.Context
         public DbSet<TourImage> TourImages { get; set; }
         public DbSet<TourInclusion> TourInclusions { get; set; }
         public DbSet<TourLanguage> TourLanguages { get; set; }
+        public DbSet<Setting> Settings { get; set; }
+        public DbSet<AppUser> AppUsers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

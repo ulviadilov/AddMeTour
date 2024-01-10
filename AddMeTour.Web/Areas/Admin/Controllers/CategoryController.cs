@@ -1,6 +1,8 @@
 ﻿using AddMeTour.Data.UnitOfWorks.Abstractions;
 using AddMeTour.Entity.ViewModels.Tour.Category;
+using AddMeTour.Service.Helpers.Pagination;
 using AddMeTour.Service.Services.Abstractions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
@@ -8,6 +10,7 @@ using System.Threading.Tasks;
 namespace AddMeTour.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles ="SuperAdmin,Developer")]
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;
@@ -17,10 +20,12 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
             _categoryService = categoryService ?? throw new ArgumentNullException(nameof(categoryService));
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
             var categories = await _categoryService.GetAllCategoriesNonDeletedAsync();
-            return View(categories);
+            var query = categories.AsQueryable();
+            var paginatedCategories = PaginatedList<CategoryViewModel>.Create(query, 6, page);
+            return View(paginatedCategories);
         }
 
         [HttpGet]
@@ -94,10 +99,12 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
             return RedirectToAction("DeletedCategories");
         }
 
-        public async Task<IActionResult> DeletedCategories()
+        public async Task<IActionResult> DeletedCategories(int page = 1)
         {
             var deletedCategories = await _categoryService.GetAllPassiveCategories();
-            return View(deletedCategories);
+            var query = deletedCategories.AsQueryable();
+            var paginatedCategories = PaginatedList<CategoryViewModel>.Create(query, 6, page);
+            return View(paginatedCategories);
         }
 
         public async Task<IActionResult> RecoverCategory(Guid categoryId)

@@ -1,4 +1,6 @@
-﻿@{
+﻿@inject AddMeTour.Service.Services.Abstractions.ISettingService settingService
+@{
+    var settings = await settingService.GetAllSettingsAsync();
     Layout = "_Layout2";
 }
 @model TourDetailViewModel
@@ -195,7 +197,7 @@
                     <div class="w-360 lg:w-full d-flex flex-column items-center">
                         <div class="px-30 py-30 rounded-4 border-light bg-white shadow-4">
                             <div class="text-14 text-light-1">
-                                From <span class="text-20 fw-500 text-dark-1 ml-5">US$72</span>
+                                Price for adults:  <span class="text-20 fw-500 text-dark-1 ml-5">$@Model.Tour.Price</span>
                             </div>
 
                             <div class="row y-gap-20 pt-30">
@@ -270,9 +272,9 @@
                                 </div>
 
                                 <div class="col-12">
-                                    <button class="button -dark-1 py-15 px-35 h-60 col-12 rounded-4 bg-blue-1 text-white">
+                                    <a href="@settings.FirstOrDefault(x => x.Key == "Book")?.Value" class="button -dark-1 py-15 px-35 h-60 col-12 rounded-4 bg-blue-1 text-white">
                                         Book Now
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -293,14 +295,13 @@
         <div class="row justify-between items-end">
             <div class="col-auto">
                 <div class="sectionTitle -md">
-                    <h2 class="sectionTitle__title">Similar Experiences</h2>
-                    <p class=" sectionTitle__text mt-5 sm:mt-0">Interdum et malesuada fames ac ante ipsum</p>
+                    <h2 class="sectionTitle__title">Recommended Experiences</h2>
                 </div>
             </div>
 
             <div class="col-auto">
 
-                <a href="#" class="button h-50 px-24 -blue-1 bg-blue-1-05 text-blue-1">
+                <a asp-action="index" asp-controller="tour" class="button h-50 px-24 -blue-1 bg-blue-1-05 text-blue-1">
                     See All <div class="icon-arrow-top-right ml-15"></div>
                 </a>
 

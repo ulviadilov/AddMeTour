@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Entity\bin\Release\net7.0\AddMeTour.Entity.deps.json
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Entity\bin\Release\net7.0\AddMeTour.Entity.dll
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Entity\bin\Release\net7.0\AddMeTour.Entity.pdb
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Entity\bin\Release\net7.0\AddMeTour.Core.dll
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Entity\bin\Release\net7.0\AddMeTour.Core.pdb
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Entity\obj\Release\net7.0\AddMeTour.Entity.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Entity\obj\Release\net7.0\AddMeTour.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Entity\obj\Release\net7.0\AddMeTour.Entity.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Entity\obj\Release\net7.0\AddMeTour.Entity.AssemblyInfo.cs
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Entity\obj\Release\net7.0\AddMeTour.Entity.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Entity\obj\Release\net7.0\AddMeTour.Entity.csproj.CopyComplete
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Entity\obj\Release\net7.0\AddMeTour.Entity.dll
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Entity\obj\Release\net7.0\refint\AddMeTour.Entity.dll
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Entity\obj\Release\net7.0\AddMeTour.Entity.pdb
+C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Entity\obj\Release\net7.0\ref\AddMeTour.Entity.dll

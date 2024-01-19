@@ -1,0 +1,2477 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\AddMeTour.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AddMeTour.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\css\\vendors.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendors.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\activities\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\activities\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\activities\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\activities\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\activities\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\activities\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\activities\\2\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\activities\\2\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\activities\\2\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\activities\\2\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\activities\\2\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\activities\\2\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\activities\\2\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\activities\\2\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\activities\\2\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\activities\\2\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\activities\\2\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\activities\\2\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\activities\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\activities\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\activities\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\activities\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\app\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\app\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\app\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\app\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\app\\2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\app\\2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\avatars\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\avatars\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\avatars\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\avatars\\testimonials\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\testimonials\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\avatars\\testimonials\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\testimonials\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\avatars\\testimonials\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\testimonials\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\avatars\\testimonials\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\testimonials\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\avatars\\testimonials\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\testimonials\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\avatars\\testimonials\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\testimonials\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\backgrounds\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\backgrounds\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\backgrounds\\10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\backgrounds\\11.png",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\backgrounds\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\backgrounds\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\backgrounds\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\backgrounds\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\backgrounds\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\backgrounds\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\backgrounds\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\backgrounds\\9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\backgrounds\\testimonials\\bg-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\testimonials\\bg-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\backgrounds\\testimonials\\bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\testimonials\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\2\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\2\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\2\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\2\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\2\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\2\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\2\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\2\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\grids\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\grids\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\grids\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\grids\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\grids\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\grids\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\grids\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\grids\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\grids\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\grids\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\grids\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\grids\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\grids\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\grids\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\grids\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\grids\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\grids\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\grids\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\grids\\9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\grids\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\list-2\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\list-2\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\list-2\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\list-2\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\list-2\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\list-2\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\list-2\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\list-2\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\list-2\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\list-2\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\list-2\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\list-2\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\sidebar\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\sidebar\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\sidebar\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\sidebar\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\sidebar\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\sidebar\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\sidebar\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\sidebar\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\single\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\single\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\single\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\single\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\single\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\single\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\blog\\single\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\single\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\booking-pages\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\booking-pages\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\booking-pages\\card.png",
+      "PackagePath": "staticwebassets\\assets\\img\\booking-pages\\card.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\booking-pages\\icons\\clock.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\booking-pages\\icons\\clock.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\booking-pages\\icons\\coin.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\booking-pages\\icons\\coin.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cars\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\cars\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cars\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cars\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cars\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cars\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cars\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cars\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cars\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cars\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cars\\slider\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\cars\\slider\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cars\\slider\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cars\\slider\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cars\\slider\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cars\\slider\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cars\\slider\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cars\\slider\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cars\\slider\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cars\\slider\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cars\\slider\\slides\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\cars\\slider\\slides\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cars\\slider\\slides\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cars\\slider\\slides\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cars\\slider\\slides\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cars\\slider\\slides\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cars\\slider\\slides\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cars\\slider\\slides\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cars\\slider\\slides\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cars\\slider\\slides\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cities\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cities\\1\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\1\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cities\\1\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\1\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cities\\1\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\1\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cities\\1\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\1\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cities\\1\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\1\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cities\\1\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\1\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cities\\1\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\1\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cities\\1\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\1\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cities\\1\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\1\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\clients\\1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\clients\\2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\clients\\3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\3.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\clients\\4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\4.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\clients\\5.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\5.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\clients\\6.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\6.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cruise-list\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\cruise-list\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cruise-list\\single\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\cruise-list\\single\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cruise-list\\single\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cruise-list\\single\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cruise-list\\single\\map.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cruise-list\\single\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cruises\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\cruises\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cruises\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cruises\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cruises\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cruises\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cruises\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cruises\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\cruises\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cruises\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\icons\\1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\icons\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\icons\\2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\icons\\2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\icons\\3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\icons\\3.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\icons\\4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\icons\\4.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\sidebar\\airplane.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\sidebar\\airplane.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\sidebar\\booking.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\sidebar\\booking.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\sidebar\\bookmark.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\sidebar\\bookmark.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\sidebar\\canoe.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\sidebar\\canoe.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\sidebar\\compass.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\sidebar\\compass.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\sidebar\\gear.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\sidebar\\gear.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\sidebar\\hotel.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\sidebar\\hotel.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\sidebar\\house.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\sidebar\\house.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\sidebar\\log-out.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\sidebar\\log-out.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\sidebar\\map.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\sidebar\\map.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\sidebar\\sneakers.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\sidebar\\sneakers.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\dashboard\\sidebar\\taxi.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dashboard\\sidebar\\taxi.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\1\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\1\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\1\\1.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\1\\1.webp"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\1\\2.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\1\\2.webp"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\1\\3.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\1\\3.webp"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\1\\4.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\1\\4.webp"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\1\\5.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\1\\5.webp"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\2\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\2\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\2\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\2\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\2\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\2\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\2\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\2\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\2\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\2\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\2\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\2\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\2\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\2\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\3\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\3\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\3\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\3\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\3\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\3\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\3\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\3\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\3\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\3\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\3\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\3\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\3\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\3\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\4\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\4\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\4\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\4\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\4\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\4\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\4\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\4\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\4\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\4\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\4\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\4\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\4\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\4\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\5\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\5\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\5\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\5\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\5\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\5\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\5\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\5\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\5\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\5\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\5\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\5\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\destinations\\5\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\destinations\\5\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\featureIcons\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\featureIcons\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\featureIcons\\1\\1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\featureIcons\\1\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\featureIcons\\1\\2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\featureIcons\\1\\2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\featureIcons\\1\\3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\featureIcons\\1\\3.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\featureIcons\\2\\1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\featureIcons\\2\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\featureIcons\\2\\2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\featureIcons\\2\\2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\featureIcons\\2\\3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\featureIcons\\2\\3.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\featureIcons\\3\\1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\featureIcons\\3\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\featureIcons\\3\\2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\featureIcons\\3\\2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\featureIcons\\3\\3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\featureIcons\\3\\3.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\featureIcons\\3\\4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\featureIcons\\3\\4.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\3.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\features\\travel.png",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\travel.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\flightIcons\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\flightIcons\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\flightIcons\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\flightIcons\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\flightIcons\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\flightIcons\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\flights\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\flights\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\flights\\plane.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\flights\\plane.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\gallery\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\gallery\\1\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\1\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\gallery\\1\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\1\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\gallery\\1\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\1\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\gallery\\1\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\1\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\gallery\\1\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\1\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\gallery\\1\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\1\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\404.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\404.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\baku.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\baku.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\headerimage.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\headerimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\lang.png",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\lang.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\line.png",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\line.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\logo-dark-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\logo-dark-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\logo-dark-3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\logo-dark-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\logo-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\logo-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\logo-light-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\logo-light-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\logo-light.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\logo-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\map.png",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\menu.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\general\\menu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\2\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\2\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\2\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\2\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\2\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\2\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\2\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\2\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\2\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\2\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\3\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\3\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\3\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\3\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\3\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\3\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\3\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\3\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\3\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\3\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\3\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\3\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\3\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\3\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\3\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\3\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\4\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\4\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\4\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\4\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\4\\10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\4\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\4\\11.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\4\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\4\\12.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\4\\12.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\4\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\4\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\4\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\4\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\4\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\4\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\4\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\4\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\4\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\4\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\4\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\4\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\4\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\4\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\4\\9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\4\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\hotels\\9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotels\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\icons\\health.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\health.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\1\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\1\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\1\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\1\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\1\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\1\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\1\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\1\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\1\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\1\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\1\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\1\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\2\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\2\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\2\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\2\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\2\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\2\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\2\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\2\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\2\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\2\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\2\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\2\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\2\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\2\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\2\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\2\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\2\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\2\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\2\\9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\2\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\3\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\3\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\3\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\3\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\3\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\3\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\3\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\3\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\single\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\single\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\single\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\single\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\single\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\single\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\single\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\single\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\single\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\single\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\activity\\single\\map.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\activity\\single\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\1\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\1\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\1\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\1\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\1\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\1\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\1\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\1\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\1\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\1\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\1\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\1\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\1\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\1\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\1\\badge.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\1\\badge.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\11.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\12.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\12.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\13.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\13.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\14.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\14.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\15.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\15.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\car\\2\\9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\car\\2\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\1\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\1\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\1\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\1\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\1\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\1\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\1\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\1\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\1\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\1\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\2\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\2\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\2\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\2\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\2\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\2\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\2\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\2\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\2\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\2\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\2\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\2\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\2\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\2\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\2\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\2\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\2\\9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\2\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\single\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\single\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\single\\1-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\single\\1-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\single\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\single\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\single\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\single\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\single\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\single\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\single\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\single\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\cruise\\single\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\cruise\\single\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\1\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\1\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\1\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\1\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\1\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\1\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\1\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\1\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\1\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\1\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\1\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\1\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\1\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\1\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\1\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\1\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\1\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\1\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\2\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\2\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\2\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\2\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\2\\10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\2\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\2\\11.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\2\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\2\\12.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\2\\12.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\2\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\2\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\2\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\2\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\2\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\2\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\2\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\2\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\2\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\2\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\2\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\2\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\2\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\2\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\hotel\\2\\9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\hotel\\2\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\1\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\1\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\1\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\1\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\1\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\1\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\1\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\1\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\1\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\1\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\1\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\1\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\2\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\2\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\2\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\2\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\2\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\2\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\2\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\2\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\2\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\2\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\2\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\2\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\2\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\2\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\2\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\2\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\2\\9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\2\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\3\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\3\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\3\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\3\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\3\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\3\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\3\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\3\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\single\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\single\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\single\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\single\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\single\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\single\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\single\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\single\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\single\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\single\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\rental\\single\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\rental\\single\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\1\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\1\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\1\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\1\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\1\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\1\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\1\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\1\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\1\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\1\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\2\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\2\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\2\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\2\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\2\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\2\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\2\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\2\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\2\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\2\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\2\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\2\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\2\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\2\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\2\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\2\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\2\\9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\2\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\single\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\single\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\single\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\single\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\single\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\single\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\lists\\tour\\single\\map.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lists\\tour\\single\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\map-filter\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\map-filter\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\map-filter\\map.png",
+      "PackagePath": "staticwebassets\\assets\\img\\map-filter\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\masthead\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\2\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\masthead\\2\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\2\\bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\masthead\\2\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\2\\big.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\masthead\\2\\big.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\2\\small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\masthead\\2\\small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\masthead\\2\\small2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\masthead\\2\\small2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\misc\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\misc\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\misc\\avatar-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\misc\\avatar-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\misc\\bg-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\misc\\bg-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\misc\\bt-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\misc\\bt-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\misc\\images.png",
+      "PackagePath": "staticwebassets\\assets\\img\\misc\\images.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\misc\\map.png",
+      "PackagePath": "staticwebassets\\assets\\img\\misc\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\misc\\quote-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\misc\\quote-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\misc\\quote-light.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\misc\\quote-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\misc\\quote.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\misc\\quote.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\newsletter\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\newsletter\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\newsletter\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\newsletter\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\about\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\about\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\about\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\about\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\about\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\about\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\become-expert\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\become-expert\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\become-expert\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\become-expert\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\become-expert\\icons\\1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\become-expert\\icons\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\become-expert\\icons\\2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\become-expert\\icons\\2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\become-expert\\icons\\3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\become-expert\\icons\\3.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\become-expert\\lines\\1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\become-expert\\lines\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\become-expert\\lines\\2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\become-expert\\lines\\2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\contact\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\contact\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\contact\\map.png",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\contact\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\destinations\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\destinations\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\destinations\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\destinations\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\destinations\\map.png",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\destinations\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\help\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\help\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\help\\icons\\1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\help\\icons\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\help\\icons\\2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\help\\icons\\2.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\help\\icons\\3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\help\\icons\\3.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\help\\icons\\4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\help\\icons\\4.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\help\\icons\\5.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\help\\icons\\5.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\pages\\help\\icons\\6.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\pages\\help\\icons\\6.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\rentals\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\rentals\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\rentals\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\rentals\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\rentals\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\rentals\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\rentals\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\rentals\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\rentals\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\rentals\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\stays\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\stays\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\stays\\1\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\stays\\1\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\stays\\1\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\stays\\1\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\stays\\1\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\stays\\1\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\stays\\1\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\stays\\1\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\stays\\1\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\stays\\1\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\stays\\1\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\stays\\1\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\team\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\team\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\team\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\team\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\team\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\team\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\team\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\team\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\team\\cavidbey.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\cavidbey.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\team\\ulvi.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\ulvi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\1\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\1\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\1\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\1\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\1\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\1\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\1\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\1\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\1\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\1\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\2\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\2\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\2\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\2\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\2\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\2\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\2\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\2\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\2\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\2\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\2\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\2\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\testimonials\\2\\quote.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\2\\quote.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\Screenshot 2023-11-18 201651.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\Screenshot 2023-11-18 201651.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\Screenshot 2023-11-18 220445.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\Screenshot 2023-11-18 220445.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\Screenshot 2023-11-18 221115.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\Screenshot 2023-11-18 221115.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\Screenshot 2023-11-18 221706.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\Screenshot 2023-11-18 221706.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\Screenshot 2023-11-19 194948.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\Screenshot 2023-11-19 194948.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\Screenshot 2024-01-05 144152.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\Screenshot 2024-01-05 144152.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\tours\\image.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tours\\image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\video\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\img\\video\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\video\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\video\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\video\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\video\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\js\\vendors.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendors.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\sass\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\abstracts\\_tools.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\abstracts\\_tools.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\abstracts\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\abstracts\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\animations\\animations.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\animations\\animations.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\animations\\core.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\animations\\core.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\animations\\easings.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\animations\\easings.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\base\\_base.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\base\\_base.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\base\\_button.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\base\\_button.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\base\\_form.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\base\\_form.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\base\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\base\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\404.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\404.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\accordion.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\blogCard.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\blogCard.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\cardImage.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\cardImage.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\citiesCard.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\citiesCard.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\ctaCard.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\ctaCard.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\dashboard.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\dashboard.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\dragSlider.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\dragSlider.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\featureIcon.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\featureIcon.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\footer.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\header.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\header.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\hotelsCard.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\hotelsCard.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\mainSearch.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\mainSearch.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\mapFilter.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\mapFilter.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\masthead.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\masthead.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\preloader.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\preloader.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\sectionTitle.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\sectionTitle.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\select.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\select.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\tabs.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\tabs.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\components\\testimonials.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\testimonials.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\framework\\main.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\framework\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\main.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\utilities\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\utilities\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\vendors\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\sass\\vendors\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\vendors\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\assets\\sass\\vendors\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\vendors\\icons.css",
+      "PackagePath": "staticwebassets\\assets\\sass\\vendors\\icons.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\vendors\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\assets\\sass\\vendors\\nouislider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\sass\\vendors\\swiper.min.css",
+      "PackagePath": "staticwebassets\\assets\\sass\\vendors\\swiper.min.css"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.AddMeTour.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.AddMeTour.Web.props",
+      "PackagePath": "build\\AddMeTour.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AddMeTour.Web.props",
+      "PackagePath": "buildMultiTargeting\\AddMeTour.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.AddMeTour.Web.props",
+      "PackagePath": "buildTransitive\\AddMeTour.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

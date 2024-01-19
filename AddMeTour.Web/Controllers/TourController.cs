@@ -15,8 +15,9 @@ namespace AddMeTour.Web.Controllers
         private readonly ILanguageService _languageService;
         private readonly IInclusionService _inclusionService;
         private readonly IExclusionService _exclusionService;
+        private readonly IDestinationService _destinationService;
 
-        public TourController(ITourService tourService, ICategoryService categoryService, ICountryService countryService, ILanguageService languageService, IInclusionService inclusionService, IExclusionService exclusionService)
+        public TourController(ITourService tourService, ICategoryService categoryService, ICountryService countryService, ILanguageService languageService, IInclusionService inclusionService, IExclusionService exclusionService, IDestinationService destinationService)
         {
             _tourService = tourService;
             _categoryService = categoryService;
@@ -24,6 +25,7 @@ namespace AddMeTour.Web.Controllers
             _languageService = languageService;
             _inclusionService = inclusionService;
             _exclusionService = exclusionService;
+            _destinationService = destinationService;
         }
         public async Task<IActionResult> Index(int page = 1)
         {
@@ -90,6 +92,7 @@ namespace AddMeTour.Web.Controllers
             var bestTours = await _tourService.GetAllBestToursNonDeletedAsync();
             var inclusions = await _inclusionService.GetAllInclusionsNonDeletedAsync();
             var exlusions = await _exclusionService.GetAllExclusionsNonDeletedAsync();
+            var destinations = await _destinationService.GetAllDestinationsNonDeletedAsync();
             if (tour == null) return NotFound();
             TourDetailViewModel tourDetailVM = new TourDetailViewModel
             {
@@ -99,7 +102,8 @@ namespace AddMeTour.Web.Controllers
                 Countries = countries,
                 Tours = bestTours,
                 Inclusions = inclusions,
-                Exclusions = exlusions
+                Exclusions = exlusions,
+                Destinations = destinations
             };
             return View(tourDetailVM);
         }

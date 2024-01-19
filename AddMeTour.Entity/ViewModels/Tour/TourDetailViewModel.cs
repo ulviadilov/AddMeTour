@@ -1,6 +1,7 @@
 ﻿using AddMeTour.Entity.Entities.Tour;
 using AddMeTour.Entity.ViewModels.Tour.Category;
 using AddMeTour.Entity.ViewModels.Tour.Country;
+using AddMeTour.Entity.ViewModels.Tour.Destination;
 using AddMeTour.Entity.ViewModels.Tour.Exclusion;
 using AddMeTour.Entity.ViewModels.Tour.Inclusion;
 using AddMeTour.Service.AutoMapper.Tour.Languages;
@@ -21,5 +22,6 @@ namespace AddMeTour.Entity.ViewModels.Tour
         public List<TourViewModel> Tours { get; set; }
         public List<InclusionViewModel> Inclusions { get; set; }
         public List<ExclusionViewModel> Exclusions { get; set; }
+        public List<DestinationViewModel> Destinations { get; set; }
     }
 }

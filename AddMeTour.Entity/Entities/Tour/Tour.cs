@@ -16,7 +16,6 @@ namespace AddMeTour.Entity.Entities.Tour
         public byte Duration { get; set; }
         public double Rating { get; set; }
         public bool IsBest { get; set; }
-        public string DepartureDetails { get; set; }
         public string? PosterImageUrl { get; set; }
         public DateTime CreateTime { get; set; }
         public ICollection<TourImage>? TourImages { get; set; }
@@ -25,5 +24,6 @@ namespace AddMeTour.Entity.Entities.Tour
         public ICollection<TourLanguage>? TourLanguages { get; set; }
         public ICollection<TourInclusion>? TourInclusions { get; set; }
         public ICollection<TourExclusion>? TourExclusions { get; set; }
+        public ICollection<Destination>? Destinations { get; set; }
     }
 }

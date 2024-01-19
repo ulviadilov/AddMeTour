@@ -1,0 +1,57 @@
+﻿@using AddMeTour.Entity.ViewModels.Tour.Destination;
+@model DestinationAddViewModel
+
+<div class="tabs__content pt-30 js-tabs-content">
+    <div class="tabs__pane -tab-item-1 is-tab-el-active">
+        <form method="post" enctype="multipart/form-data" asp-action="create" asp-controller="destination">
+            <div class="col-xl-10">
+                <div class="text-18 fw-500 mb-10">Create Country</div>
+                <div class="row x-gap-20 y-gap-20">
+                    <div class="col-12">
+
+                        <div class="form-input ">
+                            <input asp-for="Title" type="text" required>
+                            <label asp-for="Title" class="lh-1 text-16 text-light-1">Title</label>
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
+
+                    </div>
+                    <div class="row x-gap-20 y-gap-20">
+                        <div class="col-12">
+
+                            <div class="form-input ">
+                                <textarea asp-for="Description" type="text" required></textarea>
+                                <label asp-for="Description" class="lh-1 text-16 text-light-1">Description</label>
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row x-gap-20 y-gap-20">
+                        <div class="col-12">
+                            <label asp-for="TourId" class="form-label">Tour</label>
+                            <select class="form-select" aria-label="Default select example" asp-for="TourId">
+                                @foreach (TourViewModel t in ViewBag.Tours)
+                                {
+                                    <option value="@t.Id">@t.TourName</option>
+                                }
+                            </select>
+                            <span asp-validation-for="TourId" style="color: red"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-top-light mt-30 mb-30"></div>
+
+            </div>
+
+
+            <div class="d-inline-block pt-30">
+
+                <div class="text-center">
+                    <button type="submit" class="button h-50 px-24 -dark-1 bg-blue-1 text-white"> Add Destination</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>

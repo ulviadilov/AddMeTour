@@ -66,13 +66,13 @@
                                         </p>
 
                                         <div class="text-12 lh-15 fw-500 mt-20">
-                                            @if (tour.Overview.Length < 100)
+                                            @if (tour.Overview.Length < 400)
                                             {
                                                 @tour.Overview
                                             }
                                             else
                                             {
-                                                @tour.Overview.Substring(100)
+                                                @(tour.Overview.Substring(0,400)+ "...")
                                             }
                                         </div>
                                     </div>

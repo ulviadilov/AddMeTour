@@ -9,6 +9,6 @@ namespace AddMeTour.Core.Entities
     public abstract class EntityBase : IEntityBase
     {
         public virtual Guid Id { get; set; } = new Guid();
-        public virtual bool IsActive { get; set; }
+        public virtual bool IsActive { get; set; } = true;
     }
 }

@@ -38,6 +38,7 @@ namespace AddMeTour.Service.Extensions
             services.AddScoped<ITourService, TourService>();
             services.AddScoped<ISettingService, SettingService>();
             services.AddScoped<ILayoutService, LayoutService>();
+            services.AddScoped<IDestinationService, DestinationService>();
             services.AddAutoMapper(assembly);
             return services;
         }

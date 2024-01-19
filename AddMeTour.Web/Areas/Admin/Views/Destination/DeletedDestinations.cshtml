@@ -1,0 +1,75 @@
+﻿@using AddMeTour.Entity.ViewModels.Tour.Destination;
+@model PaginatedList<DestinationViewModel>
+
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <div class="row y-gap-20 justify-between items-end pb-60 lg:pb-40 md:pb-32">
+                <div class="col-auto">
+                    <h1 class="text-30 lh-14 fw-600">All Deleted Destinations</h1>
+                </div>
+                <div class="col-auto text-right">
+                    <a asp-action="index" asp-controller="destination" class="button h-50 px-24 -dark-1 bg-blue-1 text-white">
+                        Back
+                    </a>
+                </div>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Title</th>
+                        <th scope="col" class="text-right">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (DestinationViewModel destinationVM in Model)
+                    {
+                        <tr>
+                            <td>@destinationVM.Title</td>
+                            <td class="text-right">
+                                <div style="display: inline-block;">
+                                    <a asp-area="admin" asp-action="recover" asp-controller="destination" asp-route-id="@destinationVM.Id" class="button -md -dark-1 bg-blue-1 text-white-1">Recover</a>
+                                </div>
+                                <div style="display: inline-block; margin-left: 10px;">
+                                    <a asp-area="admin" asp-action="harddelete" asp-controller="destination" asp-route-id="@destinationVM.Id" style="color:white; background-color:red;" class="btn btn-primary">Permanently Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <nav style="display:flex;justify-content:center" aria-label="...">
+                <ul class="pagination">
+                    @if (Model.HasPrevious)
+                    {
+                        <li class="page-item ">
+                            <a class="page-link" asp-action="index" asp-route-page="@(Model.ActivePage-1)" tabindex="-1">Previous</a>
+                        </li>
+                        @if (Model.ActivePage != 2)
+                        {
+                            <li class="page-item "><a asp-action="index" asp-route-page="1" class="page-link">1</a></li>
+
+                        }
+                        <li class="page-item "><a asp-action="index" asp-route-page="@(Model.ActivePage-1)" class="page-link">@(Model.ActivePage - 1)</a></li>
+                    }
+                    @if (Model.TotalPageCount > 1)
+                    {
+                        <li class="page-item active"><a asp-action="index" asp-route-page="@Model.ActivePage" class="page-link">@Model.ActivePage</a></li>
+                    }
+                    @if (Model.HasNext)
+                    {
+                        <li class="page-item "><a asp-action="index" asp-route-page="@(Model.ActivePage+1)" class="page-link">@(Model.ActivePage + 1)</a></li>
+                        @if (Model.ActivePage != Model.TotalPageCount - 1)
+                        {
+                            <li class="page-item "><a asp-action="index" asp-route-page="@Model.TotalPageCount" class="page-link">@Model.TotalPageCount</a></li>
+
+                        }
+                        <li class="page-item">
+                            <a class="page-link" asp-action="index" asp-route-page="@(Model.ActivePage+1)">Next</a>
+                        </li>
+                    }
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>

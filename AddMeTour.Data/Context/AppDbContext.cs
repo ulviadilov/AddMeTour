@@ -39,6 +39,7 @@ namespace AddMeTour.Data.Context
         public DbSet<TourLanguage> TourLanguages { get; set; }
         public DbSet<Setting> Settings { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
+        public DbSet<Destination> Destinations { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

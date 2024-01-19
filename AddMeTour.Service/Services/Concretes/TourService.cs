@@ -5,6 +5,7 @@ using AddMeTour.Entity.Entities.Tour;
 using AddMeTour.Entity.ViewModels.Features;
 using AddMeTour.Entity.ViewModels.Tour;
 using AddMeTour.Entity.ViewModels.Tour.Category;
+using AddMeTour.Entity.ViewModels.Tour.Destination;
 using AddMeTour.Service.Helpers.Images;
 using AddMeTour.Service.Services.Abstractions;
 using AutoMapper;
@@ -34,7 +35,7 @@ namespace AddMeTour.Service.Services.Concretes
 
         public async Task<List<TourViewModel>> GetAllToursNonDeletedAsync()
         {
-            var tours = await _unitOfWork.GetRepository<Tour>().GetAllAsync(x => x.IsActive == true, x => x.TourImages, x => x.TourLanguages, x => x.TourCategories, x => x.TourCountries, x => x.TourInclusions, x => x.TourExclusions);
+            var tours = await _unitOfWork.GetRepository<Tour>().GetAllAsync(x => x.IsActive == true, x => x.TourImages, x => x.TourLanguages, x => x.TourCategories, x => x.TourCountries, x => x.TourInclusions, x => x.TourExclusions, x => x.Destinations);
             var map = _mapper.Map<List<TourViewModel>>(tours);
             return map;
         }
@@ -49,7 +50,7 @@ namespace AddMeTour.Service.Services.Concretes
         public async Task<List<TourViewModel>> GetAllBestToursNonDeletedAsync()
         {
             TourCountry tourCountry = new TourCountry();
-            var tours = await _unitOfWork.GetRepository<Tour>().GetAllAsync(x => x.IsActive == true && x.IsBest == true, x => x.TourCountries , x => x.TourImages, x => x.TourCategories);
+            var tours = await _unitOfWork.GetRepository<Tour>().GetAllAsync(x => x.IsActive == true && x.IsBest == true, x => x.TourCountries , x => x.TourImages, x => x.TourCategories, x => x.Destinations);
             var map = _mapper.Map<List<TourViewModel>>(tours);
             return map;
         }
@@ -73,7 +74,6 @@ namespace AddMeTour.Service.Services.Concretes
             {
                 CreateTime = DateTime.Now,
                 IsActive = true,
-                DepartureDetails = tourAddVM.DepartureDetails,
                 Duration = tourAddVM.Duration,
                 GroupSize = tourAddVM.GroupSize,
                 Overview = tourAddVM.Overview,
@@ -179,7 +179,6 @@ namespace AddMeTour.Service.Services.Concretes
                 IsActive = tour.IsActive,
                 Overview = tour.Overview,
                 Price = tour.Price,
-                DepartureDetails = tour.DepartureDetails,
                 TourName = tour.TourName,
                 TourId = tour.Id,
                 Rating= tour.Rating,
@@ -375,7 +374,6 @@ namespace AddMeTour.Service.Services.Concretes
                 }
             }
 
-            existTour.DepartureDetails = tourUpdateVM.DepartureDetails;
             existTour.Price = tourUpdateVM.Price;
             existTour.Duration = tourUpdateVM.Duration;
             existTour.GroupSize = tourUpdateVM.GroupSize;

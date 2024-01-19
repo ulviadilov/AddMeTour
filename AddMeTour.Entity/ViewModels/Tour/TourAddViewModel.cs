@@ -20,7 +20,6 @@ namespace AddMeTour.Entity.ViewModels.Tour
         public byte Duration { get; set; }
         public double Rating { get; set; }
         public bool IsBest { get; set; }
-        public string DepartureDetails { get; set; }
         [NotMapped]
         public List<IFormFile> ImageFiles { get; set; }
         [NotMapped]

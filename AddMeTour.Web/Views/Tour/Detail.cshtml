@@ -156,10 +156,6 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6">
-                        <h5 class="text-16 fw-500">Departure Details</h5>
-                        <div class="text-15 mt-10">@Model.Tour.DepartureDetails</div>
-                    </div>
                 </div>
 
                 <div class="mt-40 border-top-light">
@@ -280,6 +276,39 @@
                         </div>
 
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row y-gap-20">
+            <div class="col-lg-8">
+                <div class="accordion -simple row y-gap-20 js-accordion">
+                    @foreach (var item in Model.Tour.Destinations)
+                    {
+
+                        <div class="col-12">
+                            <div class="accordion__item px-20 py-20 border-light rounded-4">
+                                <div class="accordion__button d-flex items-center">
+                                    <div class="accordion__icon size-40 flex-center bg-light-2 rounded-full mr-20">
+                                        <i class="icon-plus"></i>
+                                        <i class="icon-minus"></i>
+                                    </div>
+
+                                    <div class="button text-dark-1">@item.Title</div>
+                                </div>
+
+                                <div class="accordion__content">
+                                    <div class="pt-20 pl-60">
+                                        <p class="text-15">@item.Description</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    }
                 </div>
             </div>
         </div>

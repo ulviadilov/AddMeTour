@@ -216,6 +216,33 @@ namespace AddMeTour.Data.Migrations
                     b.ToTable("Countries");
                 });
 
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Destination", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("TourId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TourId");
+
+                    b.ToTable("Destinations");
+                });
+
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Exclusion", b =>
                 {
                     b.Property<Guid>("Id")
@@ -277,10 +304,6 @@ namespace AddMeTour.Data.Migrations
 
                     b.Property<DateTime>("CreateTime")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("DepartureDetails")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<byte>("Duration")
                         .HasColumnType("tinyint");
@@ -684,6 +707,17 @@ namespace AddMeTour.Data.Migrations
                     b.HasDiscriminator().HasValue("AppUser");
                 });
 
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Destination", b =>
+                {
+                    b.HasOne("AddMeTour.Entity.Entities.Tour.Tour", "Tour")
+                        .WithMany("Destinations")
+                        .HasForeignKey("TourId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Tour");
+                });
+
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourCategory", b =>
                 {
                     b.HasOne("AddMeTour.Entity.Entities.Tour.Category", "Category")
@@ -861,6 +895,8 @@ namespace AddMeTour.Data.Migrations
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Tour", b =>
                 {
+                    b.Navigation("Destinations");
+
                     b.Navigation("TourCategories");
 
                     b.Navigation("TourCountries");

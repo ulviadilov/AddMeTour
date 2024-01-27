@@ -40,6 +40,8 @@ namespace AddMeTour.Data.Context
         public DbSet<Setting> Settings { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<Destination> Destinations { get; set; }
+        public DbSet<Partner> Partners { get; set; }
+        public DbSet<GalleryImage> GalleryImages { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

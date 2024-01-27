@@ -5,6 +5,7 @@
     ViewData["Title"] = "Home Page";
     int featureDelayCounter = 1;
     int tourDelatCounter = 1;
+    byte galleryCounter = 0;
 }
 
 <section data-anim-wrap class="masthead -type-2 js-mouse-move-container">
@@ -28,24 +29,27 @@
 
                             <div class="">
                                 <a asp-action="index" asp-controller="tour" class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-2">
-                                    
+
                                     All Tours
                                 </a>
                             </div>
                             <div class="">
+                                <a asp-action="gallery" asp-controller="home" class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-2">
+                                    Gallery
+                                </a>
+                            </div>
+                            <div class="">
                                 <a asp-action="about" asp-controller="home" class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-2">
-                                    
-                                     About Us
+
+                                    About Us
                                 </a>
                             </div>
                             <div class="">
                                 <a asp-action="contact" asp-controller="home" class="tabs__button px-30 py-20 sm:px-20 sm:py-15 rounded-4 fw-600 text-white js-tabs-button " data-tab-target=".-tab-item-2">
-                                    
+
                                     Contact
                                 </a>
                             </div>
-
-
                         </div>
 
                         <div class="tabs__content js-tabs-content">
@@ -199,7 +203,49 @@
         </div>
     </div>
 </section>
-<section class="layout-pt-xl layout-pb-md">
+
+<section class="pt-40">
+    <div class="container">
+        <div class="relative d-flex justify-center js-section-slider" data-gap="10" data-slider-cols="xl-2 lg-2 base-1" data-nav-prev="js-img-prev" data-nav-next="js-img-next" data-loop>
+            <div class="swiper-wrapper">
+                @foreach (var photo in Model.GalleryImages)
+                {
+
+                    <div class="swiper-slide">
+                        <div class="ratio ratio-64:45">
+                            <img src="~/assets/img/gallery/@photo.ImageUrl" alt="image" class="rounded-4 img-ratio">
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <div class="absolute h-full col-11">
+
+                <button class="section-slider-nav -prev flex-center button -blue-1 bg-white shadow-1 size-40 rounded-full sm:d-none js-img-prev">
+                    <i class="icon icon-chevron-left text-12"></i>
+                </button>
+
+                <button class="section-slider-nav -next flex-center button -blue-1 bg-white shadow-1 size-40 rounded-full sm:d-none js-img-next">
+                    <i class="icon icon-chevron-right text-12"></i>
+                </button>
+
+            </div>
+
+            <div class="absolute h-full col-12 px-20 py-20 d-flex justify-end items-end">
+                <a href="~/assets/img/gallery/@Model.GalleryImages.FirstOrDefault()?.ImageUrl" class="button -blue-1 px-24 py-15 bg-white text-dark-1 z-2 js-gallery" data-gallery="gallery2">
+                    See All @Model.GalleryImages.Count Photos
+                </a>
+                @foreach (var item in Model.GalleryImages)
+                {
+                    <a href="~/assets/img/gallery/@item.ImageUrl" class="js-gallery" data-gallery="gallery2"></a>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="layout-pb-md">
     <div data-anim-wrap class="container">
         <div class="row y-gap-40 sm:y-gap-10 justify-between">
 
@@ -317,5 +363,26 @@
                 </div>
             </div>
         </div>
+        <div class="row justify-center text-center pt-60">
+            <div class="col-auto">
+                <div class="text-15 lh-1 text-white">Our Dear Partners </div>
+            </div>
+        </div>
+
+        <div class="px-40 md:px-0">
+            <div class="row y-gap-30 justify-between items-center pt-60 lg:pt-40">
+
+                @foreach (var item in Model.Partners)
+                {
+                    <div class="col-md-auto col-sm-6">
+                        <div class="d-flex justify-center">
+                            <img src="~/assets/img/Partners/@item.ImageUrl" alt="image">
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
     </div>
 </section>
+    

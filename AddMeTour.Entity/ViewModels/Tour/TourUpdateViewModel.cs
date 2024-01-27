@@ -19,6 +19,7 @@ namespace AddMeTour.Entity.ViewModels.Tour
         public byte GroupSize { get; set; }
         public byte Duration { get; set; }
         public double Rating { get; set; }
+        public int Order { get; set; }
         public bool IsBest { get; set; }
         public List<Guid>? ImageIds { get; set; }
         [NotMapped]

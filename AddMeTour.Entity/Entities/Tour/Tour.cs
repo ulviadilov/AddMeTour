@@ -15,6 +15,7 @@ namespace AddMeTour.Entity.Entities.Tour
         public byte GroupSize { get; set; }
         public byte Duration { get; set; }
         public double Rating { get; set; }
+        public int Order { get; set; }
         public bool IsBest { get; set; }
         public string? PosterImageUrl { get; set; }
         public DateTime CreateTime { get; set; }

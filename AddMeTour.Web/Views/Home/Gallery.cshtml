@@ -1,0 +1,57 @@
+﻿@model List<GalleryViewModel>
+@{
+    Layout = "_Layout2";
+}
+<section class="section-bg layout-pt-lg layout-pb-lg">
+    <div class="section-bg__item col-12">
+        <img src="~/assets/img/general/baku.jpeg" alt="image">
+    </div>
+
+    <div class="container">
+        <div class="row justify-center text-center">
+            <div class="col-xl-6 col-lg-8 col-md-10">
+                <h1 class="text-40 md:text-25 fw-600 text-white">Gallery</h1>
+                <div class="text-white mt-15">Photos from our tours.</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="pt-40">
+    <div class="container">
+        <div class="relative d-flex justify-center js-section-slider" data-gap="10" data-slider-cols="xl-2 lg-2 base-1" data-nav-prev="js-img-prev" data-nav-next="js-img-next" data-loop>
+            <div class="swiper-wrapper">
+                @foreach (var photo in Model)
+                {
+
+                    <div class="swiper-slide">
+                        <div class="ratio ratio-64:45">
+                            <img src="~/assets/img/gallery/@photo.ImageUrl" alt="image" class="rounded-4 img-ratio">
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <div class="absolute h-full col-11">
+
+                <button class="section-slider-nav -prev flex-center button -blue-1 bg-white shadow-1 size-40 rounded-full sm:d-none js-img-prev">
+                    <i class="icon icon-chevron-left text-12"></i>
+                </button>
+
+                <button class="section-slider-nav -next flex-center button -blue-1 bg-white shadow-1 size-40 rounded-full sm:d-none js-img-next">
+                    <i class="icon icon-chevron-right text-12"></i>
+                </button>
+
+            </div>
+
+            <div class="absolute h-full col-12 px-20 py-20 d-flex justify-end items-end">
+                <a href="~/assets/img/gallery/@Model.FirstOrDefault().ImageUrl" class="button -blue-1 px-24 py-15 bg-white text-dark-1 z-2 js-gallery" data-gallery="gallery2">
+                    See All @Model.Count Photos
+                </a>
+                @foreach (var item in Model)
+                {
+                    <a href="~/assets/img/gallery/@item.ImageUrl" class="js-gallery" data-gallery="gallery2"></a>
+                }
+            </div>
+        </div>
+    </div>
+</section>

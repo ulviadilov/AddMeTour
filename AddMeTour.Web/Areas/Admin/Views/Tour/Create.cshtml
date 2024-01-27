@@ -32,6 +32,13 @@
                     </div>
                     <div class="col-12">
                         <div class="form-input ">
+                            <input asp-for="Order" type="text" required>
+                            <label asp-for="Order" class="lh-1 text-16 text-light-1">Order</label>
+                            <span asp-validation-for="Order" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-input ">
                             <input asp-for="GroupSize" type="text" required>
                             <label asp-for="GroupSize" class="lh-1 text-16 text-light-1">Group Size</label>
                             <span asp-validation-for="GroupSize" class="text-danger"></span>

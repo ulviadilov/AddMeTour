@@ -1,8 +1,10 @@
 ﻿using AddMeTour.Entity.Entities;
 using AddMeTour.Entity.Entities.Tour;
 using AddMeTour.Entity.ViewModels.Features;
+using AddMeTour.Entity.ViewModels.Gallery;
 using AddMeTour.Entity.ViewModels.HomeReviews;
 using AddMeTour.Entity.ViewModels.Masthead;
+using AddMeTour.Entity.ViewModels.Partners;
 using AddMeTour.Entity.ViewModels.Rating;
 using AddMeTour.Entity.ViewModels.Tour;
 using AddMeTour.Entity.ViewModels.Tour.Category;
@@ -23,5 +25,7 @@ namespace AddMeTour.Entity.ViewModels.Home
         public List<TourViewModel> Tours { get; set; }
         public List<Country> Countries { get; set; }
         public List<CategoryViewModel> Categories { get; set; }
+        public List<PartnerViewModel> Partners { get; set; }
+        public List<GalleryViewModel> GalleryImages { get; set; }
     }
 }

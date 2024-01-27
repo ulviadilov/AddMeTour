@@ -15,6 +15,7 @@ namespace AddMeTour.Entity.ViewModels.Tour
         public bool IsActive { get; set; }
         public string TourName { get; set; }
         public string Overview { get; set; }
+        public int Order { get; set; }
         public decimal Price { get; set; }
         public byte GroupSize { get; set; }
         public byte Duration { get; set; }

@@ -1,0 +1,38 @@
+﻿@model PartnerAddViewModel
+
+<div class="tabs__content pt-30 js-tabs-content">
+    <div class="tabs__pane -tab-item-1 is-tab-el-active">
+        <form method="post" enctype="multipart/form-data" asp-action="create" asp-controller="partner">
+            <div class="col-xl-10">
+                <div class="text-18 fw-500 mb-10">Create Partner</div>
+                <div class="col-lg-6 mb-3 ">
+                    <label asp-for="ImageFile" class="form-label">Image</label>
+                    <input asp-for="ImageFile" class="form-control ">
+                    <span asp-validation-for="ImageFile" class="text-danger"></span>
+                </div>
+                <div class="row x-gap-20 y-gap-20">
+                    <div class="form-switch d-flex items-center">
+                        <div class="text-13 lh-1 text-dark-1 ml-10">Publish</div>
+                        <div class="switch">
+                            <input type="checkbox" asp-for="IsActive">
+                            <span class="switch__slider"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="border-top-light mt-30 mb-30"></div>
+
+            </div>
+
+
+            <div class="d-inline-block pt-30">
+
+                <div class="text-center">
+                    <button type="submit" class="button h-50 px-24 -dark-1 bg-blue-1 text-white"> Add Partner</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>

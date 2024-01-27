@@ -16,6 +16,7 @@ namespace AddMeTour.Entity.ViewModels.Tour
         public decimal Price { get; set; }
         public byte GroupSize { get; set; }
         public byte Duration { get; set; }
+        public int Order { get; set; }
         public double Rating { get; set; }
         public ICollection<Entity.Entities.Tour.Destination>? Destinations { get; set; }
         public string PosterImageUrl { get; set; }

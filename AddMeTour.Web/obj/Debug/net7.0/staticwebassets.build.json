@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "paNrwXYpGpCixTtf3T86Vc7eSRct8V+3+fQzJP8PQec=",
+  "Hash": "f8LLD0AJKIHUbLqjai/Sb5GRmSdSDQKF//tMK5TooEk=",
   "Source": "AddMeTour.Web",
   "BasePath": "_content/AddMeTour.Web",
   "Mode": "Default",
@@ -3449,6 +3449,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\gallery\\1\\5.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\gallery\\IMG-20230509-WA0007.jpg",
+      "SourceId": "AddMeTour.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\",
+      "BasePath": "_content/AddMeTour.Web",
+      "RelativePath": "assets/img/gallery/IMG-20230509-WA0007.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\gallery\\IMG-20230509-WA0007.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\404.svg",
@@ -7461,6 +7478,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\pages\\help\\icons\\6.svg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\Partners\\1.svg",
+      "SourceId": "AddMeTour.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\",
+      "BasePath": "_content/AddMeTour.Web",
+      "RelativePath": "assets/img/Partners/1.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\Partners\\1.svg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\rentals\\.DS_Store",

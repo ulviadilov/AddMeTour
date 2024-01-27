@@ -20,4 +20,8 @@
     <ProjectReference Include="..\AddMeTour.Service\AddMeTour.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\img\Partners\" />
+  </ItemGroup>
+
 </Project>

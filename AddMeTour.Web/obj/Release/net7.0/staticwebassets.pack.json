@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\.DS_Store"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\Partners\\1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\Partners\\1.svg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\activities\\.DS_Store",
       "PackagePath": "staticwebassets\\assets\\img\\activities\\.DS_Store"
     },
@@ -803,6 +807,10 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\gallery\\1\\5.png",
       "PackagePath": "staticwebassets\\assets\\img\\gallery\\1\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\gallery\\IMG-20230509-WA0007.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\IMG-20230509-WA0007.jpg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Web\\wwwroot\\assets\\img\\general\\404.svg",

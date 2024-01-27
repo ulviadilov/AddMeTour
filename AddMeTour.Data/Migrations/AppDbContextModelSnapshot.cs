@@ -49,6 +49,24 @@ namespace AddMeTour.Data.Migrations
                     b.ToTable("Features");
                 });
 
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Home.GalleryImage", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("GalleryImages");
+                });
+
             modelBuilder.Entity("AddMeTour.Entity.Entities.Home.HomeReview", b =>
                 {
                     b.Property<Guid>("Id")
@@ -123,6 +141,23 @@ namespace AddMeTour.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Mastheads");
+                });
+
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Home.Partner", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Partners");
                 });
 
             modelBuilder.Entity("AddMeTour.Entity.Entities.Home.Rating", b =>
@@ -316,6 +351,9 @@ namespace AddMeTour.Data.Migrations
 
                     b.Property<bool>("IsBest")
                         .HasColumnType("bit");
+
+                    b.Property<int>("Order")
+                        .HasColumnType("int");
 
                     b.Property<string>("Overview")
                         .IsRequired()

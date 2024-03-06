@@ -12,6 +12,7 @@ namespace AddMeTour.Entity.ViewModels.Tour
     public class TourAddViewModel
     {
         public Guid Id { get; set; } = Guid.NewGuid();
+        public bool IsGuaranteed { get; set; }
         public bool IsActive { get; set; }
         public string TourName { get; set; }
         public string Overview { get; set; }

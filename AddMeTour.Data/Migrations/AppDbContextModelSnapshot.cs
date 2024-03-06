@@ -296,6 +296,40 @@ namespace AddMeTour.Data.Migrations
                     b.ToTable("Exclusions");
                 });
 
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.GuaranteedTime", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<byte>("MaxPeopleCount")
+                        .HasColumnType("tinyint");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<byte>("ReservedPeopleCount")
+                        .HasColumnType("tinyint");
+
+                    b.Property<DateTime?>("TourEndTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("TourId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("TourStartTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TourId");
+
+                    b.ToTable("GuaranteedTimes");
+                });
+
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Inclusion", b =>
                 {
                     b.Property<Guid>("Id")
@@ -350,6 +384,9 @@ namespace AddMeTour.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<bool>("IsBest")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsGuaranteed")
                         .HasColumnType("bit");
 
                     b.Property<int>("Order")
@@ -756,6 +793,17 @@ namespace AddMeTour.Data.Migrations
                     b.Navigation("Tour");
                 });
 
+            modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.GuaranteedTime", b =>
+                {
+                    b.HasOne("AddMeTour.Entity.Entities.Tour.Tour", "Tour")
+                        .WithMany("GuaranteedTimes")
+                        .HasForeignKey("TourId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Tour");
+                });
+
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.TourCategory", b =>
                 {
                     b.HasOne("AddMeTour.Entity.Entities.Tour.Category", "Category")
@@ -934,6 +982,8 @@ namespace AddMeTour.Data.Migrations
             modelBuilder.Entity("AddMeTour.Entity.Entities.Tour.Tour", b =>
                 {
                     b.Navigation("Destinations");
+
+                    b.Navigation("GuaranteedTimes");
 
                     b.Navigation("TourCategories");
 

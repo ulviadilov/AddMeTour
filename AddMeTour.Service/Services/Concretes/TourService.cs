@@ -81,7 +81,8 @@ namespace AddMeTour.Service.Services.Concretes
                 TourName = tourAddVM.TourName,
                 IsBest = tourAddVM.IsBest,
                 Rating = tourAddVM.Rating,
-                Order = tourAddVM.Order
+                Order = tourAddVM.Order,
+                IsGuaranteed = tourAddVM.IsGuaranteed
             };
 
 
@@ -189,6 +190,7 @@ namespace AddMeTour.Service.Services.Concretes
                 CategoryIds = new List<Guid>(),
                 CountryIds = new List<Guid>(),
                 LanguageIds = new List<Guid>(),
+                IsGuaranteed = tour.IsGuaranteed,
                 IsBest = tour.IsBest
             };
             foreach (TourInclusion inclusion in await _unitOfWork.GetRepository<TourInclusion>().GetAllAsync(x => x.TourId == tour.Id))
@@ -385,6 +387,7 @@ namespace AddMeTour.Service.Services.Concretes
             existTour.Order = tourUpdateVM.Order;
             existTour.TourName = tourUpdateVM.TourName;
             existTour.IsBest = tourUpdateVM.IsBest;
+            existTour.IsGuaranteed = tourUpdateVM.IsGuaranteed;
             await _unitOfWork.SaveAsync();
         }
 

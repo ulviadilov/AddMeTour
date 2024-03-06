@@ -42,6 +42,7 @@ namespace AddMeTour.Data.Context
         public DbSet<Destination> Destinations { get; set; }
         public DbSet<Partner> Partners { get; set; }
         public DbSet<GalleryImage> GalleryImages { get; set; }
+        public DbSet<GuaranteedTime> GuaranteedTimes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

@@ -13,6 +13,7 @@ namespace AddMeTour.Entity.ViewModels.Tour
     {
         public Guid TourId { get; set; }
         public bool IsActive { get; set; }
+        public bool IsGuaranteed { get; set; }
         public string TourName { get; set; }
         public string Overview { get; set; }
         public decimal Price { get; set; }

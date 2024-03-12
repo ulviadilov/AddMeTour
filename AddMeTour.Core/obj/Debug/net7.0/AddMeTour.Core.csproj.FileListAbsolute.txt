@@ -10,3 +10,15 @@ C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Core\obj\
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Core\obj\Debug\net7.0\refint\AddMeTour.Core.dll
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.pdb
 C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Core\obj\Debug\net7.0\ref\AddMeTour.Core.dll
+C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Core\bin\Debug\net7.0\AddMeTour.Core.deps.json
+C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Core\bin\Debug\net7.0\AddMeTour.Core.dll
+C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Core\bin\Debug\net7.0\AddMeTour.Core.pdb
+C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.AssemblyInfoInputs.cache
+C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.AssemblyInfo.cs
+C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.csproj.CoreCompileInputs.cache
+C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.sourcelink.json
+C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.dll
+C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Core\obj\Debug\net7.0\refint\AddMeTour.Core.dll
+C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.pdb
+C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Core\obj\Debug\net7.0\ref\AddMeTour.Core.dll

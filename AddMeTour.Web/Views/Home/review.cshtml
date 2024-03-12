@@ -1,0 +1,75 @@
+﻿@inject AddMeTour.Service.Services.Abstractions.ISettingService settingService
+@{
+    var settings = await settingService.GetAllSettingsAsync();
+    Layout = "_Layout2";
+}
+
+<section class="section-bg layout-pt-lg layout-pb-lg">
+    <div class="section-bg__item col-12">
+        <img src="~/assets/img/general/baku.jpeg" alt="image">
+    </div>
+
+    <div class="container">
+        <div class="row justify-center text-center">
+            <div class="col-xl-6 col-lg-8 col-md-10">
+                <h1 class="text-40 md:text-25 fw-600 text-white">Review</h1>
+                <div class="text-white mt-15">AND START TO EXPLORE CAUCASUS</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-bg layout-pt-sm layout-pb-sm">
+    <div class="container">
+        <div class="row justify-center">
+            <div class="col-xl-7 col-lg-7">
+                <div class=" px-40 pt-40 pb-50 lg:px-30 lg:py-30 md:px-24 md:py-24 bg-white rounded-4 shadow-4">
+                    <div class="text-22 fw-500">
+                        Send a message
+                    </div>
+
+                    <div class="row y-gap-20 pt-20">
+                        <div class="col-12">
+
+                            <div class="form-input ">
+                                <input type="text" required>
+                                <label class="lh-1 text-16 text-light-1">Full Name</label>
+                            </div>
+
+                        </div>
+                        <div class="col-12">
+
+                            <div class="form-input ">
+                                <input type="text" required>
+                                <label class="lh-1 text-16 text-light-1">Email</label>
+                            </div>
+
+                        </div>
+                        <div class="col-12">
+
+                            <div class="form-input ">
+                                <input type="text" required>
+                                <label class="lh-1 text-16 text-light-1">Subject</label>
+                            </div>
+
+                        </div>
+                        <div class="col-12">
+
+                            <div class="form-input ">
+                                <textarea required rows="4"></textarea>
+                                <label class="lh-1 text-16 text-light-1">Your Messages</label>
+                            </div>
+
+                        </div>
+                        <div>
+
+                            <a href="#" class="button px-24 h-50 -dark-1 bg-blue-1 text-white">
+                                Send a Messsage <div class="icon-arrow-top-right ml-15"></div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

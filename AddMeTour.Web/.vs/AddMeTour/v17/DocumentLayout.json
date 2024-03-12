@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.web\\views\\home\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|solutionrelative:views\\home\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.web\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|solutionrelative:views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T16:04:58.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T16:03:31.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAI4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T16:03:07.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "review.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Views\\Home\\review.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\review.cshtml",
+              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Views\\Home\\review.cshtml",
+              "RelativeToolTip": "Views\\Home\\review.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T12:04:13.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAEIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T12:00:19.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout2.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout2.cshtml",
+              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout2.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD0AAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T12:00:14.703Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

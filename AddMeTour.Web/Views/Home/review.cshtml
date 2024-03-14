@@ -1,8 +1,12 @@
-﻿@inject AddMeTour.Service.Services.Abstractions.ISettingService settingService
+﻿@using AddMeTour.Entity.ViewModels.Review
+@inject AddMeTour.Service.Services.Abstractions.ISettingService settingService
+
 @{
     var settings = await settingService.GetAllSettingsAsync();
     Layout = "_Layout2";
 }
+
+@model AddReviewVM
 
 <section class="section-bg layout-pt-lg layout-pb-lg">
     <div class="section-bg__item col-12">
@@ -22,7 +26,8 @@
     <div class="container">
         <div class="row justify-center">
             <div class="col-xl-7 col-lg-7">
-                <div class=" px-40 pt-40 pb-50 lg:px-30 lg:py-30 md:px-24 md:py-24 bg-white rounded-4 shadow-4">
+          
+                <form asp-controller="Review" asp-action="CreateAsyncReview" method="post" class=" px-40 pt-40 pb-50 lg:px-30 lg:py-30 md:px-24 md:py-24 bg-white rounded-4 shadow-4">
                     <div class="text-22 fw-500">
                         Send a message
                     </div>
@@ -31,15 +36,23 @@
                         <div class="col-12">
 
                             <div class="form-input ">
-                                <input type="text" required>
-                                <label class="lh-1 text-16 text-light-1">Full Name</label>
+                                <input type="text" asp-for="Name" required>
+                                <label class="lh-1 text-16 text-light-1">First Name</label>
                             </div>
 
                         </div>
                         <div class="col-12">
 
                             <div class="form-input ">
-                                <input type="text" required>
+                                <input type="text" asp-for="Surname">
+                                <label class="lh-1 text-16 text-light-1">Last Name</label>
+                            </div>
+
+                        </div>
+                        <div class="col-12">
+
+                            <div class="form-input ">
+                                <input type="email" required asp-for="Email">
                                 <label class="lh-1 text-16 text-light-1">Email</label>
                             </div>
 
@@ -47,7 +60,7 @@
                         <div class="col-12">
 
                             <div class="form-input ">
-                                <input type="text" required>
+                                <input type="text"  asp-for="Subject">
                                 <label class="lh-1 text-16 text-light-1">Subject</label>
                             </div>
 
@@ -55,20 +68,23 @@
                         <div class="col-12">
 
                             <div class="form-input ">
-                                <textarea required rows="4"></textarea>
+                                <textarea required rows="4" asp-for="Message"></textarea>
                                 <label class="lh-1 text-16 text-light-1">Your Messages</label>
                             </div>
 
                         </div>
                         <div>
 
-                            <a href="#" class="button px-24 h-50 -dark-1 bg-blue-1 text-white">
-                                Send a Messsage <div class="icon-arrow-top-right ml-15"></div>
-                            </a>
+                            <div >
+                                <button class="button px-24 h-50 -dark-1 bg-blue-1 text-white" type="submit" style="width: 100%;">
+                                    Send Message <div class="icon-arrow-top-right ml-15"></div>
+                                </button>
+                                
+                            </div>
 
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>

@@ -15,8 +15,4 @@
     <ProjectReference Include="..\AddMeTour.Core\AddMeTour.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Entities\Review\" />
-  </ItemGroup>
-
 </Project>

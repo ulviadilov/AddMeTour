@@ -89,6 +89,9 @@ namespace AddMeTour.Controllers
             return View(galleryImages);
         }
 
-        
+        public async Task<IActionResult> Review()
+        {
+            return View();
+        }
     }
 }

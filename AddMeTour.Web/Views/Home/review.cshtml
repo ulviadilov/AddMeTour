@@ -1,0 +1,91 @@
+﻿@using AddMeTour.Entity.ViewModels.Review
+@inject AddMeTour.Service.Services.Abstractions.ISettingService settingService
+
+@{
+    var settings = await settingService.GetAllSettingsAsync();
+    Layout = "_Layout2";
+}
+
+@model AddReviewVM
+
+<section class="section-bg layout-pt-lg layout-pb-lg">
+    <div class="section-bg__item col-12">
+        <img src="~/assets/img/general/baku.jpeg" alt="image">
+    </div>
+
+    <div class="container">
+        <div class="row justify-center text-center">
+            <div class="col-xl-6 col-lg-8 col-md-10">
+                <h1 class="text-40 md:text-25 fw-600 text-white">Review</h1>
+                <div class="text-white mt-15">AND START TO EXPLORE CAUCASUS</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-bg layout-pt-sm layout-pb-sm">
+    <div class="container">
+        <div class="row justify-center">
+            <div class="col-xl-7 col-lg-7">
+          
+                <form asp-controller="Review" asp-action="CreateAsyncReview" method="post" class=" px-40 pt-40 pb-50 lg:px-30 lg:py-30 md:px-24 md:py-24 bg-white rounded-4 shadow-4">
+                    <div class="text-22 fw-500">
+                        Send a message
+                    </div>
+
+                    <div class="row y-gap-20 pt-20">
+                        <div class="col-12">
+
+                            <div class="form-input ">
+                                <input type="text" asp-for="Name" required>
+                                <label class="lh-1 text-16 text-light-1">First Name</label>
+                            </div>
+
+                        </div>
+                        <div class="col-12">
+
+                            <div class="form-input ">
+                                <input type="text" asp-for="Surname">
+                                <label class="lh-1 text-16 text-light-1">Last Name</label>
+                            </div>
+
+                        </div>
+                        <div class="col-12">
+
+                            <div class="form-input ">
+                                <input type="email" required asp-for="Email">
+                                <label class="lh-1 text-16 text-light-1">Email</label>
+                            </div>
+
+                        </div>
+                        <div class="col-12">
+
+                            <div class="form-input ">
+                                <input type="text"  asp-for="Subject">
+                                <label class="lh-1 text-16 text-light-1">Subject</label>
+                            </div>
+
+                        </div>
+                        <div class="col-12">
+
+                            <div class="form-input ">
+                                <textarea required rows="4" asp-for="Message"></textarea>
+                                <label class="lh-1 text-16 text-light-1">Your Messages</label>
+                            </div>
+
+                        </div>
+                        <div>
+
+                            <div >
+                                <button class="button px-24 h-50 -dark-1 bg-blue-1 text-white" type="submit" style="width: 100%;">
+                                    Send Message <div class="icon-arrow-top-right ml-15"></div>
+                                </button>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

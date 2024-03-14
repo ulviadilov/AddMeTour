@@ -1,4 +1,5 @@
 ﻿using AddMeTour.Entity.Entities.Home;
+using AddMeTour.Entity.Entities.Review;
 using AddMeTour.Entity.Entities.Tour;
 using AddMeTour.Entity.Entities.User;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -43,7 +44,7 @@ namespace AddMeTour.Data.Context
         public DbSet<Partner> Partners { get; set; }
         public DbSet<GalleryImage> GalleryImages { get; set; }
         public DbSet<GuaranteedTime> GuaranteedTimes { get; set; }
-
+        public DbSet<Review> Reviews { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

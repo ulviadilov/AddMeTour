@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Core\\AddMeTour.Core.csproj": {}
+    "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Core\\AddMeTour.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Core\\AddMeTour.Core.csproj": {
+    "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Core\\AddMeTour.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Core\\AddMeTour.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Core\\AddMeTour.Core.csproj",
         "projectName": "AddMeTour.Core",
-        "projectPath": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Core\\AddMeTour.Core.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Projects\\source\\repos\\AddMeTourProject\\AddMeTour.Core\\obj\\",
+        "projectPath": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Core\\AddMeTour.Core.csproj",
+        "packagesPath": "C:\\Users\\Thebrhmly\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Thebrhmly\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

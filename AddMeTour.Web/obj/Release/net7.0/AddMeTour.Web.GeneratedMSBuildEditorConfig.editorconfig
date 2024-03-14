@@ -9,309 +9,311 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AddMeTour.Web
 build_property.RootNamespace = AddMeTour.Web
-build_property.ProjectDir = C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Web\
+build_property.ProjectDir = C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\Projects\source\repos\AddMeTourProject\AddMeTour.Web
+build_property.MSBuildProjectDirectory = C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Account/Login.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Category/Create.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Category/DeletedCategories.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Category/DeletedCategories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGVsZXRlZENhdGVnb3JpZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Category/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Category/Update.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Category/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Country/Create.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Country/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ291bnRyeVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Country/DeletedCountries.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Country/DeletedCountries.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ291bnRyeVxEZWxldGVkQ291bnRyaWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Country/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Country/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ291bnRyeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Country/Update.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Country/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ291bnRyeVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Dashboard/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Destination/Create.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Destination/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Destination/DeletedDestinations.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Destination/DeletedDestinations.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25cRGVsZXRlZERlc3RpbmF0aW9ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Destination/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Destination/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Destination/Update.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Destination/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25cVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Exclusion/Create.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Exclusion/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXhjbHVzaW9uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Exclusion/DeletedExclusions.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Exclusion/DeletedExclusions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXhjbHVzaW9uXERlbGV0ZWRFeGNsdXNpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Exclusion/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Exclusion/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXhjbHVzaW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Exclusion/Update.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Exclusion/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXhjbHVzaW9uXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Feature/Create.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Feature/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVhdHVyZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Feature/DeletedFeatures.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Feature/DeletedFeatures.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVhdHVyZVxEZWxldGVkRmVhdHVyZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Feature/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Feature/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVhdHVyZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Feature/Update.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Feature/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVhdHVyZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Gallery/Create.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Gallery/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2FsbGVyeVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Gallery/DeletedGallerys.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Gallery/DeletedGallerys.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2FsbGVyeVxEZWxldGVkR2FsbGVyeXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Gallery/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Gallery/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2FsbGVyeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Gallery/Update.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Gallery/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2FsbGVyeVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/HomeReview/Create.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/HomeReview/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVJldmlld1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/HomeReview/DeletedReviews.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/HomeReview/DeletedReviews.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVJldmlld1xEZWxldGVkUmV2aWV3cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/HomeReview/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/HomeReview/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVJldmlld1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/HomeReview/Update.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/HomeReview/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVJldmlld1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Inclusion/Create.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Inclusion/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW5jbHVzaW9uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Inclusion/DeletedInclusions.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Inclusion/DeletedInclusions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW5jbHVzaW9uXERlbGV0ZWRJbmNsdXNpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Inclusion/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Inclusion/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW5jbHVzaW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Inclusion/Update.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Inclusion/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW5jbHVzaW9uXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Language/Create.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Language/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGFuZ3VhZ2VcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Language/DeletedLanguages.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Language/DeletedLanguages.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGFuZ3VhZ2VcRGVsZXRlZExhbmd1YWdlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Language/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Language/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGFuZ3VhZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Language/Update.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Language/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGFuZ3VhZ2VcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Masthead/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Masthead/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFzdGhlYWRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Masthead/Update.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Masthead/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFzdGhlYWRcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Partner/Create.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Partner/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFydG5lclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Partner/DeletedPartners.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Partner/DeletedPartners.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFydG5lclxEZWxldGVkUGFydG5lcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Partner/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Partner/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFydG5lclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Partner/Update.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Partner/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFydG5lclxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Rating/Create.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Rating/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmF0aW5nXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Rating/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Rating/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmF0aW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Rating/Update.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Rating/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmF0aW5nXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Setting/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Setting/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Setting/Update.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Setting/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Tour/Create.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Tour/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG91clxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Tour/DeletedTours.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Tour/DeletedTours.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG91clxEZWxldGVkVG91cnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Tour/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Tour/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG91clxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Tour/Update.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/Tour/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG91clxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Home/About.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Home/Contact.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Home/Gallery.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Home/Gallery.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHYWxsZXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Home/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Shared/NotFound.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Shared/NotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdEZvdW5kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Shared/PartialViews/LayoutPartial/_FooterPartial.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Shared/PartialViews/LayoutPartial/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xMYXlvdXRQYXJ0aWFsXF9Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Shared/PartialViews/LayoutPartial/_LanguageAndMoneyPartial.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Shared/PartialViews/LayoutPartial/_LanguageAndMoneyPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xMYXlvdXRQYXJ0aWFsXF9MYW5ndWFnZUFuZE1vbmV5UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Shared/PartialViews/LayoutPartial/_LoginRegisterPartial.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Shared/PartialViews/LayoutPartial/_LoginRegisterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xMYXlvdXRQYXJ0aWFsXF9Mb2dpblJlZ2lzdGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Shared/PartialViews/LayoutPartial/_LogoPartial.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Shared/PartialViews/LayoutPartial/_LogoPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xMYXlvdXRQYXJ0aWFsXF9Mb2dvUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Shared/PartialViews/LayoutPartial/_PreLoaderPartial.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Shared/PartialViews/LayoutPartial/_PreLoaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xMYXlvdXRQYXJ0aWFsXF9QcmVMb2FkZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Shared/PartialViews/LayoutPartial/_SearchPartial.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Shared/PartialViews/LayoutPartial/_SearchPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xMYXlvdXRQYXJ0aWFsXF9TZWFyY2hQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Shared/_Layout2.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Shared/_Layout2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Tour/Category.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Tour/Category.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Tour/Country.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Tour/Country.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxDb3VudHJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Tour/Detail.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Tour/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Tour/Index.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Tour/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/_ViewImports.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/_ViewStart.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/source/repos/AddMeTourProject/AddMeTour.Web/Views/Shared/_Layout.cshtml]
+[C:/Users/Thebrhmly/Desktop/AddMeTourProject/AddMeTour.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-d0x24iqhgq

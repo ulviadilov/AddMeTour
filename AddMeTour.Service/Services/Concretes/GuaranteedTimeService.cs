@@ -1,6 +1,7 @@
 ﻿using AddMeTour.Data.UnitOfWorks.Abstractions;
 using AddMeTour.Entity.Entities.Tour;
 using AddMeTour.Entity.ViewModels.Tour;
+using AddMeTour.Service.Services.Abstractions;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace AddMeTour.Service.Services.Concretes
 {
-    public class GuaranteedTimeService
+    public class GuaranteedTimeService : IGuaranteedTimeService
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;

@@ -23,5 +23,6 @@ namespace AddMeTour.Entity.ViewModels.Tour
         public List<InclusionViewModel> Inclusions { get; set; }
         public List<ExclusionViewModel> Exclusions { get; set; }
         public List<DestinationViewModel> Destinations { get; set; }
+        public List<GuaranteedTimeViewModel>? GuaranteedDates { get; set; }
     }
 }

@@ -151,15 +151,43 @@ namespace AddMeTour.Service.Services.Concretes
                 IsActive = true,
                 ImageUrl = tourAddVM.PosterImageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours")),
                 IsPoster = true,
+                IsFirstMap = false,
+                IsSecondMap = false,
                 Tour = tour
             };
             await _unitOfWork.GetRepository<TourImage>().AddAsync(posterImage);
+
+
+            TourImage firstMap = new TourImage
+            {
+                IsActive = true,
+                ImageUrl = tourAddVM.FirsMapFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours")),
+                IsPoster = false,
+                IsFirstMap = true,
+                IsSecondMap = false,
+                Tour = tour
+            };
+            await _unitOfWork.GetRepository<TourImage>().AddAsync(firstMap);
+
+
+            TourImage secondMap = new TourImage
+            {
+                IsActive = true,
+                ImageUrl = tourAddVM.SecondMapFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours")),
+                IsPoster = false,
+                IsFirstMap = false,
+                IsSecondMap= true,
+                Tour = tour
+            };
+            await _unitOfWork.GetRepository<TourImage>().AddAsync(secondMap);
 
             foreach (IFormFile imageFile in tourAddVM.ImageFiles)
             {
                 TourImage image = new TourImage
                 {
                     IsActive = true,
+                    IsFirstMap = false,
+                    IsSecondMap = false,
                     ImageUrl = imageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours")),
                     IsPoster = false,
                     Tour = tour
@@ -239,9 +267,34 @@ namespace AddMeTour.Service.Services.Concretes
                 existTour.PosterImageUrl = tourUpdateVM.PosterImageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours"));
             }
 
+            if (tourUpdateVM.FirstImageFile != null)
+            {
+                TourImage firstImage = await _unitOfWork.GetRepository<TourImage>().GetAsync(x => x.IsPoster == false && x.IsFirstMap == true && x.IsSecondMap == false && x.TourId == existTour.Id);
+                string deletePath = Path.Combine(_env.WebRootPath, "assets", "img", "tours", firstImage?.ImageUrl);
+                if (System.IO.File.Exists(deletePath))
+                {
+                    System.IO.File.Delete(deletePath);
+                }
+                firstImage.ImageUrl = tourUpdateVM.FirstImageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours"));
+                existTour.FirstMapUrl = tourUpdateVM.FirstImageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours"));
+            }
+
+
+            if (tourUpdateVM.SecondImageFile != null)
+            {
+                TourImage secondImage = await _unitOfWork.GetRepository<TourImage>().GetAsync(x => x.IsPoster == false && x.IsFirstMap == false && x.IsSecondMap == true && x.TourId == existTour.Id);
+                string deletePath = Path.Combine(_env.WebRootPath, "assets", "img", "tours", secondImage?.ImageUrl);
+                if (System.IO.File.Exists(deletePath))
+                {
+                    System.IO.File.Delete(deletePath);
+                }
+                secondImage.ImageUrl = tourUpdateVM.SecondImageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours"));
+                existTour.SecondMapUrl = tourUpdateVM.SecondImageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours"));
+            }
+
             if (tourUpdateVM.ImageFiles is not null)
             {
-                List<TourImage> tourImages = await _unitOfWork.GetRepository<TourImage>().GetAllAsync(x => x.IsPoster == false && x.TourId == existTour.Id);
+                List<TourImage> tourImages = await _unitOfWork.GetRepository<TourImage>().GetAllAsync(x => x.IsPoster == false && x.TourId == existTour.Id && x.IsFirstMap == false && x.IsSecondMap == false);
                 foreach (TourImage image in tourImages)
                 {
                     string deletePath = Path.Combine(_env.WebRootPath, "assets", "img", "tours", image.ImageUrl);
@@ -259,6 +312,8 @@ namespace AddMeTour.Service.Services.Concretes
                         IsActive = true,
                         ImageUrl = imageFile.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img", "tours")),
                         IsPoster = false,
+                        IsFirstMap = false,
+                        IsSecondMap = false,
                         TourId = existTour.Id
                     };
                     await _unitOfWork.GetRepository<TourImage>().AddAsync(image);
@@ -426,6 +481,13 @@ namespace AddMeTour.Service.Services.Concretes
         public async Task<List<TourViewModel>> GetAllPassiveTours()
         {
             var tours = await _unitOfWork.GetRepository<Tour>().GetAllAsync(x => x.IsActive == false);
+            var map = _mapper.Map<List<TourViewModel>>(tours);
+            return map;
+        }
+
+        public async Task<List<TourViewModel>> GetAllGuaranteedToursAsync()
+        {
+            var tours = await _unitOfWork.GetRepository<Tour>().GetAllAsync(x => x.IsGuaranteed == true);
             var map = _mapper.Map<List<TourViewModel>>(tours);
             return map;
         }

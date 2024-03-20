@@ -26,6 +26,8 @@ namespace AddMeTour.Entity.ViewModels.Tour
         public List<IFormFile> ImageFiles { get; set; }
         [NotMapped]
         public IFormFile PosterImageFile { get; set; }
+        public IFormFile FirsMapFile { get; set; }
+        public IFormFile SecondMapFile { get; set; }
         public DateTime CreateTime { get; set; }
         public List<Guid>? LanguageIds { get; set; }
         public List<Guid>? CategoryIds { get; set; }

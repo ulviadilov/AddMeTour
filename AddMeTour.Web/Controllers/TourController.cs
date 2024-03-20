@@ -4,6 +4,7 @@ using AddMeTour.Service.Helpers.Pagination;
 using AddMeTour.Service.Services.Abstractions;
 using AddMeTour.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace AddMeTour.Web.Controllers
 {
@@ -16,8 +17,9 @@ namespace AddMeTour.Web.Controllers
         private readonly IInclusionService _inclusionService;
         private readonly IExclusionService _exclusionService;
         private readonly IDestinationService _destinationService;
+        private readonly IGuaranteedTimeService _guaranteedTimeService;
 
-        public TourController(ITourService tourService, ICategoryService categoryService, ICountryService countryService, ILanguageService languageService, IInclusionService inclusionService, IExclusionService exclusionService, IDestinationService destinationService)
+        public TourController(ITourService tourService, ICategoryService categoryService, ICountryService countryService, ILanguageService languageService, IInclusionService inclusionService, IExclusionService exclusionService, IDestinationService destinationService, IGuaranteedTimeService guaranteedTimeService)
         {
             _tourService = tourService;
             _categoryService = categoryService;
@@ -26,6 +28,7 @@ namespace AddMeTour.Web.Controllers
             _inclusionService = inclusionService;
             _exclusionService = exclusionService;
             _destinationService = destinationService;
+            _guaranteedTimeService = guaranteedTimeService;
         }
         public async Task<IActionResult> Index(int page = 1)
         {
@@ -86,6 +89,7 @@ namespace AddMeTour.Web.Controllers
         {
             var tours = await _tourService.GetAllToursNonDeletedAsync();
             var tour = tours.FirstOrDefault(x => x.Id == id);
+            var dates = await _guaranteedTimeService.GetAllDatesNonDeletedAsync();
             var categories = await _categoryService.GetAllCategoriesNonDeletedAsync();
             var countries = await _countryService.GetAllCountriesNonDeletedAsync();
             var languages = await _languageService.GetAllLanguagesNonDeletedAsync();
@@ -103,9 +107,25 @@ namespace AddMeTour.Web.Controllers
                 Tours = bestTours,
                 Inclusions = inclusions,
                 Exclusions = exlusions,
-                Destinations = destinations
+                Destinations = destinations,
+                GuaranteedDates = dates
             };
             return View(tourDetailVM);
+        }
+
+
+        public async Task<IActionResult> Guaranteed(int page = 1)
+        {
+            List<TourViewModel> tours = await _tourService.GetAllGuaranteedToursAsync();
+            var query = tours.AsQueryable();
+            var paginated = PaginatedList<TourViewModel>.Create(query, 6, page);
+            GuaranteedTourViewModel guaranteed = new GuaranteedTourViewModel
+            {
+                Tours = paginated,
+                Categories = await _categoryService.GetAllCategoriesNonDeletedAsync(),
+                Countries = await _countryService.GetAllCountriesNonDeletedAsync()
+            };
+            return View(guaranteed);
         }
     }
 }

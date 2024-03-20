@@ -16,6 +16,8 @@ namespace AddMeTour.Service.Services.Abstractions
         Task UpdateGuaranteedTimeAsync(GuaranteedTimeViewModel GuaranteedTimeVM);
         Task SoftDeleteGuaranteedTimeAsync(Guid id);
         Task HardDeleteGuaranteedTimeAsync(Guid id);
+        Task<List<GuaranteedTimeViewModel>> GetAllPassiveGuaranteedTimes();
+        Task RecoverGuaranteedTimeAsync(Guid id);
 
     }
 }

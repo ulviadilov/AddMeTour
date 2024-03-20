@@ -22,5 +22,6 @@ namespace AddMeTour.Service.Services.Abstractions
         Task<List<TourViewModel>> GetAllBestToursNonDeletedAsync();
         Task<List<Country>> GetAllCountriesAsync();
         Task<List<TourImage>> GetAllTourImagesAsync();
+        Task<List<TourViewModel>> GetAllGuaranteedToursAsync();
     }
 }

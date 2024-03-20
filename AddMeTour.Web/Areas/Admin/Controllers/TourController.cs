@@ -80,6 +80,26 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
                 }
             }
 
+            if (tourAddVM.FirsMapFile is not null)
+            {
+                string result = tourAddVM.FirsMapFile.CheckValidate("image/", 3000);
+                if (result.Length > 0)
+                {
+                    ModelState.AddModelError("FirsMapFile", result);
+                    return View(tourAddVM);
+                }
+            }
+
+            if (tourAddVM.SecondMapFile is not null)
+            {
+                string result = tourAddVM.SecondMapFile.CheckValidate("image/", 3000);
+                if (result.Length > 0)
+                {
+                    ModelState.AddModelError("SecondMapFile", result);
+                    return View(tourAddVM);
+                }
+            }
+
             if (tourAddVM.ImageFiles is not null)
             {
                 foreach (IFormFile image in tourAddVM.ImageFiles)

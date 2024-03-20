@@ -21,6 +21,8 @@ namespace AddMeTour.Entity.ViewModels.Tour
         public double Rating { get; set; }
         public ICollection<Entity.Entities.Tour.Destination>? Destinations { get; set; }
         public string PosterImageUrl { get; set; }
+        public string FirstMapUrl { get; set; }
+        public string SecondMapUrl { get; set; }
         public DateTime CreateTime { get; set; }
         public ICollection<TourImage>? TourImages { get; set; }
         public ICollection<TourCountry>? TourCountries { get; set; }

@@ -67,6 +67,20 @@
                     </div>
                     <div class="col-12">
                         <div class="col-lg-6 mb-3 ">
+                            <label asp-for="FirstImageFile" class="form-label">First Map Image</label>
+                            <input asp-for="FirstImageFile" class="form-control ">
+                            <span asp-validation-for="FirstImageFile" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="col-lg-6 mb-3 ">
+                            <label asp-for="SecondImageFile" class="form-label">Second Map Image</label>
+                            <input asp-for="SecondImageFile" class="form-control ">
+                            <span asp-validation-for="SecondImageFile" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="col-lg-6 mb-3 ">
                             <label asp-for="ImageFiles" class="form-label">Images</label>
                             <input asp-for="ImageFiles" class="form-control ">
                             <span asp-validation-for="ImageFiles" class="text-danger"></span>

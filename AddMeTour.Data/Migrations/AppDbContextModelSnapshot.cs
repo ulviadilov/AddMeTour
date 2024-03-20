@@ -412,6 +412,9 @@ namespace AddMeTour.Data.Migrations
                     b.Property<byte>("Duration")
                         .HasColumnType("tinyint");
 
+                    b.Property<string>("FirstMapUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<byte>("GroupSize")
                         .HasColumnType("tinyint");
 
@@ -439,6 +442,9 @@ namespace AddMeTour.Data.Migrations
 
                     b.Property<double>("Rating")
                         .HasColumnType("float");
+
+                    b.Property<string>("SecondMapUrl")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TourName")
                         .IsRequired()
@@ -533,7 +539,13 @@ namespace AddMeTour.Data.Migrations
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("IsFirstMap")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("IsPoster")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsSecondMap")
                         .HasColumnType("bit");
 
                     b.Property<Guid>("TourId")

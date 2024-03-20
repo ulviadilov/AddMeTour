@@ -42,6 +42,7 @@ namespace AddMeTour.Service.Extensions
             services.AddScoped<IPartnerService, PartnerService>();
             services.AddScoped<IGalleryService, GalleryService>();
             services.AddScoped<IReviewService, ReviewService>();
+            services.AddScoped<IGuaranteedTimeService, GuaranteedTimeService>();
             services.AddAutoMapper(assembly);
             return services;
         }

@@ -93,5 +93,9 @@ namespace AddMeTour.Controllers
         {
             return View();
         }
+        public async Task<IActionResult> MICE()
+        {
+            return View();
+        }
     }
 }

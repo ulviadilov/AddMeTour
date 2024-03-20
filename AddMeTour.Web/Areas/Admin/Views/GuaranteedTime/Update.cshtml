@@ -1,0 +1,71 @@
+﻿@model GuaranteedTimeViewModel
+
+<div class="tabs__content pt-30 js-tabs-content">
+    <div class="tabs__pane -tab-item-1 is-tab-el-active">
+        <form method="post" enctype="multipart/form-data" asp-action="update" asp-controller="guaranteedtime">
+            <div class="col-xl-10">
+                <div class="text-18 fw-500 mb-10">Update Guaranteed Tour Date</div>
+                <div class="row x-gap-20 y-gap-20">
+                    <div class="col-12">
+
+                        <div class="form-input ">
+                            <input asp-for="TourStartTime" type="date" required>
+                            <label asp-for="TourStartTime" class="lh-1 text-16 text-light-1">Tour Start Date</label>
+                            <span asp-validation-for="TourStartTime" class="text-danger"></span>
+                        </div>
+                        <div class="form-input ">
+                            <input asp-for="TourEndTime" type="date" required>
+                            <label asp-for="TourEndTime" class="lh-1 text-16 text-light-1">Tour End Date</label>
+                            <span asp-validation-for="TourEndTime" class="text-danger"></span>
+                        </div>
+                        <div class="form-input ">
+                            <input asp-for="Price" type="number" required>
+                            <label asp-for="Price" class="lh-1 text-16 text-light-1">Price</label>
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                        <div class="form-input ">
+                            <input asp-for="MaxPeopleCount" type="number" required>
+                            <label asp-for="MaxPeopleCount" class="lh-1 text-16 text-light-1">Max People Count</label>
+                            <span asp-validation-for="MaxPeopleCount" class="text-danger"></span>
+                        </div>
+                        <div class="form-input ">
+                            <input asp-for="ReservedPeopleCount" type="number" required>
+                            <label asp-for="ReservedPeopleCount" class="lh-1 text-16 text-light-1">Reserved People Count</label>
+                            <span asp-validation-for="ReservedPeopleCount" class="text-danger"></span>
+                        </div>
+                        <input type="hidden" asp-for="TourId" value="@Model.TourId">
+                        <div class="mb-3">
+                            <label class="form-label ">Tour</label>
+                            <select class=" form-control" aria-label="Default select example" asp-for="TourId">
+                                @foreach (TourViewModel tour in ViewBag.Tours)
+                                {
+                                    <option value="@tour.Id">@tour.TourName</option>
+                                }
+                            </select>
+                            <span asp-validation-for="TourId" style="color: red"></span>
+                        </div>
+                    </div>
+                    <div class="form-switch d-flex items-center">
+                        <div class="text-13 lh-1 text-dark-1 ml-10">Publish</div>
+                        <div class="switch">
+                            <input type="checkbox" asp-for="IsActive">
+                            <span class="switch__slider"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-top-light mt-30 mb-30"></div>
+
+            </div>
+
+
+            <div class="d-inline-block pt-30">
+
+                <div class="text-center">
+                    <button type="submit" class="button h-50 px-24 -dark-1 bg-blue-1 text-white"> Update Tour Date</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>

@@ -8,8 +8,9 @@ namespace AddMeTour.Entity.ViewModels.Tour
 {
     public class GuaranteedTimeViewModel
     {
-        public Guid TourId { get; set; }
         public Guid Id { get; set; }
+        public Guid TourId { get; set; }
+        public bool IsActive { get; set; }
         public DateTime? TourStartTime { get; set; }
         public DateTime? TourEndTime { get; set; }
         public byte MaxPeopleCount { get; set; }

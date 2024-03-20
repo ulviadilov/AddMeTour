@@ -1131,3 +1131,6 @@ C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Web\obj\Debug\net7.0\refin
 C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Web\obj\Debug\net7.0\AddMeTour.Web.pdb
 C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Web\obj\Debug\net7.0\AddMeTour.Web.genruntimeconfig.cache
 C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Web\obj\Debug\net7.0\ref\AddMeTour.Web.dll
+C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Web\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Web\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\Thebrhmly\Desktop\AddMeTourProject\AddMeTour.Web\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AddMeTour.Entity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0640f15544f5efceb743ec0211444b90cfa9cb9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e45b24e968a0170ea8b5195a00a547e97a7baa8")]
 [assembly: System.Reflection.AssemblyProductAttribute("AddMeTour.Entity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AddMeTour.Entity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

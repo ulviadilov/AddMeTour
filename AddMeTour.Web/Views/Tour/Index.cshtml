@@ -464,7 +464,7 @@
                                 {
                                     <li class="page-item"><a asp-action="index" asp-route-page="1" class="page-link">1</a></li>
                                 }
-                                <li class="page-item"><a asp-action="index" asp-route-page="@(Model.Tours.ActivePage-1)" class="page-link">@(Model.Tours.ActivePage - 1)</a></li>
+                                <li class="page-item"><a asp-action="index" asp-route-page="@(Model.Tours.ActivePage-1)" class="page-link">@(Model.Tours.ActivePage-1)</a></li>
                             }
                             @if (Model.Tours.TotalPageCount != 1)
                         {
@@ -472,7 +472,7 @@
                         }
                             @if (Model.Tours.HasNext)
                             {
-                                <li class="page-item"><a asp-action="index" asp-route-page="@(Model.Tours.ActivePage+1)" class="page-link">@(Model.Tours.ActivePage + 1)</a></li>
+                                <li class="page-item"><a asp-action="index" asp-route-page="@(Model.Tours.ActivePage+1)" class="page-link">@(Model.Tours.ActivePage+1)</a></li>
                                 @if (Model.Tours.ActivePage != Model.Tours.TotalPageCount - 1)
                                 {
                                     <li class="page-item"><a asp-action="index" asp-route-page="@Model.Tours.TotalPageCount" class="page-link">@Model.Tours.TotalPageCount</a></li>

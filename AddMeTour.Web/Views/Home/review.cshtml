@@ -68,7 +68,8 @@
                         <div class="col-12">
 
                             <div class="form-input ">
-                                <textarea required rows="4" asp-for="Message"></textarea>
+                                <textarea required rows="4" asp-for="Message" ></textarea>
+                                <span asp-validation-for="Message" style="color:red" ></span>
                                 <label class="lh-1 text-16 text-light-1">Your Messages</label>
                             </div>
 

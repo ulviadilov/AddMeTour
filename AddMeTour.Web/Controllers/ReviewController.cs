@@ -17,6 +17,7 @@ public class ReviewController : Controller
     [HttpPost]
     public async Task<IActionResult> CreateAsyncReview(AddReviewVM reviewVM)
     {
+        if (!ModelState.IsValid) return RedirectToAction("Review", "home"); 
         await _reviewService.CreateReviewAsync(reviewVM);
         return RedirectToAction("Review","home");
 

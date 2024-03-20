@@ -32,9 +32,9 @@ public class ReviewService : IReviewService
         return _mapper.Map<List<ReviewVM>>(reviews);
     }
 
-    public async Task<List<ReviewVM>> GetAllReviewsNonDeletedAsync()
+    public async Task<List<ReviewVM>> GetAllReviewsAsync()
     {
-        var reviews = await _unitOfWork.GetRepository<Review>().GetAllAsync(x => x.IsActive);
+        var reviews = await _unitOfWork.GetRepository<Review>().GetAllAsync();
         return _mapper.Map<List<ReviewVM>>(reviews);
     }
 
@@ -73,6 +73,22 @@ public class ReviewService : IReviewService
             review.IsActive = false;
             await _unitOfWork.GetRepository<Review>().UpdateAsync(review);
             await _unitOfWork.SaveAsync();
+        }
+    }
+
+    public async Task UpdateReviewAsync(ReviewVM reviewVM)
+    {
+        var review = await _unitOfWork.GetRepository<Review>().GetAsync(x =>x.Id == reviewVM.Id);
+
+        if (review != null)
+        {
+            _mapper.Map(reviewVM, review);
+            await _unitOfWork.GetRepository<Review>().UpdateAsync(review);
+            await _unitOfWork.SaveAsync();
+        }
+        else
+        {
+            throw new InvalidOperationException("Belirtilen review bulunamdi!.");
         }
     }
 }

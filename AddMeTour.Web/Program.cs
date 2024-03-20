@@ -4,6 +4,9 @@ using AddMeTour.Data.Extensions;
 using Microsoft.EntityFrameworkCore;
 using AddMeTour.Entity.Entities.User;
 using Microsoft.AspNetCore.Identity;
+using FluentValidation.AspNetCore;
+using System.Reflection;
+
 
 namespace AddMeTour
 {
@@ -27,6 +30,13 @@ namespace AddMeTour
 
                 opt.User.RequireUniqueEmail = false;
             }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+            builder.Services.AddControllers().AddFluentValidation(opt =>
+            {
+                opt.ImplicitlyValidateChildProperties = true;
+                opt.ImplicitlyValidateRootCollectionElements = true;
+                opt.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+            });
 
             var app = builder.Build();
 

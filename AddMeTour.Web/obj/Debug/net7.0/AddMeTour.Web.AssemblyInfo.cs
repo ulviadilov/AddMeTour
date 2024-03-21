@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AddMeTour.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c0e6e5a0fa3aaafd6603110a6c7a2d6b1054a50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+897ac7f1e8c0f9e6839ffadbad7cb4c670f585b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("AddMeTour.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AddMeTour.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

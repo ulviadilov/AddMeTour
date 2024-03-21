@@ -1,32 +1,38 @@
 ﻿@using AddMeTour.Entity.ViewModels.Review
 @model PaginatedList<ReviewVM>
+@{
+    string mySpecialClass = "col-auto size-40 flex-center rounded-full bg-dark-1 text-white";
+}
 <div class="py-30 px-30 rounded-4 bg-white shadow-3">
-          <div class="tabs -underline-2 js-tabs">
-            <div class="tabs__controls row x-gap-40 y-gap-10 lg:x-gap-20 js-tabs-controls">
+    <div class="tabs -underline-2 js-tabs">
 
-              <div class="col-auto">
+        <div class="tabs__controls row x-gap-40 y-gap-10 lg:x-gap-20 js-tabs-controls">
+            <div class="col-auto">
                 <button class="tabs__button text-18 lg:text-16 text-light-1 fw-500 pb-5 lg:pb-0 js-tabs-button is-tab-el-active" data-tab-target=".-tab-item-1">All Booking</button>
-              </div>
             </div>
 
-            <div class="tabs__content pt-30 js-tabs-content">
+        </div>
 
-              <div class="tabs__pane -tab-item-1 is-tab-el-active">
+        <div class="tabs__content pt-30 js-tabs-content">
+
+            <div class="tabs__pane -tab-item-1 is-tab-el-active">
+
                 <div class="overflow-scroll scroll-bar-1">
-                  <table class="table-3 -border-bottom col-12">
-                    <thead class="bg-light-2">
-                      <tr>
-                        <th>Name</th>
-                        <th>Surname</th>
-                        <th>Created Date</th>
-                        <th>Email</th>
-                        <th>Subject</th>
-                        <th>Message</th>
-                        <th>IsActive</th>
-                        <th>Option</th>
-                      </tr>
-                    </thead>
-                    <tbody>
+
+                    <table class="table-3 -border-bottom col-12">
+                        <thead class="bg-light-2">
+                            <tr>
+                                <th>Name</th>
+                                <th>Surname</th>
+                                <th>Created Date</th>
+                                <th>Email</th>
+                                <th>Subject</th>
+                                <th>Message</th>
+                                <th>IsActive</th>
+                                <th>Option</th>
+                            </tr>
+                        </thead>
+                        <tbody>
                             @foreach (var item in Model)
                             {
                                 <tr>
@@ -52,75 +58,87 @@
                                     </td>
                                     <td>
                                         <div class="dropdown js-dropdown js-actions-5-active">
-                                            <div class="dropdown__button d-flex items-center rounded-4 text-red-1 bg-red-1-05 text-14 px-15 py-5" data-el-toggle=".js-actions-5-toggle" data-el-toggle-active=".js-actions-5-active">
-                                                <a asp-controller="Review" asp-action="ReviewRemover" asp-route-id=@item.Id>Delete</a>
-                                                
-                                            </div>
-
-
+                                              <div class="dropdown__button d-flex items-center rounded-4 text-red-1 bg-red-1-05 text-14 px-15 py-5" data-el-toggle=".js-actions-5-toggle" data-el-toggle-active=".js-actions-5-active">
+                                                  <a asp-controller="Review" asp-action="ReviewRemover" asp-route-id=@item.Id>Delete</a>
+                                              </div>
                                         </div>
                                     </td>
                                 </tr>
                             }
-                    </tbody>
-                  </table>
+                        </tbody>
+                    </table>
                 </div>
-              </div>
+            </div>
 
-              
+            <div class="pt-30">
 
-          <div class="pt-30">
-            <div class="row justify-between">
-              <div class="col-auto">
-                @if (Model.HasPrevious)
+                <div class="row justify-between">
+
+                    <div class="col-auto">
+                        @if (Model.HasPrevious)
                         {
                             <a class="button -blue-1 size-40 rounded-full border-light" asp-action="index" asp-route-page="@(Model.ActivePage-1)">
                                 <i class="icon-chevron-left text-12"></i>
                             </a>
                         }
-              </div>
+                    </div>
 
-              <div class="col-auto">
-                <div class="row x-gap-20 y-gap-20 items-center">
+                    <div class="col-auto">
+                        <div class="row x-gap-20 y-gap-20 items-center">
                             @if (Model.HasPrevious)
                             {
-                                @if (Model.ActivePage > 2)
+                                @if (Model.ActivePage > 1)
                                 {
-                                    <div class="col-auto">
+                                    <div class="@(Model.ActivePage==1?mySpecialClass:"col-auto")">
                                         <a asp-action="index" asp-route-page="1" class="page-link">1</a>
                                     </div>
                                 }
-                                @if (Model.TotalPageCount != 1)
-                                {
-                                    <div class="col-auto">
-                                        <a asp-action="index" asp-route-page="@(Model.ActivePage-1)" class="page-link">@(Model.ActivePage - 1)</a>
-                                    </div>
-                                }
                             }
-                            <div class="col-auto">
-                                <a asp-action="index" asp-route-page="@(Model.ActivePage)" class="page-link">@(Model.ActivePage) </a>
-                            </div>
                             @if (Model.HasNext)
                             {
-                                @for (int i = Model.ActivePage+1; i <= Model.TotalPageCount; i++)
+                                @for (int i = Model.ActivePage; i < Model.ActivePage + 5; i++)
                                 {
-                                    <div class="col-auto">
-                                        <a asp-action="index" asp-route-page="@i" class="page-link">@i </a>
-                                    </div>
+                                    @if (i < Model.TotalPageCount)
+                                    {
+                                        <div class="@(Model.ActivePage==i? mySpecialClass:"col-auto")">
+                                            <a asp-action="index" asp-route-page="@i" class="page-link">@i </a>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        break;
+                                    }
                                 }
-                                
                             }
-                </div>
-              </div>
+                            @if (Model.ActivePage == Model.TotalPageCount)
+                            {
+                                @for (int i = Model.ActivePage - 5; i <= Model.ActivePage; i++)
+                                {
+                                    @if (Model.HasPrevious && i > 1)
+                                    {
+                                        <div class="@(Model.ActivePage==i? mySpecialClass:"col-auto")">
+                                            <a asp-action="index" asp-route-page="@i" class="page-link">@i </a>
+                                        </div>
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                <div class="col-auto">
+                                    <a asp-action="index" asp-route-page="@(Model.TotalPageCount)" class="page-link">@(Model.TotalPageCount) </a>
+                                </div>
+                            }
+                        </div>
+                    </div>
 
-              <div class="col-auto">
-                @if (Model.HasNext)
+                    <div class="col-auto">
+                        @if (Model.HasNext)
                         {
                             <a class="button -blue-1 size-40 rounded-full border-light" a asp-action="index" asp-route-page="@(Model.ActivePage+1)">
                                 <i class="icon-chevron-right text-12"></i>
                             </a>
                         }
-              </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>

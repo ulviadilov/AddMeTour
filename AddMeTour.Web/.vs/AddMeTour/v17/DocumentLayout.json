@@ -3,31 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.web\\areas\\admin\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|solutionrelative:areas\\admin\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.web\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|solutionrelative:controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.web\\areas\\admin\\controllers\\featurecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|solutionrelative:areas\\admin\\controllers\\featurecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.web\\areas\\admin\\controllers\\destinationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|solutionrelative:areas\\admin\\controllers\\destinationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.web\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|solutionrelative:areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.web\\areas\\admin\\views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|solutionrelative:areas\\admin\\views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19E2EE34-FA05-4CDC-954C-CCE22BBC2389}|..\\AddMeTour.Service\\AddMeTour.Service.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.service\\services\\abstractions\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19E2EE34-FA05-4CDC-954C-CCE22BBC2389}|..\\AddMeTour.Service\\AddMeTour.Service.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.service\\helpers\\pagination\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|c:\\users\\thebrhmly\\desktop\\addmetourproject\\addmetour.web\\areas\\admin\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54DBAD90-981B-48E1-A578-E444CE117417}|AddMeTour.Web.csproj|solutionrelative:areas\\admin\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,7 +29,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,93 +45,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-21T20:04:48.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FeatureController.cs",
-              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Areas\\Admin\\Controllers\\FeatureController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\FeatureController.cs",
-              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Areas\\Admin\\Controllers\\FeatureController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\FeatureController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Service\\Helpers\\Pagination\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "..\\AddMeTour.Service\\Helpers\\Pagination\\PaginatedList.cs",
+              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Service\\Helpers\\Pagination\\PaginatedList.cs",
+              "RelativeToolTip": "..\\AddMeTour.Service\\Helpers\\Pagination\\PaginatedList.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T13:01:46.894Z",
+              "WhenOpened": "2024-03-21T20:03:44.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DestinationController.cs",
-              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Areas\\Admin\\Controllers\\DestinationController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DestinationController.cs",
-              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Areas\\Admin\\Controllers\\DestinationController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\DestinationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T13:01:40.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T13:01:33.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IReviewService.cs",
-              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Service\\Services\\Abstractions\\IReviewService.cs",
-              "RelativeDocumentMoniker": "..\\AddMeTour.Service\\Services\\Abstractions\\IReviewService.cs",
-              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Service\\Services\\Abstractions\\IReviewService.cs",
-              "RelativeToolTip": "..\\AddMeTour.Service\\Services\\Abstractions\\IReviewService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAswA0AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T09:43:12.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Areas\\Admin\\Views\\Review\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Review\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Areas\\Admin\\Views\\Review\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Review\\Index.cshtml",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAAAFYAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-20T08:53:36.789Z",
+              "WhenOpened": "2024-03-21T15:04:23.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReviewController.cs",
-              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Areas\\Admin\\Controllers\\ReviewController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ReviewController.cs",
-              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Areas\\Admin\\Controllers\\ReviewController.cs*",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\ReviewController.cs*",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAiwA8AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T08:53:32.124Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Areas\\Admin\\Views\\Review\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Review\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Areas\\Admin\\Views\\Review\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Review\\Index.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAADwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T12:54:50.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ReviewController.cs",
-              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Controllers\\ReviewController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReviewController.cs",
-              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Controllers\\ReviewController.cs",
-              "RelativeToolTip": "Controllers\\ReviewController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Areas\\Admin\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\Thebrhmly\\Desktop\\AddMeTourProject\\AddMeTour.Web\\Areas\\Admin\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ReviewController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T09:09:39.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-21T12:54:33.657Z"
             }
           ]
         }

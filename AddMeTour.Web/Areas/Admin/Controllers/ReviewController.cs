@@ -25,7 +25,7 @@ namespace AddMeTour.Web.Areas.Admin.Controllers
         public async Task<IActionResult> Index(int page =1)
         {
             var reviews = await _reviewService.GetAllReviewsAsync();
-            var paginated = PaginatedList<ReviewVM>.Create(reviews.AsQueryable().OrderByDescending(x=>x.Created),5, page);
+            var paginated = PaginatedList<ReviewVM>.Create(reviews.AsQueryable().OrderByDescending(x=>x.Created),9, page);
             reviews = paginated;
             return View(paginated);
         }

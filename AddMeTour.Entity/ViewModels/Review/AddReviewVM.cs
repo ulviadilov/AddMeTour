@@ -2,7 +2,7 @@
 
 public class AddReviewVM
 {
-    public virtual bool IsActive { get; set; } = true;
+    public virtual bool IsActive { get; set; } = false;
     public string Name { get; set; }
     public string? Surname { get; set; }
     public string Email { get; set; }

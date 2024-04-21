@@ -34,3 +34,15 @@ C:\Users\User\Desktop\AddMeTourNew\AddMeTour\AddMeTour.Core\obj\Debug\net7.0\Add
 C:\Users\User\Desktop\AddMeTourNew\AddMeTour\AddMeTour.Core\obj\Debug\net7.0\refint\AddMeTour.Core.dll
 C:\Users\User\Desktop\AddMeTourNew\AddMeTour\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.pdb
 C:\Users\User\Desktop\AddMeTourNew\AddMeTour\AddMeTour.Core\obj\Debug\net7.0\ref\AddMeTour.Core.dll
+D:\Farid\Work\AddMeTour\AddMeTour.Core\bin\Debug\net7.0\AddMeTour.Core.deps.json
+D:\Farid\Work\AddMeTour\AddMeTour.Core\bin\Debug\net7.0\AddMeTour.Core.dll
+D:\Farid\Work\AddMeTour\AddMeTour.Core\bin\Debug\net7.0\AddMeTour.Core.pdb
+D:\Farid\Work\AddMeTour\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Farid\Work\AddMeTour\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.AssemblyInfoInputs.cache
+D:\Farid\Work\AddMeTour\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.AssemblyInfo.cs
+D:\Farid\Work\AddMeTour\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.csproj.CoreCompileInputs.cache
+D:\Farid\Work\AddMeTour\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.sourcelink.json
+D:\Farid\Work\AddMeTour\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.dll
+D:\Farid\Work\AddMeTour\AddMeTour.Core\obj\Debug\net7.0\refint\AddMeTour.Core.dll
+D:\Farid\Work\AddMeTour\AddMeTour.Core\obj\Debug\net7.0\AddMeTour.Core.pdb
+D:\Farid\Work\AddMeTour\AddMeTour.Core\obj\Debug\net7.0\ref\AddMeTour.Core.dll

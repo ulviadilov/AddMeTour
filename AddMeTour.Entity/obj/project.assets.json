@@ -860,19 +860,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\AddMeTourNew\\AddMeTour\\AddMeTour.Entity\\AddMeTour.Entity.csproj",
+      "projectUniqueName": "D:\\Farid\\Work\\AddMeTour\\AddMeTour.Entity\\AddMeTour.Entity.csproj",
       "projectName": "AddMeTour.Entity",
-      "projectPath": "C:\\Users\\User\\Desktop\\AddMeTourNew\\AddMeTour\\AddMeTour.Entity\\AddMeTour.Entity.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\AddMeTourNew\\AddMeTour\\AddMeTour.Entity\\obj\\",
+      "projectPath": "D:\\Farid\\Work\\AddMeTour\\AddMeTour.Entity\\AddMeTour.Entity.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Farid\\Work\\AddMeTour\\AddMeTour.Entity\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -886,8 +891,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\AddMeTourNew\\AddMeTour\\AddMeTour.Core\\AddMeTour.Core.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\AddMeTourNew\\AddMeTour\\AddMeTour.Core\\AddMeTour.Core.csproj"
+            "D:\\Farid\\Work\\AddMeTour\\AddMeTour.Core\\AddMeTour.Core.csproj": {
+              "projectPath": "D:\\Farid\\Work\\AddMeTour\\AddMeTour.Core\\AddMeTour.Core.csproj"
             }
           }
         }
@@ -896,6 +901,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -927,7 +937,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
